@@ -1,0 +1,22 @@
+// master.scss
+// by Kadar Claudiu
+ 
+
+@import 'variables';
+@import 'functions';
+@import 'fonts';
+@import 'reset';
+@import '../bootstrap-master/assets/stylesheets/bootstrap';
+@import 'bootstrap-changes';
+@import 'font-awesome';
+@import 'main';
+@import 'typography';
+@import 'widgets';
+@import 'components';
+@import 'blog';
+@import 'header';
+@import 'menu';
+@import 'moz';
+@import 'isotope';
+@import 'owl';
+@import 'lightbox';

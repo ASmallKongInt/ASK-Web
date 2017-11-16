@@ -1,0 +1,27 @@
+.error_page {
+	margin: 0 5%;
+
+	.page-title {
+		font-size: 200px;
+   		text-align: center;
+    	font-weight: 300;
+	}
+
+	.sub-title {
+		text-align: center;
+		padding: 2% 0;
+	}
+
+	
+}
+
+
+@media (min-width: 320px) and (max-width: 760px) {
+	.error_page {
+
+		.page-title {
+		font-size: 150px;
+
+		} 
+	}
+}

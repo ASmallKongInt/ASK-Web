@@ -1,0 +1,148 @@
+/*
+Theme Name: Floral
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+}
+
+.site-content .widget-area {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+
+.main-navigation .nav-menu.menu {
+	margin-left: 0;
+	margin-right: -64px;
+}
+
+.main-navigation li {
+	float: right;
+}
+
+.main-navigation li.menu-item-has-children > a:after,
+.main-navigation li.page_item_has_children > a:after {
+	padding-left: 0;
+	padding-right: 7px;
+}
+
+.main-navigation ul ul {
+	float: right;
+	padding: 0;
+	left: auto;
+	right:-999em;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+	left: auto;
+	right: 24px;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: auto;
+	right: 100%;
+}
+
+.main-navigation li li.menu-item-has-children > a:after,
+.main-navigation li li.page_item_has_children > a:after {
+	content: "\f104";
+	right: auto;
+	left: 0;
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+
+/** Entry content **/
+.entry-content li{
+	text-align: right;
+}
+
+.entry-title {
+	text-align: right;
+}
+
+.entry-meta {
+	text-align: right;
+}
+
+.entry-meta li {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.entry-meta li i {
+	margin-left: 7px;
+	margin-right: 0;
+}
+.entry-meta li:after {
+	content: "/";
+	margin-left: 0px;
+	margin-right: 20px;
+}
+
+/** Widget  **/
+.widget ul li{
+	text-align: right;
+	display: block;
+}
+
+.widget ul li:before {
+	content: "\f104";
+	padding-left: 10px;
+	padding-right: 0;
+	float: right;
+	position: relative;
+	top: 7px;
+}
+
+.widget ul li a {
+	display: inline-block;
+	padding-left: 5px;
+}
+.widget-area .tagcloud {
+	overflow: hidden;
+}
+.widget-area .tagcloud a {
+	float: right;
+}
+
+.widget_floral-recent-posts ul li{
+	display: flex;
+}
+
+.widget_floral-recent-posts .recent-post__image {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.widget_floral-recent-posts .recent-post__text {
+	flex: 1;
+	text-align: right;
+}
+
+
+.nav-previous {
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.nav-next {
+	text-align: left;
+}
+
+.nav-previous + .nav-next {
+	padding-left: 0;
+	padding-right: 20px;
+}

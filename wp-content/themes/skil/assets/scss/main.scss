@@ -1,0 +1,76 @@
+// main.scss
+// by Kadar Claudiu
+ 
+
+// Here is the code responsible for simple tags.
+// Here, on html tag, is defined value for one 'rem' unit who is equal with 15px. You can change this value by changing font-size value from html tag.
+
+html {
+	overflow-x: hidden;
+	background-color: #fff;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	body {
+		background-color: #fff;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		font-family: $theme-font-sans-serif;
+		font-weight: 300;
+		font-size: 1.4rem;
+		line-height: 2.1rem;
+		color: #000;
+		position: relative;
+		z-index: 1;
+		min-height: 100%;
+		p {
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+.menu-opened {
+	.close-menu {
+		visibility: visible;
+		opacity: 1;
+	}
+	.main-menu {
+		opacity: 1;
+		visibility: visible;
+		top: 0;
+	}
+	.main-header {
+		background: none;
+		.theme-button, button.alm-load-more-btn.more, .share-box {
+			background: none;
+		}
+		&.affix {
+			background: none;
+		}
+		.main-logo,
+		.main-logo.inverse-logo {
+			img {
+				display: block;
+				&:last-child {
+					display: none;
+				}
+			}
+			.text-logo {
+				color: #000;
+			}
+		}
+	}
+}
+
+::selection {
+	background: #000;
+	color: #fff;
+}
+::-moz-selection {
+	background: #000;
+	color: #fff;
+}

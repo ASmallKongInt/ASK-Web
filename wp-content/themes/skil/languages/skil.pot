@@ -1,0 +1,299 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: skil\n"
+"POT-Creation-Date: 2017-04-10 14:34+0300\n"
+"PO-Revision-Date: 2017-01-18 03:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: StylishThemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-KeywordsList: _;__;gettext;gettext_noop;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:35
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:37
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:30 comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:49
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:50
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:29
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:29
+msgid "Handcrafted by "
+msgstr ""
+
+#: functions.php:57
+msgid "Primary"
+msgstr ""
+
+#: functions.php:58
+msgid "Social"
+msgstr ""
+
+#: functions.php:135
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:137 functions.php:146
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:144
+msgid "Footer"
+msgstr ""
+
+#: header.php:86
+msgid "menu"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Author"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Home Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Article Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Site White Logo"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Site Black Logo"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Without Sidebar"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/template-tags.php:19 inc/template-tags.php:25
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:21
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:34
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:41 template-parts/content-page.php:20
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "more"
+msgstr ""
+
+#: inc/template-tags.php:113
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:116
+msgid "Reply "
+msgstr ""
+
+#: inc/template-tags.php:120
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:120
+msgid " - (Edit)"
+msgstr ""
+
+#: page.php:42 single.php:45
+msgid "Your Name"
+msgstr ""
+
+#: page.php:43 single.php:46
+msgid "Your Email"
+msgstr ""
+
+#: page.php:44 single.php:47
+msgid "Your Website"
+msgstr ""
+
+#: page.php:46 single.php:49
+msgid "Your comment"
+msgstr ""
+
+#: page.php:55 single.php:58
+msgid "Leave me comment"
+msgstr ""
+
+#: page.php:56 single.php:59
+#, php-format
+msgid "Leave a comment to %s"
+msgstr ""
+
+#: page.php:57 single.php:60
+msgid "Cancel Reply"
+msgstr ""
+
+#: page.php:58 single.php:61
+msgid "post"
+msgstr ""
+
+#: page.php:63 single.php:66
+msgid "Logged in as "
+msgstr ""
+
+#: page.php:63 single.php:66
+msgid "Log out of this account "
+msgstr ""
+
+#: page.php:63 single.php:66
+msgid "Log out?"
+msgstr ""
+
+#: page.php:108 single.php:180
+msgid "no comments"
+msgstr ""
+
+#: page.php:108 single.php:180
+msgid " comment "
+msgstr ""
+
+#: page.php:108 single.php:180
+msgid "comments "
+msgstr ""
+
+#: single.php:89
+msgid "posted by"
+msgstr ""
+
+#: single.php:161
+msgid "about"
+msgstr ""
+
+#: single.php:165
+msgid "author"
+msgstr ""
+
+#: template-parts/content-article.php:12
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-article.php:17 template-parts/content-page.php:13
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:82 template-parts/content.php:93
+msgid "Read More"
+msgstr ""
+
+#: widgets/widgets-templates/widget-popular-guides-posts.php:15
+#: widgets/widgets-templates/widget-popular-guides-posts.php:32
+#: widgets/widgets-templates/widget-popular-guides-posts.php:35
+#: widgets/widgets-templates/widget-popular-guides-posts.php:89
+msgid "Popular Posts"
+msgstr ""
+
+#: widgets/widgets-templates/widget-popular-guides-posts.php:18
+msgid "A widget for popular posts."
+msgstr ""
+
+#: widgets/widgets-templates/widget-popular-guides-posts.php:96
+msgid "5"
+msgstr ""
+
+#: widgets/widgets-templates/widget-popular-guides-posts.php:104
+msgid "Title:"
+msgstr ""
+
+#: widgets/widgets-templates/widget-popular-guides-posts.php:116
+msgid "How many posts do you want to display:"
+msgstr ""

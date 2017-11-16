@@ -1,0 +1,103 @@
+.footer-widget {
+	margin: 7% 5% 5%;
+
+	.widget {
+		float: left;
+		padding: 1%;
+		width: 25%;
+	}
+
+	input[type="submit"] {
+		color: #fff;
+		background-color: #444;
+		padding: 22px 30px;
+		font-size: 15px;
+		border:1px solid #444;
+	}
+
+	a {
+		color: #343749;
+		text-decoration: none;
+		font-size: 12px;
+	}
+
+	p, .textwidget, caption, .wp-calendar, .archives-dropdown--1, option, .widget select {
+		font-size: 12px;
+	}
+
+	th, td, tr {
+		font-size: 11px;
+		border:none;
+	}
+
+	tbody {
+	 	border:none;
+	 }
+
+	input[type="submit"] {
+		font-size: 12px;
+	    border: 1px solid #eee;
+	    padding: 8px 10px;
+	    border-radius: 1px;
+	    background-color: #555;
+	    color: #fff;
+	}
+
+	input[type="submit"]:hover {
+		color: #555;
+		border:1px solid #555;
+		transition: $transition__link-hover;
+		background-color: transparent;
+	}
+
+	input[type="search"] {
+		font-size: 12px;
+	    font-weight: 300;
+	    padding: 5px 5px;
+	    border-radius: 1px;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: $color__button-hover;
+		transition: $transition__link-hover;
+	}
+
+	ul {
+		list-style: none;
+		font-size: 12px;
+		margin:0;
+		padding: 0;
+	}
+
+	.widget_rss li {
+		padding: 2% 0;
+	}
+
+	.widget-title {
+		font-size: 13px;
+		font-weight: bold;
+		color: #666;
+	}
+}
+
+.widget {
+	//margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+	.footer-widget .widget {
+		float: none;
+		width: 100%;
+		padding: 2%;
+	}
+}
+
+.widgettitle {
+	color: #666;
+}

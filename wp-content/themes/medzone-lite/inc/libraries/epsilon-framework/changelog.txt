@@ -1,0 +1,14 @@
+v1.1.5
+	- Function to return a css string for the styling functionality of a section
+
+v1.1.4
+	- Epsilon was not handling drafts/schedule functionality of WP 4.9
+
+v1.1.3
+	- fixed various bugs
+
+v1.1.0
+	- https://github.com/MachoThemes/epsilon-framework/milestone/1?closed=1
+
+v1.0.0
+	- Start changelog

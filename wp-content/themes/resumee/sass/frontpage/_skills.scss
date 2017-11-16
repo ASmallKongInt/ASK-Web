@@ -1,0 +1,102 @@
+/* Skill layout one */
+.skills {
+	background-color: #fff;
+	color: #333;
+}
+
+.skills_wrap h3 {
+		padding: 0 0 1% 0;
+	    border-bottom: 1px solid #999;
+}
+	.skills {
+		padding: 1% 0;
+		line-height: 1.5;
+	}
+
+	b {
+		color: #555;
+	}
+
+	p {
+		color: #666;
+		font-size: 13px;
+		padding-left: 3%;
+	}
+
+/* Skill layout two */
+.skl_layout_two h3 {
+	padding: 0 0 1% 0;
+	border-bottom: 1px solid #999;
+}
+
+.sk_two_div_wrap {
+	display: flex;
+	padding: 1% 0;
+}
+
+.sk_two_div_wrap p {
+	padding-right: 10%;
+	text-align: justify;
+}
+
+@media (max-width: 500px) {
+	.sk_two_div_wrap {
+		display: block;
+	}
+
+	.sk_two_div {
+		padding: 3% 0;
+	}
+
+	.skills {
+		padding: 0 5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.skl_layout_two_wrap {
+		padding: 0 5%;
+	}
+}
+
+/* Skill layout three*/
+
+.skl_layout_three h3 {
+	padding: 0 0 1% 0;
+	border-bottom: 1px solid #999;
+}
+
+.sk_three_div_wrap {
+	display: flex;
+	padding: 2% 0;
+}
+
+.sk_three_div_wrap p {
+	padding-right: 10%;
+	text-align: justify;
+}
+
+@media (max-width: 767px) {
+	.skl_layout_three_wrap {
+		padding: 0 5%;
+	}
+}
+
+@media (max-width: 700px) {
+	.sk_three_div_wrap {
+		display: block;
+	}
+
+	.sk_three_div {
+		padding: 3% 0;
+	}
+
+}
+
+@media (max-width: 780px) {
+
+	.skills {
+		padding: 1% 3%;
+	}
+
+}

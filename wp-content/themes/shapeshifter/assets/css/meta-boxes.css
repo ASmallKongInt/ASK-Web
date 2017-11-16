@@ -1,0 +1,10 @@
+.clearfix {
+	clear: both;
+}
+
+#deactivate-widget-area-table { width: 100%; }
+#deactivate-widget-area-table th { width: 250px; }
+
+#meta-boxes-prints-settings input.regular-checkbox {
+	margin-left: 5px;
+}

@@ -1,0 +1,171 @@
+/* Experience Layout One */
+.experience {
+    background-color: #fff;
+    padding: 1% 0;
+}
+
+.container h1 {
+		color: #444;
+		font-size: 27px;
+		margin-left: 5%;
+	}
+
+.timeline {
+    list-style: none;
+    padding: 0px 0 10px;
+    position: relative;
+    color: #666;
+}
+
+	.timeline .fa {
+		font-size: 10px;
+	}
+
+    .timeline:before {
+        top: 46px;
+        bottom: 40px;
+        position: absolute;
+        content: " ";
+        width: 1px;
+        background-color: #eeeeee;
+        left: 7%;
+        margin-left: -1.5px;
+        background-color: #999;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 80%;
+            float: left;
+            padding: 30px 20px 5px;
+            position: relative;
+            margin-left: 100px;
+        }
+
+        .timeline > li > .timeline-badge {
+            color: #888;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size:0.8em;
+            text-align: center;
+            position: absolute;
+            top: 18px;
+            left: 7%;
+            margin-left: -26px;
+            background-color: transparent;
+            z-index: 100;
+        }
+
+.timeline-title {
+    margin-top: 0;
+    color: #555;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+	.timeline {
+		padding: 0;
+		margin: 0;
+	}
+
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: 90%;
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        padding-left: 25px;
+    }
+}
+
+/* Experience Layout Two */
+.exp_two .com_logo {
+    float: right;
+}
+
+.exp_two .timeline-body {
+    width: 80%;
+}
+
+@media (max-width: 550px) {
+    .exp_two .com_logo {
+        width: 100%;
+        padding: 5% 0;
+    }
+}
+
+/* Experience Layout Three */
+.exp_three .com_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.exp_three_info {
+    padding-top: 5px;
+}
+
+.exp_three_info p {
+    margin: 0;
+    padding: 0 0 2%;
+    font-size: 11px;
+}
+
+.exp_three h3 {
+    border-bottom: 1px solid rgba(0, 188, 212, 0.25);
+    padding-bottom: 10px;
+}
+
+.exp_three h4 {
+    padding-bottom: 10px;
+}
+
+.exp_three_row {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2%;
+}

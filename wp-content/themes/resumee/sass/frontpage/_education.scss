@@ -1,0 +1,99 @@
+/* education layout one */
+.edu_two {
+	background-color: #fff;
+	padding: 1% 0;
+}
+
+.education h3 {
+	padding: 0% 0% 1% 0%;
+	border-bottom: 1px solid #999; 
+	margin-left: 1%;
+}
+
+.edu_info {
+	padding: 2% 0 0 13%;
+	color: #666;
+} 
+
+.edu_box1 {
+	float: left;
+	width: 30%;
+	padding-bottom: 15px;
+	line-height: 1.5;
+}
+
+
+@media (max-width: 450px) { 
+	.edu_box1 {
+		float: none;
+		width: 100%;
+	}
+	.edu_info {
+		padding: 0 0 10% 11%;
+	}
+}
+
+/* education layout two */
+.edu_two h3 {
+	padding: 0% 0% 1% 0%;
+	border-bottom: 1px solid #999;
+	color: #555;
+}
+
+.edu_two_main {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.edu_two_main p {
+	padding-left: 3%;
+}
+
+.edu_two_main i.fa.fa-stop {
+	font-size: 5px;
+	vertical-align: middle;
+}
+
+@media (max-width: 780px) {
+	.edu_two_main {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.edu_two h3 {
+		margin-left: 3%;
+	}
+}
+
+
+@media (max-width: 500px) { 
+
+	.edu_two {
+		padding: 0 5%;
+		line-height: 1.7em;
+	}
+
+}
+
+/* education layout three */
+.edu_three_main {
+	display: inline-flex;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.edu_three h3 {
+	padding: 0% 0% 1% 0%;
+    border-bottom: 1px solid #999;
+}
+
+@media (max-width: 767px) {
+	.edu_three_main {
+		display: block;
+		text-align: center;
+	}
+
+	.edu_three h3 {
+		margin: 0 5%;
+	}
+}

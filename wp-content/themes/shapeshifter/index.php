@@ -1,0 +1,1 @@
+<?php get_header(); shapeshifter_main_content(); get_footer();

@@ -1,0 +1,257 @@
+// menu.scss
+// by Kadar Claudiu
+
+
+// Here we will add scss for menu.
+
+.close-menu {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+	background: #f9f9f9;
+	@include transition-framework;
+}
+
+.main-menu {
+	position: fixed;
+	z-index: 2;
+	width: 54rem;
+	left: 50%;
+	top: -3rem;
+	margin-left: -27rem;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	@include transition-framework;
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+	.main-menu-bg {
+		background: #fff;
+		> .menu {
+			margin-top: 30rem;
+			margin-bottom: 5rem;
+			overflow-y: auto;
+			max-height: calc(70vh - 25rem);
+			@include transition-framework;
+			@include transition-object(margin);
+		}
+		ul {
+			li {
+				a {
+					font-weight: 300;
+					font-size: 2.4rem;
+					letter-spacing: 0.5rem;
+					display: block;
+					line-height: 2.4rem;
+					padding: 2.2rem;
+					&:hover {
+						text-decoration: none;
+						color: #000 !important;
+					}
+				}
+				ul {
+					li {
+						a {
+							font-size: 1.8rem;
+							letter-spacing: 0.3rem;
+							padding: 1rem 2.2rem;
+						}
+					}
+				}
+			}
+			&:hover {
+				li {
+					a {
+						color: #cccccc;
+					}
+				}
+			}
+		}
+	}
+	.social-menu {
+		background: #fff;
+		margin-top: 0.2rem;
+		padding: 0 2rem;
+		overflow-y: auto;
+		max-height: calc(27vh - 7.2rem);
+		.menu {
+			margin-top: 4rem;
+			margin-bottom: 4rem;
+		}
+		li {
+			display: inline-block;
+			position: relative;
+			padding-left: 5rem;
+			a {
+				font-size: 1.4rem;
+				letter-spacing: 0.7rem;
+				&:hover {
+					text-decoration: none;
+					color: $theme-color-base;
+				}
+			}
+			&:before {
+				content: '';
+				width: 0.3rem;
+				height: 0.3rem;
+				border-radius: 50%;
+				background: #000;
+				position: absolute;
+				left: 2.4rem;
+				display: block;
+				top: 50%;
+				margin-top: -0.2rem;
+			}
+			&:first-child {
+				padding-left: 0;
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.menu-is-affix {
+	.main-menu {
+		.main-menu-bg {
+			ul.menu {
+				margin-top: 15rem;
+				margin-bottom: 6rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 1620px) {
+	
+}
+
+@media (max-width: 1420px) {
+	.main-menu {
+		.main-menu-bg {
+			> .menu {
+				margin-top: 26rem;
+				margin-bottom: 5rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 1220px) {
+	
+}
+
+@media (max-width: 1030px) {
+	.main-menu {
+		left: 0;
+		margin-left: 0;
+		top: 0;
+		background: #fff;
+		width: 100%;
+		height: 100%;
+		.main-menu-bg {
+			background: none;
+			.menu {
+				> ul {
+					margin-top: 19rem;
+					margin-bottom: 3rem;
+				}
+			}
+		}
+		.social-menu {
+			padding-top: 0;
+			li {
+				padding-left: 2rem;
+				a {
+					letter-spacing: 0.2rem
+				}
+				&:before {
+					left: 0.6rem;
+				}
+				&:first-child {
+					padding-left: 0;
+				}
+			}
+		}
+	}
+	.close-menu {
+		display: none;
+	}
+	.menu-is-affix {
+		.main-menu {
+			.main-menu-bg {
+				ul.menu {
+					margin-top: 15rem;
+					margin-bottom: 3rem;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1030px) {
+	.main-menu .main-menu-bg ul.menu {
+		overflow-y: auto;
+	}
+}
+
+@media (max-width: 800px) {
+	.main-menu .main-menu-bg > .menu {
+		margin-top: 8rem;
+		margin-bottom: 2rem;
+		max-height: calc(75vh - 10rem);
+	}
+	.menu-is-affix {
+		.main-menu {
+			.main-menu-bg {
+				ul.menu {
+					margin-top: 8rem;
+				}
+			}
+		}
+	}
+	.main-menu .social-menu {
+		max-height: 24vh;
+		.menu {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.main-menu {
+		.main-menu-bg {
+			ul {
+				li {
+					a {
+						font-size: 2rem;
+						letter-spacing: 0.2rem;
+						padding: 0.6rem;
+					}
+				}
+			}
+		}
+		.social-menu {
+			li {
+				a {
+					letter-spacing: 0rem
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 330px) {
+	
+}

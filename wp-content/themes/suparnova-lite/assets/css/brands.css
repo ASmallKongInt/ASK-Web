@@ -1,0 +1,442 @@
+/**
+ * Brand colors
+ */
+.brand-bg-facebook {
+	background: #3b5998;
+}
+
+.brand-bg-facebook.brand-hover-basic:hover {
+	background: #5872a7 !important;
+}
+
+.brand-bg-facebook.brand-hover-invert:hover {
+	background: #324c81 !important;
+}
+
+.brand-hover-bg-facebook:hover {
+	background: #3b5998 !important;
+}
+
+.brand-hover-color-facebook:hover {
+	color: #3b5998 !important;
+}
+
+.brand-bg-twitter {
+	background: #00aced;
+}
+
+.brand-bg-twitter.brand-hover-basic:hover {
+	background: #26b8f0 !important;
+}
+
+.brand-bg-twitter.brand-hover-invert:hover {
+	background: #0092c9 !important;
+}
+
+.brand-hover-bg-twitter:hover {
+	background: #00aced !important;
+}
+
+.brand-hover-color-twitter:hover {
+	color: #00aced !important;
+}
+
+.brand-bg-instagram {
+	background: #bc2a8d;
+}
+
+.brand-bg-instagram.brand-hover-basic:hover {
+	background: #c64a9e !important;
+}
+
+.brand-bg-instagram.brand-hover-invert:hover {
+	background: #a02478 !important;
+}
+
+.brand-hover-bg-instagram:hover {
+	background: #bc2a8d !important;
+}
+
+.brand-hover-color-instagram:hover {
+	color: #bc2a8d !important;
+}
+
+.brand-bg-googleplus {
+	background: #de5246;
+}
+
+.brand-bg-googleplus.brand-hover-basic:hover {
+	background: #e36c62 !important;
+}
+
+.brand-bg-googleplus.brand-hover-invert:hover {
+	background: #bd463c !important;
+}
+
+.brand-hover-bg-googleplus:hover {
+	background: #de5246 !important;
+}
+
+.brand-hover-color-googleplus:hover {
+	color: #de5246 !important;
+}
+
+.brand-bg-pinterest {
+	background: #cb2027;
+}
+
+.brand-bg-pinterest.brand-hover-basic:hover {
+	background: #d34147 !important;
+}
+
+.brand-bg-pinterest.brand-hover-invert:hover {
+	background: #ad1b21 !important;
+}
+
+.brand-hover-bg-pinterest:hover {
+	background: #cb2027 !important;
+}
+
+.brand-hover-color-pinterest:hover {
+	color: #cb2027 !important;
+}
+
+.brand-bg-linkedin {
+	background: #007bb6;
+}
+
+.brand-bg-linkedin.brand-hover-basic:hover {
+	background: #268fc1 !important;
+}
+
+.brand-bg-linkedin.brand-hover-invert:hover {
+	background: #00699b !important;
+}
+
+.brand-hover-bg-linkedin:hover {
+	background: #007bb6 !important;
+}
+
+.brand-hover-color-linkedin:hover {
+	color: #007bb6 !important;
+}
+
+.brand-bg-youtube {
+	background: #ea3517;
+}
+
+.brand-bg-youtube.brand-hover-basic:hover {
+	background: #ed533a !important;
+}
+
+.brand-bg-youtube.brand-hover-invert:hover {
+	background: #c72d14 !important;
+}
+
+.brand-hover-bg-youtube:hover {
+	background: #ea3517 !important;
+}
+
+.brand-hover-color-youtube:hover {
+	color: #ea3517 !important;
+}
+
+.brand-bg-vimeo {
+	background: #1ab7ea;
+}
+
+.brand-bg-vimeo.brand-hover-basic:hover {
+	background: #3cc2ed !important;
+}
+
+.brand-bg-vimeo.brand-hover-invert:hover {
+	background: #169cc7 !important;
+}
+
+.brand-hover-bg-vimeo:hover {
+	background: #1ab7ea !important;
+}
+
+.brand-hover-color-vimeo:hover {
+	color: #1ab7ea !important;
+}
+
+.brand-bg-vine {
+	background: #00bf8f;
+}
+
+.brand-bg-vine.brand-hover-basic:hover {
+	background: #26c9a0 !important;
+}
+
+.brand-bg-vine.brand-hover-invert:hover {
+	background: #00a27a !important;
+}
+
+.brand-hover-bg-vine:hover {
+	background: #00bf8f !important;
+}
+
+.brand-hover-color-vine:hover {
+	color: #00bf8f !important;
+}
+
+.brand-bg-tumblr {
+	background: #32506d;
+}
+
+.brand-bg-tumblr.brand-hover-basic:hover {
+	background: #516a83 !important;
+}
+
+.brand-bg-tumblr.brand-hover-invert:hover {
+	background: #2b445d !important;
+}
+
+.brand-hover-bg-tumblr:hover {
+	background: #32506d !important;
+}
+
+.brand-hover-color-tumblr:hover {
+	color: #32506d !important;
+}
+
+.brand-bg-flickr {
+	background: #ff0084;
+}
+
+.brand-bg-flickr.brand-hover-basic:hover {
+	background: #ff2696 !important;
+}
+
+.brand-bg-flickr.brand-hover-invert:hover {
+	background: #d90070 !important;
+}
+
+.brand-hover-bg-flickr:hover {
+	background: #ff0084 !important;
+}
+
+.brand-hover-color-flickr:hover {
+	color: #ff0084 !important;
+}
+
+.brand-bg-dribbble {
+	background: #ea4c89;
+}
+
+.brand-bg-dribbble.brand-hover-basic:hover {
+	background: #ed679b !important;
+}
+
+.brand-bg-dribbble.brand-hover-invert:hover {
+	background: #c74174 !important;
+}
+
+.brand-hover-bg-dribbble:hover {
+	background: #ea4c89 !important;
+}
+
+.brand-hover-color-dribbble:hover {
+	color: #ea4c89 !important;
+}
+
+.brand-bg-quora {
+	background: #a82400;
+}
+
+.brand-bg-quora.brand-hover-basic:hover {
+	background: #b54526 !important;
+}
+
+.brand-bg-quora.brand-hover-invert:hover {
+	background: #8f1f00 !important;
+}
+
+.brand-hover-bg-quora:hover {
+	background: #a82400 !important;
+}
+
+.brand-hover-color-quora:hover {
+	color: #a82400 !important;
+}
+
+.brand-bg-reddit {
+	background: #ff4500;
+}
+
+.brand-bg-reddit.brand-hover-basic:hover {
+	background: #ff6126 !important;
+}
+
+.brand-bg-reddit.brand-hover-invert:hover {
+	background: #d93b00 !important;
+}
+
+.brand-hover-bg-reddit:hover {
+	background: #ff4500 !important;
+}
+
+.brand-hover-color-reddit:hover {
+	color: #ff4500 !important;
+}
+
+.brand-bg-vk {
+	background: #45668e;
+}
+
+.brand-bg-vk.brand-hover-basic:hover {
+	background: #617d9f !important;
+}
+
+.brand-bg-vk.brand-hover-invert:hover {
+	background: #3b5779 !important;
+}
+
+.brand-hover-bg-vk:hover {
+	background: #45668e !important;
+}
+
+.brand-hover-color-vk:hover {
+	color: #45668e !important;
+}
+
+.brand-bg-wordpress {
+	background: #21759b;
+}
+
+.brand-bg-wordpress.brand-hover-basic:hover {
+	background: #428aaa !important;
+}
+
+.brand-bg-wordpress.brand-hover-invert:hover {
+	background: #1c6384 !important;
+}
+
+.brand-hover-bg-wordpress:hover {
+	background: #21759b !important;
+}
+
+.brand-hover-color-wordpress:hover {
+	color: #21759b !important;
+}
+
+.brand-bg-medium {
+	background: #00ab6b;
+}
+
+.brand-bg-medium.brand-hover-basic:hover {
+	background: #26b881 !important;
+}
+
+.brand-bg-medium.brand-hover-invert:hover {
+	background: #00915b !important;
+}
+
+.brand-hover-bg-medium:hover {
+	background: #00ab6b !important;
+}
+
+.brand-hover-color-medium:hover {
+	color: #00ab6b !important;
+}
+
+.brand-bg-stumbleupon {
+	background: #eb4823;
+}
+
+.brand-bg-stumbleupon.brand-hover-basic:hover {
+	background: #ee6344 !important;
+}
+
+.brand-bg-stumbleupon.brand-hover-invert:hover {
+	background: #c83d1e !important;
+}
+
+.brand-hover-bg-stumbleupon:hover {
+	background: #eb4823 !important;
+}
+
+.brand-hover-color-stumbleupon:hover {
+	color: #eb4823 !important;
+}
+
+.brand-bg-blogger {
+	background: #fb8f3d;
+}
+
+.brand-bg-blogger.brand-hover-basic:hover {
+	background: #fca05a !important;
+}
+
+.brand-bg-blogger.brand-hover-invert:hover {
+	background: #d57a34 !important;
+}
+
+.brand-hover-bg-blogger:hover {
+	background: #fb8f3d !important;
+}
+
+.brand-hover-color-blogger:hover {
+	color: #fb8f3d !important;
+}
+
+.brand-bg-soundcloud {
+	background: #ff3a00;
+}
+
+.brand-bg-soundcloud.brand-hover-basic:hover {
+	background: #ff5826 !important;
+}
+
+.brand-bg-soundcloud.brand-hover-invert:hover {
+	background: #d93100 !important;
+}
+
+.brand-hover-bg-soundcloud:hover {
+	background: #ff3a00 !important;
+}
+
+.brand-hover-color-soundcloud:hover {
+	color: #ff3a00 !important;
+}
+
+.brand-bg-stackoverflow {
+	background: #f48024;
+}
+
+.brand-bg-stackoverflow.brand-hover-basic:hover {
+	background: #f69345 !important;
+}
+
+.brand-bg-stackoverflow.brand-hover-invert:hover {
+	background: #cf6d1f !important;
+}
+
+.brand-hover-bg-stackoverflow:hover {
+	background: #f48024 !important;
+}
+
+.brand-hover-color-stackoverflow:hover {
+	color: #f48024 !important;
+}
+
+.brand-bg-github {
+	background: #333;
+}
+
+.brand-bg-github.brand-hover-basic:hover {
+	background: #525252 !important;
+}
+
+.brand-bg-github.brand-hover-invert:hover {
+	background: #2b2b2b !important;
+}
+
+.brand-hover-bg-github:hover {
+	background: #333 !important;
+}
+
+.brand-hover-color-github:hover {
+	color: #333 !important;
+}

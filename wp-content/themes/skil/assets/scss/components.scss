@@ -1,0 +1,658 @@
+// components.scss
+// by Kadar Claudiu
+ 
+
+// Here will be the code for all small components, like : special listing types, blocks, breadcrumbs, cards, forms, preloader etc.
+
+.google-map {
+	min-height: 50rem;
+	img {
+		max-width: inherit;
+	}
+}
+
+.nav-links a {
+	display: inline-block;
+}
+
+.theme-button,
+button.alm-load-more-btn.more,
+.nav-links a {
+	height: 6rem;
+	line-height: 5.4rem;
+	border: 2px solid rgba(0,0,0,0.07);
+	background: none;
+	padding: 0 4.5rem;
+	cursor: pointer;
+	background: #fff;
+	color: #000;
+	font-weight: 300;
+	font-size: 1.4rem;
+	font-family: $theme-font-sans-serif;
+	letter-spacing: 0.5rem;
+	@include transition-framework;
+	.txt {
+		font-family: $theme-font-sans-serif;
+		font-size: 1.4rem;
+		font-weight: 300;
+		letter-spacing: 0.5rem;
+		display: inline-block;
+		line-height: 1.4rem;
+		color: #000;
+		@include transition-framework;
+	}
+	i {
+		margin: 0 1rem;
+		font-size: 1.5rem;
+		@include transition-framework;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	&:hover,
+	&.opened {
+		text-decoration: none;
+		border-color: $theme-color-base;
+		.txt,
+		i {
+			color: $theme-color-base;
+		}
+	}
+	&.keep-simple {
+		font-family: $theme-font-sans-serif;
+		font-size: 1.4rem;
+		font-weight: 300;
+		letter-spacing: 0.5rem;
+		display: inline-block;
+		color: #000;
+		@include transition-framework;
+	}
+	&.more-padding-l-r {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+
+body .alm-btn-wrap {
+	text-align: left;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+button.alm-load-more-btn.more {
+	padding-left: 6rem;
+	padding-right: 6rem;
+	&.loading:before {
+		left: 1.2rem;
+		top: 0.8rem;
+	}
+	&.done {
+		cursor: default;
+		opacity: 0.5;
+	}
+}
+
+button.theme-button {
+	line-height: 5rem;
+	.txt {
+		position: relative;
+		top: -0.1rem;
+	}
+}
+
+.footer-empty-gap {
+	padding-top: 14rem;
+}
+
+.main-footer {
+	margin-top: 14rem;
+	color: #fff;
+	background: #000;
+	padding: 18rem 0 9rem 0;
+	font-family: $theme-font-serif;
+	::selection {
+		background: #fff;
+		color: #000;
+	}
+	::-moz-selection {
+		background: #fff;
+		color: #000;
+	}
+	a,
+	p {
+		font-family: $theme-font-serif;
+		color: #fff;
+	}
+	.widget {
+		color: #fff;
+		ul {
+			li {
+				color: #fff;
+			}
+		}
+		&.widget_rss ul li a {
+			color: $theme-color-light;
+		}
+		a {
+			color: #fff;
+			&:hover {
+				color: $theme-color-base;
+			}
+		}
+		.popular_posts_and_category_tabs .content-tabs .panel ul li a {
+			color: #000;
+			&:hover {
+				color: $theme-color-base;
+			}
+		}
+		.popular_posts_and_category_tabs .content-tabs.dark-layout .panel ul li a {
+			color: #fff;
+			&:hover {
+				color: $theme-color-base;
+			}
+		}
+		.popular_posts_and_category_tabs .tabs.dark-layout-transparent a:not(.active) {
+			background: #fafafa;
+		}
+		.popular_posts_and_category_tabs .content-tabs.dark-layout-transparent .panel ul li a {
+			color: #fff;
+			&:hover {
+				color: $theme-color-base;
+			}
+		}
+		&.widget_search label input {
+			color: #fff;
+
+		}
+		&.widget_search label input::-webkit-input-placeholder {
+		  color: #fff;
+		}
+
+		&.widget_search label input:-moz-placeholder {
+		  /* Firefox 18- */
+		  color: #fff;
+		}
+
+		&.widget_search label input::-moz-placeholder {
+		  /* Firefox 19+ */
+		  color: #fff;
+		}
+
+		&.widget_search label input:-ms-input-placeholder {
+		  color: #fff;
+		}
+	}
+	.top-footer {
+		> div {
+			float: left;
+			padding: 0 1.5rem;
+		}
+	}
+	.cols {
+		&-1 {
+			> div {
+				width: 100%;
+			}
+		}
+		&-2 {
+			> div {
+				width: 50%;
+			}
+		}
+		&-3 {
+			> div {
+				width: 33.333333333333333%;
+			}
+		}
+		&-4 {
+			> div {
+				width: 25%;
+			}
+		}
+	}
+}
+
+.copyrights-section {
+	text-align: center;
+	background: #1b1b1b;
+	color: #151515;
+	p {
+		color: #b9b9b9;
+		display: block;
+		padding: 1.5rem 0;
+		line-height: 2.5rem;
+		font-size: 1.2rem;
+		letter-spacing: 0.2rem;
+		margin-bottom: 0;
+		a {
+			color: #fff;
+			&:hover {
+				color: $theme-color-base;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.no-results {
+	.page-header {
+		margin-top: 0;
+		h1 {
+			padding-top: 0;
+		}
+	}
+	.search-form {
+		label {
+			input {
+				height: 3.4rem;
+				line-height: 3.4rem;
+				background: transparent !important;
+				border: 0.1rem solid #cccccc;
+				color: #000;
+				font-family: $theme-font-serif;
+				font-style: italic;
+				font-size: 1.3rem;
+				font-weight: 400;
+				width: 100%;
+				padding: 0 1.5rem;
+				display: block;
+			}
+		}
+		input[type=submit] {
+			height: 3.4rem;
+			line-height: 3rem;
+			border-radius: 0;
+			background: transparent;
+			border: 1px solid rgba(0,0,0,0.2);
+			color: #000;
+			padding: 0 2rem;
+			cursor: pointer;
+			font-size: 1.4rem;
+			font-weight: 300;
+			@include transition-framework;
+			&:active,
+			&:focus,
+			&:hover {
+				outline: none;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 1.5em;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul ul li {
+
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+}
+
+.main-navigation ul ul :hover > a,
+.main-navigation ul ul .focus > a {
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+@media (max-width: 1620px) {
+	
+}
+
+@media (max-width: 1420px) {
+	
+}
+
+@media (max-width: 1220px) {
+	
+}
+
+@media (max-width: 1030px) {
+	.theme-button {
+		height: 5rem;
+		line-height: 4.4rem;
+		padding: 0 3rem;
+	}
+	button.theme-button {
+		line-height: 4rem;
+		.txt {
+			position: relative;
+			top: -0.1rem;
+		}
+	}
+	.main-footer {
+		padding: 10rem 0 7rem 0;
+	}
+	.footer-empty-gap {
+		padding-top: 10rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.main-footer {
+		margin-top: 8rem;
+		padding: 6rem 0 3rem 0;
+	}
+	.footer-empty-gap {
+		padding-top: 8rem;
+	}
+	.main-footer .top-footer > div {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media (max-width: 500px) {
+	
+}
+
+@media (max-width: 330px) {
+	
+}

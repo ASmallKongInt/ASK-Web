@@ -1,0 +1,2320 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShapeShifter\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-09-24 00:48+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Nora\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9 templates/body/main-content.php:55
+msgid "The Required Page doesn't exist."
+msgstr ""
+
+#: 404.php:11 archive.php:19 author.php:27 category.php:30 date.php:20
+#: front-page.php:18 front-page.php:73 home.php:22 search.php:27 tag.php:26
+#: templates/archive/main-content-archive-page.php:28
+#: templates/body/main-content.php:55
+msgid "Please try to search for the page with keywords."
+msgstr ""
+
+#: archive.php:19 author.php:27 category.php:30 date.php:20 front-page.php:18
+#: front-page.php:73 home.php:22 search.php:27 tag.php:26
+#: templates/archive/main-content-archive-page.php:28
+msgid "No Articles."
+msgstr ""
+
+#: attachment.php:33 templates/archive/post-list-item.php:41
+#: templates/singular/header.php:22
+msgid "( No Title )"
+msgstr ""
+
+#: attachment.php:65 front-page.php:50 page.php:50 single.php:56
+#: templates/bbpress/bbpress-page.php:21
+#: templates/singular/singular-page.php:36
+msgid "No Post"
+msgstr ""
+
+#: author.php:11 templates/archive/main-content-archive-page-title.php:40
+#, php-format
+msgid "Author Archive: \"%s\""
+msgstr ""
+
+#: category.php:14 templates/archive/main-content-archive-page-title.php:7
+#, php-format
+msgid "Category: \"%s\""
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+#, php-format
+msgid "%d Ping"
+msgid_plural "%d Pings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "<i class=\"fa fa-comment\"></i> Leave a Comment"
+msgstr ""
+
+#: comments.php:66
+msgid "Name"
+msgstr ""
+
+#: comments.php:68
+msgid "E-mail Address ( Not Displayed on public )"
+msgstr ""
+
+#: comments.php:70
+msgid "Website"
+msgstr ""
+
+#: comments.php:73
+msgid "Comment"
+msgstr ""
+
+#: functions.php:30
+#, php-format
+msgid "This theme requires PHP version 5.4.0. You are currently using %s."
+msgstr ""
+
+#: functions.php:84
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:85
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:86
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:87
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:89
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:94
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:99
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:104
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:109
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:114
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:119
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:124
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:129
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:134
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:139
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:144
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:148
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:149
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:387
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3162
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:150
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:388
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2955
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions.php:151
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions.php:152
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: functions.php:153
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions.php:154
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: search.php:11 templates/archive/main-content-archive-page-title.php:52
+#, php-format
+msgid "Search Result: \"%s\""
+msgstr ""
+
+#: tag.php:11 templates/archive/main-content-archive-page-title.php:13
+#, php-format
+msgid "Tag: \"%s\""
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:31
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2606
+msgid "Slidebar Left"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:32
+msgid ""
+"Slidebar located on the left of the window. This widget area is NOT "
+"Displayed in Mobile. When Theme Customizer Setting \"Is Responsive ON\" is "
+"checked, You can pull the Slidebar in Responsive One Column Style because of "
+"Narrower Window."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:41
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2610
+msgid "Sidebar Left"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:42
+msgid ""
+"Sidebar located on the left of the main content. This widget area is NOT "
+"Displayed in Mobile."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:51
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2614
+msgid "Sidebar Left Fixed"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:52
+msgid ""
+"Sidebar located below Sidebar Left that can be fixed. This widget area is "
+"NOT Displayed in Mobile."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:61
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2618
+msgid "Slidebar Right"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:62
+msgid ""
+"Slidebar located on the right of the window. This widget area is NOT "
+"Displayed in Mobile. When Theme Customizer Setting \"Is Responsive ON\" is "
+"checked, You can pull the Slidebar in Responsive One Column Style because of "
+"Narrower Window."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:71
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2622
+msgid "Sidebar Right"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:72
+msgid ""
+"Sidebar located on the right of the main content. This widget area is NOT "
+"Displayed in Mobile."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:81
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2626
+msgid "Sidebar Right Fixed"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:82
+msgid ""
+"Sidebar located below Sidebar Right that can be fixed. This widget area is "
+"NOT Displayed in Mobile."
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:91
+msgid "Mobile Slidebar"
+msgstr ""
+
+#: includes/class-shapeshifter-register-widget-areas.php:92
+msgid ""
+"This is the Slidebar on Right Side which is displayed ONLY in Mobile Page. "
+"This Area Shows and Hides when Button \"Widget\" at the bottom is clicked."
+msgstr ""
+
+#: includes/class-shapeshifter-styles-handler.php:238
+msgctxt "Before Q Tag"
+msgid "\\\""
+msgstr ""
+
+#: includes/class-shapeshifter-styles-handler.php:241
+msgctxt "After Q Tag"
+msgid "\\\""
+msgstr ""
+
+#: includes/class-shapeshifter-styles-handler.php:1235
+msgid "Quotes:"
+msgstr ""
+
+#: includes/class-shapeshifter-styles-handler.php:2487
+msgid "Cite:"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:358
+#: includes/class-shapeshifter-theme-mods.php:362
+#: includes/class-shapeshifter-theme-mods.php:381
+#: includes/class-shapeshifter-theme-mods.php:401
+#: includes/class-shapeshifter-theme-mods.php:448
+msgid "No Animations"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:505
+msgid "Default"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:506
+msgid "sans-serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:507
+msgid "arial"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:508
+msgid "arial black"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:509
+msgid "arial narrow"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:510
+msgid "arial unicode ms"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:511
+msgid "Century Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:512
+msgid "Franklin Gothic Medium"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:513
+msgid "Gulim"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:514
+msgid "Dotum"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:515
+msgid "Haettenschweiler"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:516
+msgid "Impact"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:517
+msgid "Ludica Sans Unicode"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:518
+msgid "Microsoft Sans Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:519
+msgid "MS Sans Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:520
+msgid "MV Boil"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:521
+msgid "New Gulim"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:522
+msgid "Tahoma"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:523
+msgid "Trebuchet"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:524
+msgid "Verdana"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:525
+msgid "serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:526
+msgid "Batang"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:527
+msgid "Book Antiqua"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:528
+msgid "Bookman Old Style"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:529
+msgid "Century"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:530
+msgid "Estrangelo Edessa"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:531
+msgid "Garamond"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:532
+msgid "Gautami"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:533
+msgid "Georgia"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:534
+msgid "Gungsuh"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:535
+msgid "Latha"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:536
+msgid "Mangal"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:537
+msgid "MS Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:538
+msgid "PMingLiU"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:539
+msgid "Palatino Linotype"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:540
+msgid "Raavi"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:541
+msgid "Roman"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:542
+msgid "Shruti"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:543
+msgid "Sylfaen"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:544
+msgid "Times New Roman"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:545
+msgid "Tunga"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:546
+msgid "Monospace"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:547
+msgid "BatangChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:548
+msgid "Courier"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:549
+msgid "Courier New"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:550
+msgid "DotumChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:551
+msgid "GlimChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:552
+msgid "GungsuhChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:553
+msgid "HG Gyoshotai"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:554
+msgid "Lucida Console"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:555
+msgid "MingLiU"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:556
+msgid "OCRB"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:557
+msgid "SimHei"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:558
+msgid "SimSun"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:559
+msgid "Small Fonts"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:560
+msgid "Terminal"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:561
+msgid "Fantasy"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:562
+msgid "alba"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:563
+msgid "alba matter"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:564
+msgid "alba super"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:565
+msgid "baby kruffy"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:566
+msgid "Chick"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:567
+msgid "Croobie"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:568
+msgid "Fat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:569
+msgid "Freshbot"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:570
+msgid "Frosty"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:571
+msgid "GlooGun"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:572
+msgid "Jokewood"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:573
+msgid "Modern"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:574
+msgid "Monotype Corsiva"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:575
+msgid "Poornut"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:576
+msgid "Pussycat Snickers"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:577
+msgid "Weltron Urban"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:578
+msgid "Cursive"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:579
+msgid "Comic Sans MS"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:580
+msgid "HGP Gyoshotai"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:581
+msgid "HG Seikaishotai-PRO"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:582
+msgid "Jenkins v2.0"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:583
+msgid "Script"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:585
+msgid "MS UI Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:586
+msgid "MS PGothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:587
+msgid "MS Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:588
+msgid "MS PMincho"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:589
+msgid "MS Mincho"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:590
+msgid "Meiryo"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:591
+msgid "Meiryo UI"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:592
+msgid "Yu Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:593
+msgid "Yu Mincho"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:594
+msgid "Hiragino Kaku Gothic Pro"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:595
+msgid "\"HiraKakuProN-W3\", \"Hiragino Kaku Gothic ProN\""
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:596
+msgid "HiraKakuPro-W6"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:597
+msgid "\"HiraKakuProN-W6\", \"HiraKakuProN-W6\""
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:598
+msgid "Hiragino Kaku Gothic Std"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:599
+msgid "Hiragino Kaku Gothic StdN"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:600
+msgid "Hiragino Maru Gothic Pro"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:601
+msgid "Hiragino Maru Gothic ProN"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:602
+msgid "Hiragino Mincho Pro"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:603
+msgid "\"HiraMinProN-W3\", \"Hiragino Mincho ProN\""
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:604
+msgid "HiraMinPro-W6"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:605
+msgid "\"HiraMinProN-W6\", \"HiraMinProN-W6\""
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:606
+msgid "YuGothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:607
+msgid "YuMincho"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:608
+msgid "Osaka"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:609
+msgid "Osaka-Mono"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:610
+msgid "Droid Sans"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:611
+msgid "Roboto"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:639
+#: includes/class-shapeshifter-theme-mods.php:654
+#: includes/class-shapeshifter-theme-mods.php:722
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3130
+msgid "Center"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:640
+msgid "Top"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:641
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:655
+#: includes/class-shapeshifter-theme-mods.php:723
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3007
+msgid "Left"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:656
+#: includes/class-shapeshifter-theme-mods.php:724
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3010
+msgid "Right"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:669
+msgid "No Repeat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:670
+msgid "Repeat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:671
+msgid "Horizontal Repeat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:672
+msgid "Vertical Repeat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:685
+msgid "Scroll"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:686
+msgid "Fixed"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:700
+msgid "Not Display"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:701
+msgid "All Right Reserved"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:702
+msgid "CC-BY"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:703
+msgid "CC-BY-SA"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:704
+msgid "CC-BY-ND"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:705
+msgid "CC-BY-NC"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:706
+msgid "CC-BY-NC-SA"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:707
+msgid "CC-BY-NC-ND"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:708
+msgid "CC0"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:709
+msgid "Public Domain"
+msgstr ""
+
+#: includes/class-shapeshifter.php:419
+msgid "Primary Navi Menu ( PC Only )"
+msgstr ""
+
+#: includes/class-shapeshifter.php:420
+msgid "Secondary Navi Menu ( PC Only )"
+msgstr ""
+
+#: includes/class-shapeshifter.php:421
+msgid "Main Navi Menu for Mobile ( Mobile Only )"
+msgstr ""
+
+#: includes/class-shapeshifter.php:422
+msgid "Footer Navi Menu ( PC and Mobile )"
+msgstr ""
+
+#: includes/functions-comments-pings.php:20
+msgid "* Waiting for being approved *"
+msgstr ""
+
+#: includes/functions-comments-pings.php:28
+#: includes/functions-comments-pings.php:107
+msgid "Edit"
+msgstr ""
+
+#: includes/functions-comments-pings.php:76
+#: includes/frontend/class-shapeshifter-frontend.php:1671
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/functions-comments-pings.php:77
+#: includes/frontend/class-shapeshifter-frontend.php:1672
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/functions-comments-pings.php:80
+#, php-format
+msgid "Comment Page: %1$d of %2$d"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:386
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:827
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2535
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3583
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:1121
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2951
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2550
+msgid "Plugin"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2551
+msgid "Source"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2552
+msgid "Type"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2556
+msgid "Version"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2557
+msgid "Status"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2606
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2611
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2617
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2687
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2720
+msgid "Install"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2726
+msgid "Update"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2729
+msgid "Activate"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2760
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2762
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2803
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2805
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2911
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2937
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3161
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3504
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3506
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3510
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+msgid "Show Details"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+msgid "Hide Details"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3513
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3515
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3518
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3521
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:118
+#, php-format
+msgid "%s Settings for Title and Headlines"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:129
+#, php-format
+msgid "%s Settings for Deactivation of Widget Areas"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:140
+msgid "Optional Styles"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:182
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:376
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1866
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2009
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:271
+msgid "Apply the icon Settings below"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:293
+#, php-format
+msgid "Select Icon of %s"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:296
+msgid "None"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:309
+#, php-format
+msgid "Icon Color of %s"
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:406
+msgid "Check the widget areas to Deactivate."
+msgstr ""
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:515
+msgid "Make Width Size Maximized only if this page is of One-Column Layout."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend-html-parts.php:36
+msgid "Click to edit this."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:618
+msgid "Image Source"
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:1676
+#, php-format
+msgid "Page: %1$d of %2$d"
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:1680
+msgid "To Prev"
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:1681
+msgid "To Next"
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2976
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2366
+#, php-format
+msgid ""
+"Copyright &copy; <span id=\"copyright-year\">%1$d</span> %2$s All Rights "
+"Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2979
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2369
+#, php-format
+msgid "CC-BY %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2982
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2372
+#, php-format
+msgid "CC-BY-SA %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2985
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2375
+#, php-format
+msgid "CC-BY-ND %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2988
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2378
+#, php-format
+msgid "CC-BY-NC %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2991
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2381
+#, php-format
+msgid "CC-BY-NC-SA %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2994
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2384
+#, php-format
+msgid "CC-BY-NC-ND %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2997
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2387
+#, php-format
+msgid "CC0 %s No Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:3000
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2390
+#, php-format
+msgid "Public Domain %s No Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:234
+msgid "Body"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:239
+msgid "Common Styles"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:254
+msgid "Standard Font"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:269
+msgid "Responsive Design"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:282
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:350
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:768
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1690
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2114
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3025
+msgid "Background Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:295
+msgid "General Text Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:308
+msgid "General Text Link Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:331
+msgid "Header"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:332
+msgid "Styles of Logo ( Some of settings are meaningless for Mobile Devices )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:338
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2537
+msgid "Background"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:392
+msgid "Font Family of Title"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:405
+msgid "Site Name Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:421
+msgid "Font Family of Description"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:434
+msgid "Site Description Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:452
+msgid "Top Nav Menu"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:467
+msgid "Font Family of Nav Menus"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:480
+msgid "Top Nav Menu Text Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:502
+msgid "Sub Nav Menu"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:531
+msgid "Styles of Nav Menu"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:546
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1613
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2037
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2232
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2658
+msgid "Font Family"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:561
+msgid "Fix to top when scrolling"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:562
+msgid ""
+"* Recommend turning this OFF if you set widgets rendered by JavaScript in "
+"Widget Area hooked in \"After Header\" by plugin \"WP Theme ShapeShifter "
+"Extensions\". It's because this functionality measures fixing position when "
+"document loaded."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:576
+msgid "Append Search Box at last"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:593
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:933
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1445
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1928
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2524
+msgid "Colors"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:606
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2550
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3116
+msgid "Text"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:621
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1677
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2101
+msgid "Background Color Gradation"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:633
+msgid "Background Color of Nav Menu"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:648
+msgid "Background Color Gradation for Each Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:660
+msgid "Background Color of Each Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:673
+msgid "Border Top and Bottom"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:686
+msgid "Underline Color of Each Items"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:704
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:719
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1747
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2167
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2409
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2425
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3040
+msgid "Background Image"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:720
+msgid "Assume to print as Texture ( This image will be repeated )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:736
+msgid "Background Image for Each Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:755
+msgid "Mobile Nav Menu"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:791
+msgid "Content Area"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:817
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1278
+msgid "Design"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:832
+msgid "Is One Column of Max Width"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:833
+msgid ""
+"For One-Column-Content Page, Width size of content area will be the size "
+"covering content area."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:840
+msgid "Sidebar Left Container"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:843
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1773
+msgid "Main Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:846
+msgid "Sidebar Right Container"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:867
+#, php-format
+msgid "Width of %s"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:892
+msgid "Border of Main Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:907
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2901
+msgid "Border Radius"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:946
+msgid "Background Color of Content Area"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:959
+msgid "Background Color of Content Outer"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:972
+msgid "Background Color of Main Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:985
+msgid "Background Color of Sidebar Left Container"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:998
+msgid "Background Color of Sidebar Right Container"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1016
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1031
+msgid "Background Image of Content Area"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1048
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1162
+msgid "Background Size ( 'Horizontal Vertical' )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1064
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1178
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2458
+msgid "Background Position Row"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1080
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1194
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2474
+msgid "Background Position Column"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1096
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1210
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2490
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2854
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1112
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1226
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2506
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2870
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1130
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1145
+msgid "Background Image of Main Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1250
+msgid "Archive Page"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1293
+msgid "border-top of List Item Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1307
+msgid "border-left of List Item Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1321
+msgid "border-right of List Item Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1335
+msgid "border-bottom of List Item Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1350
+msgid "border-radius of List Item Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1376
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1859
+msgid "Animations"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1377
+msgid "You can set CSS Animation( when Hover and ScrollEnter ) for Post List"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1393
+msgid "List Item Box Hover"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1409
+msgid "List Item Box Enter"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1426
+msgid "List Item Title Box"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1458
+msgid "General Text"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1471
+msgid "Link Text"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1484
+msgid "Cats and Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1502
+msgid "Post Thumbnails"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1518
+msgid "Width for Post Thumbnails"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1542
+msgid "Height for Post Thumbnails"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1566
+msgid "Radius for Post Thumbnails"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1592
+msgid "Post List Item Title"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1599
+#, php-format
+msgid "Settings for %s"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1629
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2053
+msgid "Font Size"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1649
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2073
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2973
+msgid "Text Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1662
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2086
+msgid "Text Shadow Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1678
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2102
+msgid ""
+"Colors used for Gradation Content Background Color and Color Selected below"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1707
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2127
+msgid "Border Bottom"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1720
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2140
+msgid "Border Left"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1733
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2153
+msgid "Border Right"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1748
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2168
+msgid "\"background-size\" value is set \"cover\" without repeat"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1799
+msgctxt "theme customizer section name"
+msgid "Display"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1814
+msgid "Not display infos ( Author, Date, Cats, Tags ) about the Post"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1828
+msgid "Not display infos ( Author, Date, Cats, Tags ) about the Page"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1842
+msgid "Not display Page links ( links of next post and prev post )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1860
+msgid ""
+"You can set CSS Animation( when Hover and ScrollEnter ) for Each Elements in "
+"Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1867
+msgid "Post Infos"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1868
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2010
+msgid "H2 Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1869
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2011
+msgid "H3 Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1870
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2012
+msgid "H4 Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1871
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2013
+msgid "H5 Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1872
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2014
+msgid "H6 Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1873
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2015
+msgid "P Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1874
+msgid "DIV Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1875
+msgid "IMG Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1876
+msgid "TABLE Tags"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1891
+#, php-format
+msgid "%s Hover"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1907
+#, php-format
+msgid "%s Enter"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1941
+msgid "Background of Infos about the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1954
+msgid "Text of Infos about the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1967
+msgid "Text Link of Infos about the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1980
+msgid "Text of the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1993
+msgid "Text Link of the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2022
+#, php-format
+msgid "Styles of %s"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2193
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2217
+msgid "Styles of Text"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2248
+msgid "Font Size for Title and Description"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2272
+msgid "Text Align"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2287
+msgid "Display Theme Name"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2301
+msgid "Display Description"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2316
+msgid "Year for Copyright"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2317
+msgid ""
+"Please enter the year of beginning of the website. This number is used for "
+"copyright section displayed at the bottom."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2331
+msgid "Display License"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2442
+msgid "Background Size ( \"Horizontal Vertical\" )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2570
+msgid "Standard Widget Areas"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2630
+msgid ""
+"Mobile Sidebar ( For PC, slidebar on right for responsive design when window "
+"width is smaller than content area width )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2674
+msgid "Area Animation Enter"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2690
+msgid "Background Image ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2707
+msgid "Background Size ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2708
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2806
+msgid "Enter the value like \"Horizontal Vertical\" with units"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2724
+msgid "Background Position Row ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2740
+msgid "Background Position Column ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2756
+msgid "Background Repeat ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2772
+msgid "Background Attachment ( Outside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2788
+msgid "Background Image ( Inside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2805
+msgid "Background Size ( Inside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2822
+msgid "Background Position Row ( Inside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2838
+msgid "Background Position Column ( Inside )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2886
+msgid "Border for Each Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2925
+msgid "Margin for Each Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2947
+msgid "Background Color of Widget Item"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2960
+msgid "Title Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2986
+msgid "Text Link Color"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3062
+msgid "Others"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3082
+msgid "Images"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3097
+msgid "Default Thumbnail"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3115
+msgid "Sliding Item Type"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3117
+msgid "Download"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3118
+msgid "Close"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3119
+msgid "Sliding Images"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3120
+#, php-format
+msgid "Item %d"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3121
+msgid "Select"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3123
+msgid "Top Left"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3124
+msgid "Top Center"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3125
+msgid "Top Right"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3126
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3127
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3128
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3129
+msgid "Center Left"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3131
+msgid "CenterRight"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3133
+#, php-format
+msgid "Item Content Text %d"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3134
+#, php-format
+msgid "Position %d"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3135
+#, php-format
+msgid "Text Color %d"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3136
+#, php-format
+msgid "Background Color %d"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3138
+msgid "Mobile Sidebar"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3139
+msgid "After the Header"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3140
+msgid "Before Content Area"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3141
+msgid "Before the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3142
+msgid "At the Beginning of the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3143
+msgid "Before the First H2 tag of the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3144
+msgid "At the End of the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3145
+msgid "After the Content"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3146
+msgid "Before the Footer"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3147
+msgid "In the Footer"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3149
+#, php-format
+msgid ""
+"Copyright © <span id=\"copyright-year\">%1$d</span> <span class="
+"\"shapeshifter-footer-site-name\">%2$s</span> All Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3150
+#, php-format
+msgid ""
+"CC-BY <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some Rights "
+"Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3151
+#, php-format
+msgid ""
+"CC-BY-SA <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3152
+#, php-format
+msgid ""
+"CC-BY-ND <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3153
+#, php-format
+msgid ""
+"CC-BY-NC <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3154
+#, php-format
+msgid ""
+"CC-BY-NC-SA <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3155
+#, php-format
+msgid ""
+"CC-BY-NC-ND <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3156
+#, php-format
+msgid ""
+"CC0 <span class=\"shapeshifter-footer-site-name\">%1$s</span> No Rights "
+"Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3157
+#, php-format
+msgid ""
+"Public Domain <span class=\"shapeshifter-footer-site-name\">%1$s</span> No "
+"Rights Reserved."
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:18
+msgctxt "Date Format for Archive Title"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:20
+#, php-format
+msgid "Daily Archive: \"%s\""
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:25
+msgctxt "Date Format for Archive Title"
+msgid "Y/m"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:27
+#, php-format
+msgid "Monthly Archive: \"%s\""
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:32
+msgctxt "Date Format for Archive Title"
+msgid "Y"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:34
+#, php-format
+msgid "Yearly Archive: \"%s\""
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:46
+#, php-format
+msgid "Other Filters: \"%s\""
+msgstr ""
+
+#: templates/archive/post-list-item.php:58
+#: templates/archive/post-list-item.php:63
+#, php-format
+msgid "No Titles - %s"
+msgstr ""
+
+#: templates/archive/post-list-item.php:97
+msgid "Edit This Page"
+msgstr ""
+
+#: templates/archive/post-list-item.php:109
+msgctxt "Date Format"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/archive/post-list-item.php:152
+msgid "Read More"
+msgstr ""
+
+#: templates/footer/footer-last.php:64
+msgid "Theme"
+msgstr ""
+
+#: templates/header/header-top.php:64 templates/nav-menus/nav-menu.php:142
+#: templates/nav-menus/nav-menu.php:146
+msgid "Primary Navigation"
+msgstr ""
+
+#: templates/mobile/mobile-footer-menu-buttons.php:8
+msgctxt "Mobile Button"
+msgid "Menu"
+msgstr ""
+
+#: templates/mobile/mobile-footer-menu-buttons.php:12
+msgctxt "Mobile Button"
+msgid "Home"
+msgstr ""
+
+#: templates/mobile/mobile-footer-menu-buttons.php:16
+msgctxt "Mobile Button"
+msgid "Top"
+msgstr ""
+
+#: templates/mobile/mobile-footer-menu-buttons.php:21
+msgctxt "Mobile Button"
+msgid "Widgets"
+msgstr ""
+
+#: templates/nav-menus/nav-menu.php:34 templates/nav-menus/nav-menu.php:40
+#: templates/nav-menus/nav-menu.php:72 templates/nav-menus/nav-menu.php:78
+#: templates/nav-menus/nav-menu.php:114 templates/nav-menus/nav-menu.php:120
+msgid "Search"
+msgstr ""
+
+#: templates/nav-menus/nav-menu.php:145
+msgid "Secondary Navigation"
+msgstr ""
+
+#: templates/nav-menus/nav-menu.php:172
+msgid "Nav Menu"
+msgstr ""
+
+#: templates/singular/breadcrumb.php:12
+msgid "Home"
+msgstr ""
+
+#: templates/singular/header.php:41
+msgctxt "Date Format for Published Date and Updated Date"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/singular/link-pages.php:4 templates/singular/page-content.php:23
+msgid "Pages:"
+msgstr ""
+
+#: templates/singular/link-pages.php:10 templates/singular/page-content.php:29
+#: templates/singular/prev-next.php:30
+msgid "Next Page"
+msgstr ""
+
+#: templates/singular/link-pages.php:11 templates/singular/page-content.php:30
+#: templates/singular/prev-next.php:16
+msgid "Prev Page"
+msgstr ""
+
+#: templates/woocommerce/wc-account-page.php:20
+#: templates/woocommerce/wc-cart.php:20
+#: templates/woocommerce/wc-checkout.php:20
+#: templates/woocommerce/wc-endpoint-url.php:20
+msgid "No Posts."
+msgstr ""

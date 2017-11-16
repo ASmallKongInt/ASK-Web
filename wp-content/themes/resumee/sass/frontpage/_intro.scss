@@ -1,0 +1,134 @@
+/* intro layout zero */
+.header_social_links {
+	text-align: center;
+
+	a {
+		padding: 0 5px;
+	}
+}
+
+.header_social_links .fa {
+	color:#555;
+	font-family: FontAwesome;
+	font-size: 18px;
+	padding: 0 4px;
+}
+
+.intro_layout_zero {
+	text-align: center;
+	background-color: #fff;
+	padding: 1% 0;
+}
+
+.intro_layout_zero h2 {
+	font-size: 35px;
+	text-align: center;
+	color: #222;
+	padding-bottom: 2px;
+}
+
+.intro1_h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+.intro1_p {
+	padding: 2% 25%;
+}
+
+.intro_layout_zero p {
+	padding: 2% 25%;
+}
+
+.intro_one_imgdiv {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.intro_wrap .fa {
+	font-size: 7px;
+	vertical-align: middle;
+}
+
+.intro_wrap h3 {
+	font-size: 16px;
+	color:#888;
+	padding: 0 2%;
+	font-weight: 300;
+}
+
+.socialbar_wrap {
+	padding:10px 0 0 ;
+}
+
+@media (max-width: 420px) {
+
+	.intro_wrap {
+		padding: 0 5%;
+		line-height: 1.7em;
+	}
+}
+
+
+@media (max-width: 750px) {
+	.intro_layout_zero p {
+		padding: 2% 10%;
+	}
+}
+
+/* intro layout one */
+.res_intro_layout_one {
+	text-align: center;
+}
+
+ 	.res_intro_layout_one p {
+	 	margin: 1% 20%;
+	    background: #333;
+	    padding: 3% 7%;
+	    color: #fff;
+ 	}
+
+/* intro layout two */
+.intro_2_img_wrap {
+	text-align: right;
+}
+
+.res_intro_layout_two .res_intro_layout_two_social {
+	text-align: left;
+	padding: 2% 0;
+}
+
+.intro_two_mod h3 {
+	font-size: 15px;
+}
+
+.intro_two_mod .fa {
+	font-size: 14px;
+}
+
+.line_brk {
+	border: 1px solid #eee;
+}
+
+@media (max-width: 500px) {
+	.res_intro_layout_one p {
+		margin: 0;
+		padding: 7% 7%;
+	}  
+
+	.intro_wrap h3 {
+		line-height: 1.6em;
+	}
+}
+
+@media (max-width: 991px) {
+	.intro_2_img_wrap {
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	 .intro_layout_zero, .experience, .edu_two, .skills {
+	 	padding: 10% 0;
+	 }
+}

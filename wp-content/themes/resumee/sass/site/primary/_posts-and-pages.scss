@@ -1,0 +1,66 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+#colophon {
+	padding: 20px 5%;
+
+	a {
+		text-decoration: none;
+		color: #555;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #2196F3;
+	}
+
+	.site-info {
+		float: left;
+		color: #555;
+	}
+
+	.footer_address {
+		float: right;
+	}
+}
+
+@media (max-width: 300px) and (min-width: 800px) {
+	
+		#colophon {
+			text-align: center;
+		.site-info {
+			float: none;
+		}
+
+		.footer_address {
+			float: none;
+		}
+	}
+		
+}

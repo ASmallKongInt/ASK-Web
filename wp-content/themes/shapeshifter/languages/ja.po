@@ -1,0 +1,5616 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShapeShifter\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-09-24 00:48+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Nora\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9 templates/body/main-content.php:55
+msgid "The Required Page doesn't exist."
+msgstr "ページが存在しません。"
+
+#: 404.php:11 archive.php:19 author.php:27 category.php:30 date.php:20
+#: front-page.php:18 front-page.php:73 home.php:22 search.php:27 tag.php:26
+#: templates/archive/main-content-archive-page.php:28
+#: templates/body/main-content.php:55
+msgid "Please try to search for the page with keywords."
+msgstr "キーワードで検索し、お求めのページをお探しください。"
+
+#: archive.php:19 author.php:27 category.php:30 date.php:20 front-page.php:18
+#: front-page.php:73 home.php:22 search.php:27 tag.php:26
+#: templates/archive/main-content-archive-page.php:28
+msgid "No Articles."
+msgstr "記事なし"
+
+#: attachment.php:33 templates/archive/post-list-item.php:41
+#: templates/singular/header.php:22
+msgid "( No Title )"
+msgstr "タイトル無し - %s"
+
+#: attachment.php:65 front-page.php:50 page.php:50 single.php:56
+#: templates/bbpress/bbpress-page.php:21
+#: templates/singular/singular-page.php:36
+msgid "No Post"
+msgstr "投稿無し"
+
+#: author.php:11 templates/archive/main-content-archive-page-title.php:40
+#, php-format
+msgid "Author Archive: \"%s\""
+msgstr "作者アーカイブ：「%s」"
+
+#: category.php:14 templates/archive/main-content-archive-page-title.php:7
+#, php-format
+msgid "Category: \"%s\""
+msgstr "カテゴリー：「%s」"
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr "直接このページをロードしないでください。"
+
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"パスワード保護されていますので、コメント閲覧にはパスワード入力が必要です。"
+
+#: comments.php:14
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d件のコメント"
+
+#: comments.php:40
+#, php-format
+msgid "%d Ping"
+msgid_plural "%d Pings"
+msgstr[0] "%d件のピン"
+
+#: comments.php:63
+msgid "<i class=\"fa fa-comment\"></i> Leave a Comment"
+msgstr "<i class=\"fa fa-comment\"></i> コメントを残す"
+
+#: comments.php:66
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:68
+msgid "E-mail Address ( Not Displayed on public )"
+msgstr "メールアドレス（公開されません）"
+
+#: comments.php:70
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:73
+msgid "Comment"
+msgstr "コメント"
+
+#: functions.php:30
+#, php-format
+msgid "This theme requires PHP version 5.4.0. You are currently using %s."
+msgstr ""
+
+#: functions.php:84
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必要なプラグインをインストール"
+
+#: functions.php:85
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインをインストール"
+
+#: functions.php:86
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "プラグインのインストール：%s"
+
+#: functions.php:87
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグインAPIとの間に問題があります。"
+
+#: functions.php:89
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは次のプラグインが必要です。： %1$s"
+
+#: functions.php:94
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは次のプラグインを推奨します。： %1$s"
+
+#: functions.php:99
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+"申し訳ありませんが、あなたにはプラグイン「%1$s」をインストールする許可が出て"
+"いません。"
+
+#: functions.php:104
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"このテーマの適合性を最大限に保証するためには、次のプラグインは最新版への更新"
+"が必要です：%1$s"
+
+#: functions.php:109
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "更新可能なプラグインがあります：%1$s"
+
+#: functions.php:114
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] "申し訳ありませんが、プラグイン%1$sを更新する許可が出ていません。"
+
+#: functions.php:119
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "次の必要なプラグインは現在「非アクティブ」です：%1$s"
+
+#: functions.php:124
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨されているプラグインが現在非アクティブです：%1$s"
+
+#: functions.php:129
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+"申し訳ありませんが、あなたにはプラグイン「%1$s」を有効化する許可が出ていませ"
+"ん。"
+
+#: functions.php:134
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: functions.php:139
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: functions.php:144
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: functions.php:148
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "要求されるプラグインのインストーラーへ戻る"
+
+#: functions.php:149
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:387
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3162
+msgid "Plugin activated successfully."
+msgstr "プラグインが有効化されました。"
+
+#: functions.php:150
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:388
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2955
+msgid "The following plugin was activated successfully:"
+msgstr "次のプラグインが有効化されました。"
+
+#: functions.php:151
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "アクションがありません。プラグイン「%1$s」は既に有効化されています。"
+
+#: functions.php:152
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"プラグインが有効化されていません。このテーマには%sのバージョンアップが必要で"
+"すので、プラグインを更新してください。"
+
+#: functions.php:153
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "全てのプラグインが無事インストールされ、有効化されました：%1$s"
+
+#: functions.php:154
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合は、このサイトの管理者に連絡してください。"
+
+#: search.php:11 templates/archive/main-content-archive-page-title.php:52
+#, php-format
+msgid "Search Result: \"%s\""
+msgstr "検索結果：「%s」"
+
+#: tag.php:11 templates/archive/main-content-archive-page-title.php:13
+#, php-format
+msgid "Tag: \"%s\""
+msgstr "タグ：「%s」"
+
+#: includes/class-shapeshifter-register-widget-areas.php:31
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2606
+msgid "Slidebar Left"
+msgstr "左スライドバー"
+
+#: includes/class-shapeshifter-register-widget-areas.php:32
+msgid ""
+"Slidebar located on the left of the window. This widget area is NOT "
+"Displayed in Mobile. When Theme Customizer Setting \"Is Responsive ON\" is "
+"checked, You can pull the Slidebar in Responsive One Column Style because of "
+"Narrower Window."
+msgstr ""
+"ウィンドウの左側に位置するスライドバーです。テーマカスタマイザーでレスポンシ"
+"ブ設定をオンにしている場合、ウィンドウを狭めた際の１カラムスタイルでも表示さ"
+"れます。モバイル端末では表示されません。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:41
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2610
+msgid "Sidebar Left"
+msgstr "左サイドバー"
+
+#: includes/class-shapeshifter-register-widget-areas.php:42
+msgid ""
+"Sidebar located on the left of the main content. This widget area is NOT "
+"Displayed in Mobile."
+msgstr ""
+"メインコンテンツの左に位置するサイドバーです。モバイル端末上では表示されませ"
+"ん。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:51
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2614
+msgid "Sidebar Left Fixed"
+msgstr "左サイドバーの固定位置"
+
+#: includes/class-shapeshifter-register-widget-areas.php:52
+msgid ""
+"Sidebar located below Sidebar Left that can be fixed. This widget area is "
+"NOT Displayed in Mobile."
+msgstr ""
+"左サイドバーの下に位置し固定されるサイドバーです。モバイル端末上では表示され"
+"ません。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:61
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2618
+msgid "Slidebar Right"
+msgstr "右スライドバー"
+
+#: includes/class-shapeshifter-register-widget-areas.php:62
+msgid ""
+"Slidebar located on the right of the window. This widget area is NOT "
+"Displayed in Mobile. When Theme Customizer Setting \"Is Responsive ON\" is "
+"checked, You can pull the Slidebar in Responsive One Column Style because of "
+"Narrower Window."
+msgstr ""
+"ウィンドウの右側に位置するスライドバーです。テーマカスタマイザーでレスポンシ"
+"ブ設定をオンにしている場合、ウィンドウを狭めた際の１カラムスタイルでも表示さ"
+"れます。モバイル端末では表示されません。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:71
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2622
+msgid "Sidebar Right"
+msgstr "右サイドバー"
+
+#: includes/class-shapeshifter-register-widget-areas.php:72
+msgid ""
+"Sidebar located on the right of the main content. This widget area is NOT "
+"Displayed in Mobile."
+msgstr ""
+"メインコンテンツの右に位置するサイドバーです。モバイル端末上では表示されませ"
+"ん。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:81
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2626
+msgid "Sidebar Right Fixed"
+msgstr "右サイドバーの固定位置"
+
+#: includes/class-shapeshifter-register-widget-areas.php:82
+msgid ""
+"Sidebar located below Sidebar Right that can be fixed. This widget area is "
+"NOT Displayed in Mobile."
+msgstr ""
+"右サイドバーの下に位置する固定される位置です。モバイル端末上では表示されませ"
+"ん。"
+
+#: includes/class-shapeshifter-register-widget-areas.php:91
+msgid "Mobile Slidebar"
+msgstr "モバイル用スライドバー"
+
+#: includes/class-shapeshifter-register-widget-areas.php:92
+msgid ""
+"This is the Slidebar on Right Side which is displayed ONLY in Mobile Page. "
+"This Area Shows and Hides when Button \"Widget\" at the bottom is clicked."
+msgstr ""
+"モバイル端末上でのみ表示される右側のスライドバーです。下部の「ウィジェット」"
+"ボタンで表示・非表示を切り替えます。"
+
+#: includes/class-shapeshifter-styles-handler.php:238
+msgctxt "Before Q Tag"
+msgid "\\\""
+msgstr "『"
+
+#: includes/class-shapeshifter-styles-handler.php:241
+msgctxt "After Q Tag"
+msgid "\\\""
+msgstr "』"
+
+#: includes/class-shapeshifter-styles-handler.php:1235
+msgid "Quotes:"
+msgstr "引用："
+
+#: includes/class-shapeshifter-styles-handler.php:2487
+msgid "Cite:"
+msgstr "引用："
+
+#: includes/class-shapeshifter-theme-mods.php:358
+#: includes/class-shapeshifter-theme-mods.php:362
+#: includes/class-shapeshifter-theme-mods.php:381
+#: includes/class-shapeshifter-theme-mods.php:401
+#: includes/class-shapeshifter-theme-mods.php:448
+msgid "No Animations"
+msgstr "アニメーション無し"
+
+#: includes/class-shapeshifter-theme-mods.php:505
+msgid "Default"
+msgstr "標準"
+
+#: includes/class-shapeshifter-theme-mods.php:506
+msgid "sans-serif"
+msgstr "Sans-Serif"
+
+#: includes/class-shapeshifter-theme-mods.php:507
+msgid "arial"
+msgstr "Arial"
+
+#: includes/class-shapeshifter-theme-mods.php:508
+msgid "arial black"
+msgstr "Arial Black"
+
+#: includes/class-shapeshifter-theme-mods.php:509
+msgid "arial narrow"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:510
+msgid "arial unicode ms"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:511
+msgid "Century Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:512
+msgid "Franklin Gothic Medium"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:513
+msgid "Gulim"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:514
+msgid "Dotum"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:515
+msgid "Haettenschweiler"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:516
+msgid "Impact"
+msgstr "Impact"
+
+#: includes/class-shapeshifter-theme-mods.php:517
+msgid "Ludica Sans Unicode"
+msgstr "Lucida Sans Unicode"
+
+#: includes/class-shapeshifter-theme-mods.php:518
+msgid "Microsoft Sans Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:519
+msgid "MS Sans Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:520
+msgid "MV Boil"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:521
+msgid "New Gulim"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:522
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: includes/class-shapeshifter-theme-mods.php:523
+msgid "Trebuchet"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:524
+msgid "Verdana"
+msgstr "Verdana"
+
+#: includes/class-shapeshifter-theme-mods.php:525
+msgid "serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:526
+msgid "Batang"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:527
+msgid "Book Antiqua"
+msgstr "Book Antiqua"
+
+#: includes/class-shapeshifter-theme-mods.php:528
+msgid "Bookman Old Style"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:529
+msgid "Century"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:530
+msgid "Estrangelo Edessa"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:531
+msgid "Garamond"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:532
+msgid "Gautami"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:533
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/class-shapeshifter-theme-mods.php:534
+msgid "Gungsuh"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:535
+msgid "Latha"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:536
+msgid "Mangal"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:537
+msgid "MS Serif"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:538
+msgid "PMingLiU"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:539
+msgid "Palatino Linotype"
+msgstr "Palatino Linotype"
+
+#: includes/class-shapeshifter-theme-mods.php:540
+msgid "Raavi"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:541
+msgid "Roman"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:542
+msgid "Shruti"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:543
+msgid "Sylfaen"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:544
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: includes/class-shapeshifter-theme-mods.php:545
+msgid "Tunga"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:546
+msgid "Monospace"
+msgstr "Monospace"
+
+#: includes/class-shapeshifter-theme-mods.php:547
+msgid "BatangChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:548
+msgid "Courier"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:549
+msgid "Courier New"
+msgstr "Courier New"
+
+#: includes/class-shapeshifter-theme-mods.php:550
+msgid "DotumChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:551
+msgid "GlimChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:552
+msgid "GungsuhChe"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:553
+msgid "HG Gyoshotai"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:554
+msgid "Lucida Console"
+msgstr "Lucida Console"
+
+#: includes/class-shapeshifter-theme-mods.php:555
+msgid "MingLiU"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:556
+msgid "OCRB"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:557
+msgid "SimHei"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:558
+msgid "SimSun"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:559
+msgid "Small Fonts"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:560
+msgid "Terminal"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:561
+msgid "Fantasy"
+msgstr "Fantasy"
+
+#: includes/class-shapeshifter-theme-mods.php:562
+msgid "alba"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:563
+msgid "alba matter"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:564
+msgid "alba super"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:565
+msgid "baby kruffy"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:566
+msgid "Chick"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:567
+msgid "Croobie"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:568
+msgid "Fat"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:569
+msgid "Freshbot"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:570
+msgid "Frosty"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:571
+msgid "GlooGun"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:572
+msgid "Jokewood"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:573
+msgid "Modern"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:574
+msgid "Monotype Corsiva"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:575
+msgid "Poornut"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:576
+msgid "Pussycat Snickers"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:577
+msgid "Weltron Urban"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:578
+msgid "Cursive"
+msgstr "Cursive"
+
+#: includes/class-shapeshifter-theme-mods.php:579
+msgid "Comic Sans MS"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:580
+msgid "HGP Gyoshotai"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:581
+msgid "HG Seikaishotai-PRO"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:582
+msgid "Jenkins v2.0"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:583
+msgid "Script"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:585
+msgid "MS UI Gothic"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:586
+msgid "MS PGothic"
+msgstr "\"MS PGothic\", \"ＭＳ Ｐゴシック\""
+
+#: includes/class-shapeshifter-theme-mods.php:587
+msgid "MS Gothic"
+msgstr "\"MS Gothic\", \"ＭＳ ゴシック\""
+
+#: includes/class-shapeshifter-theme-mods.php:588
+msgid "MS PMincho"
+msgstr "\"MS PMincho\", \"ＭＳ Ｐ明朝\""
+
+#: includes/class-shapeshifter-theme-mods.php:589
+msgid "MS Mincho"
+msgstr "\"MS Mincho\", \"ＭＳ 明朝\""
+
+#: includes/class-shapeshifter-theme-mods.php:590
+msgid "Meiryo"
+msgstr "\"Meiryo\", \"メイリオ\""
+
+#: includes/class-shapeshifter-theme-mods.php:591
+msgid "Meiryo UI"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:592
+msgid "Yu Gothic"
+msgstr "\"Yu Gothic\", \"游ゴシック\""
+
+#: includes/class-shapeshifter-theme-mods.php:593
+msgid "Yu Mincho"
+msgstr "\"Yu Mincho\", \"游明朝\""
+
+#: includes/class-shapeshifter-theme-mods.php:594
+msgid "Hiragino Kaku Gothic Pro"
+msgstr "\"Hiragino Kaku Gothic Pro\", \"ヒラギノ角ゴ Pro W3\""
+
+#: includes/class-shapeshifter-theme-mods.php:595
+msgid "\"HiraKakuProN-W3\", \"Hiragino Kaku Gothic ProN\""
+msgstr ""
+"\"HiraKakuProN-W3\", \"Hiragino Kaku Gothic ProN\", \"ヒラギノ角ゴ ProN W3\""
+
+#: includes/class-shapeshifter-theme-mods.php:596
+msgid "HiraKakuPro-W6"
+msgstr "\"HiraKakuPro-W6\", \"ヒラギノ角ゴ Pro W6\""
+
+#: includes/class-shapeshifter-theme-mods.php:597
+msgid "\"HiraKakuProN-W6\", \"HiraKakuProN-W6\""
+msgstr "\"HiraKakuProN-W6\", \"HiraKakuProN-W6\", \"ヒラギノ角ゴ ProN W6\""
+
+#: includes/class-shapeshifter-theme-mods.php:598
+msgid "Hiragino Kaku Gothic Std"
+msgstr "\"Hiragino Kaku Gothic Std\", \"ヒラギノ角ゴ Std W8\""
+
+#: includes/class-shapeshifter-theme-mods.php:599
+msgid "Hiragino Kaku Gothic StdN"
+msgstr "\"Hiragino Kaku Gothic StdN\", \"ヒラギノ角ゴ StdN W8\""
+
+#: includes/class-shapeshifter-theme-mods.php:600
+msgid "Hiragino Maru Gothic Pro"
+msgstr "\"Hiragino Maru Gothic Pro\", \"ヒラギノ丸ゴ Pro W4\""
+
+#: includes/class-shapeshifter-theme-mods.php:601
+msgid "Hiragino Maru Gothic ProN"
+msgstr "\"Hiragino Maru Gothic ProN\", \"ヒラギノ丸ゴ ProN W4\""
+
+#: includes/class-shapeshifter-theme-mods.php:602
+msgid "Hiragino Mincho Pro"
+msgstr "\"Hiragino Mincho Pro\", \"ヒラギノ明朝 Pro W3\""
+
+#: includes/class-shapeshifter-theme-mods.php:603
+msgid "\"HiraMinProN-W3\", \"Hiragino Mincho ProN\""
+msgstr "\"HiraMinProN-W3\", \"Hiragino Mincho ProN\", \"ヒラギノ明朝 ProN W3\""
+
+#: includes/class-shapeshifter-theme-mods.php:604
+msgid "HiraMinPro-W6"
+msgstr "\"HiraMinPro-W6\", \"ヒラギノ明朝 Pro W6\""
+
+#: includes/class-shapeshifter-theme-mods.php:605
+msgid "\"HiraMinProN-W6\", \"HiraMinProN-W6\""
+msgstr "\"HiraMinProN-W6\", \"HiraMinProN-W6\", \"ヒラギノ明朝 ProN W6\""
+
+#: includes/class-shapeshifter-theme-mods.php:606
+msgid "YuGothic"
+msgstr "\"YuGothic\", \"游ゴシック体\""
+
+#: includes/class-shapeshifter-theme-mods.php:607
+msgid "YuMincho"
+msgstr "\"YuMincho\", \"游明朝体\""
+
+#: includes/class-shapeshifter-theme-mods.php:608
+msgid "Osaka"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:609
+msgid "Osaka-Mono"
+msgstr "\"Osaka-Mono\", \"Osaka－等幅\""
+
+#: includes/class-shapeshifter-theme-mods.php:610
+msgid "Droid Sans"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:611
+msgid "Roboto"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:639
+#: includes/class-shapeshifter-theme-mods.php:654
+#: includes/class-shapeshifter-theme-mods.php:722
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3130
+msgid "Center"
+msgstr "真ん中"
+
+#: includes/class-shapeshifter-theme-mods.php:640
+msgid "Top"
+msgstr "上部"
+
+#: includes/class-shapeshifter-theme-mods.php:641
+msgid "Bottom"
+msgstr "下部"
+
+#: includes/class-shapeshifter-theme-mods.php:655
+#: includes/class-shapeshifter-theme-mods.php:723
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3007
+msgid "Left"
+msgstr "左"
+
+#: includes/class-shapeshifter-theme-mods.php:656
+#: includes/class-shapeshifter-theme-mods.php:724
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3010
+msgid "Right"
+msgstr "右"
+
+#: includes/class-shapeshifter-theme-mods.php:669
+msgid "No Repeat"
+msgstr "繰り返さない"
+
+#: includes/class-shapeshifter-theme-mods.php:670
+msgid "Repeat"
+msgstr "繰り返す"
+
+#: includes/class-shapeshifter-theme-mods.php:671
+msgid "Horizontal Repeat"
+msgstr "横のみ繰り返す"
+
+#: includes/class-shapeshifter-theme-mods.php:672
+msgid "Vertical Repeat"
+msgstr "リピート（縦）"
+
+#: includes/class-shapeshifter-theme-mods.php:685
+msgid "Scroll"
+msgstr "スクロール可能"
+
+#: includes/class-shapeshifter-theme-mods.php:686
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/class-shapeshifter-theme-mods.php:700
+msgid "Not Display"
+msgstr "非表示"
+
+#: includes/class-shapeshifter-theme-mods.php:701
+msgid "All Right Reserved"
+msgstr ""
+
+#: includes/class-shapeshifter-theme-mods.php:702
+msgid "CC-BY"
+msgstr "表示"
+
+#: includes/class-shapeshifter-theme-mods.php:703
+msgid "CC-BY-SA"
+msgstr "表示—継承"
+
+#: includes/class-shapeshifter-theme-mods.php:704
+msgid "CC-BY-ND"
+msgstr "表示—改変禁止"
+
+#: includes/class-shapeshifter-theme-mods.php:705
+msgid "CC-BY-NC"
+msgstr "表示—非営利"
+
+#: includes/class-shapeshifter-theme-mods.php:706
+msgid "CC-BY-NC-SA"
+msgstr "表示—非営利—継承"
+
+#: includes/class-shapeshifter-theme-mods.php:707
+msgid "CC-BY-NC-ND"
+msgstr "表示—非営利—改変禁止"
+
+#: includes/class-shapeshifter-theme-mods.php:708
+msgid "CC0"
+msgstr "クリエイティブ・コモンズ・ゼロ"
+
+#: includes/class-shapeshifter-theme-mods.php:709
+msgid "Public Domain"
+msgstr "パブリックドメイン"
+
+#: includes/class-shapeshifter.php:419
+msgid "Primary Navi Menu ( PC Only )"
+msgstr "メインナビゲーション（PCのみ）"
+
+#: includes/class-shapeshifter.php:420
+msgid "Secondary Navi Menu ( PC Only )"
+msgstr "サブナビゲーション（PCのみ）"
+
+#: includes/class-shapeshifter.php:421
+msgid "Main Navi Menu for Mobile ( Mobile Only )"
+msgstr "モバイル用ナビメニュー（モバイルのみ）"
+
+#: includes/class-shapeshifter.php:422
+msgid "Footer Navi Menu ( PC and Mobile )"
+msgstr "フッターナビメニュー（パソコンとモバイル）"
+
+#: includes/functions-comments-pings.php:20
+msgid "* Waiting for being approved *"
+msgstr "*このコメントはただいま承認待ちです* "
+
+#: includes/functions-comments-pings.php:28
+#: includes/functions-comments-pings.php:107
+msgid "Edit"
+msgstr "編集"
+
+#: includes/functions-comments-pings.php:76
+#: includes/frontend/class-shapeshifter-frontend.php:1671
+msgid "&laquo; Previous"
+msgstr "&laquo; 前のページ"
+
+#: includes/functions-comments-pings.php:77
+#: includes/frontend/class-shapeshifter-frontend.php:1672
+msgid "Next &raquo;"
+msgstr "次のページ &raquo;"
+
+#: includes/functions-comments-pings.php:80
+#, php-format
+msgid "Comment Page: %1$d of %2$d"
+msgstr "コメントページ： %1$d / %2$d"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新：%s"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:386
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:827
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2535
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3583
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "通知を非表示にする"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "インストール・更新・有効化が要求・推奨されるプラグインがあります。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "このプラグインはあなたのテーマに適合するのに更新する必要があります。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が要求されています。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"リモートプラグインパッケージがスラッグ名のフォルダーを含んでいませんので、名"
+"前の変更ができませんでした。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:934
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"プラグインのプロバイダーに連絡し、プラグインをワードプレスガイドラインに沿っ"
+"たものにするように頼んでください。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"リモートプラグインパッケージは１つ以上のファイルから成り立っていますが、ファ"
+"イルが１つのフォルダに含まれていません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:1121
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2951
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA バージョン%s"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必要"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "推奨"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "ワードプレスリポジトリ"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "プリパッケージ"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "インストールされませんでした。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "インストール済みですが、有効化されていません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "アクティブ"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "更新は利用できません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新を要求"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "推奨された更新"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全ての<span class=\"count\">(%s)</span>"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span>をインストールするには"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "可能な<span class=\"count\">(%s)</span>を更新"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span>を有効化するには"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストールのバージョン："
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "要求される最低限のバージョン："
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン："
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化するプラグインはありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2550
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2551
+msgid "Source"
+msgstr "ソース"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2552
+msgid "Type"
+msgstr "タイプ"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2556
+msgid "Version"
+msgstr "バージョン"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2557
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2606
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$sをインストール"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2611
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$sを更新"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2617
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$sを有効化"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2687
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からのアップグレードメッセージ"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2720
+msgid "Install"
+msgstr "インストール"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2726
+msgid "Update"
+msgstr "更新"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2729
+msgid "Activate"
+msgstr "有効化"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2760
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"インストールされるプラグインが選択されていません。アクションがありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2762
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新されるプラグインが選択されていません。アクションがありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2803
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストール可能なプラグインはありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2805
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新可能なプラグインはありませんでした。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2911
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化されるプラグインが選択されていません。アクションがありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:2937
+msgid "No plugins are available to be activated at this time."
+msgstr "現在有効化可能なプラグインはありません。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3161
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインを更新中：%1$s（ %2$d / %3$d ）"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3504
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$sのインストール中にエラーが生じました：<strong>%2$s</strong>"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3506
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$sのインストールは失敗しました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3510
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"インストールと有効化のプロセスを開始しています。このプロセスはホストによって"
+"は時間を要するかもしれませんので、ご辛抱ください。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$sは無事にインストールされ、有効化されました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3512
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+msgid "Hide Details"
+msgstr "詳細を隠す"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3513
+msgid "All installations and activations have been completed."
+msgstr "全てのインストールと有効化が完了しました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3515
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン%1$sのインストール・有効化中（ %2$d / %3$d ）"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3518
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"インストールプロセスを開始しています。このプロセスはホストによって時間を要す"
+"るかもしれませんので、ご辛抱ください。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$sが無事にインストールされました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3521
+msgid "All installations have been completed."
+msgstr "全てのインストールが完了しました。"
+
+#: includes/3rd/TGM-Plugin-Activation/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン%1$sをインストール中（ %2$d / %3$d ）"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:118
+#, php-format
+msgid "%s Settings for Title and Headlines"
+msgstr "%s タイトルと見出しの設定"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:129
+#, php-format
+msgid "%s Settings for Deactivation of Widget Areas"
+msgstr "%s ウィジェットエリア非アクティブ化設定"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:140
+msgid "Optional Styles"
+msgstr "オプショナルスタイル"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:182
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:376
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1866
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2009
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:271
+msgid "Apply the icon Settings below"
+msgstr "以下の設定でアイコンを適用"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:293
+#, php-format
+msgid "Select Icon of %s"
+msgstr "%sのアイコンを選択"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:296
+msgid "None"
+msgstr "無し"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:309
+#, php-format
+msgid "Icon Color of %s"
+msgstr "%sのアイコン色"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:406
+msgid "Check the widget areas to Deactivate."
+msgstr "非アクティブ化するウィジェットエリアにチェックしてください。"
+
+#: includes/admin/class-shapeshifter-meta-boxes.php:515
+msgid "Make Width Size Maximized only if this page is of One-Column Layout."
+msgstr "このページが１カラムレイアウトの場合のみ、横幅を最大に設定します。"
+
+#: includes/frontend/class-shapeshifter-frontend-html-parts.php:36
+msgid "Click to edit this."
+msgstr "クリックして編集"
+
+#: includes/frontend/class-shapeshifter-frontend.php:618
+msgid "Image Source"
+msgstr "イメージのソース"
+
+#: includes/frontend/class-shapeshifter-frontend.php:1676
+#, php-format
+msgid "Page: %1$d of %2$d"
+msgstr "ページ： %1$d / %2$d"
+
+#: includes/frontend/class-shapeshifter-frontend.php:1680
+msgid "To Prev"
+msgstr "前のページへ"
+
+#: includes/frontend/class-shapeshifter-frontend.php:1681
+msgid "To Next"
+msgstr "次のページへ"
+
+#: includes/frontend/class-shapeshifter-frontend.php:2976
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2366
+#, php-format
+msgid ""
+"Copyright &copy; <span id=\"copyright-year\">%1$d</span> %2$s All Rights "
+"Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2979
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2369
+#, php-format
+msgid "CC-BY %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2982
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2372
+#, php-format
+msgid "CC-BY-SA %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2985
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2375
+#, php-format
+msgid "CC-BY-ND %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2988
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2378
+#, php-format
+msgid "CC-BY-NC %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2991
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2381
+#, php-format
+msgid "CC-BY-NC-SA %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2994
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2384
+#, php-format
+msgid "CC-BY-NC-ND %s Some Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:2997
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2387
+#, php-format
+msgid "CC0 %s No Rights Reserved."
+msgstr ""
+
+#: includes/frontend/class-shapeshifter-frontend.php:3000
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2390
+#, php-format
+msgid "Public Domain %s No Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:234
+msgid "Body"
+msgstr "ボディ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:239
+msgid "Common Styles"
+msgstr "共通のスタイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:254
+msgid "Standard Font"
+msgstr "標準のフォント"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:269
+msgid "Responsive Design"
+msgstr "レスポンシブデザイン"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:282
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:350
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:768
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1690
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2114
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3025
+msgid "Background Color"
+msgstr "背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:295
+msgid "General Text Color"
+msgstr "一般のテキスト色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:308
+msgid "General Text Link Color"
+msgstr "一般のテキストリンク色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:331
+msgid "Header"
+msgstr "ヘッダー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:332
+msgid "Styles of Logo ( Some of settings are meaningless for Mobile Devices )"
+msgstr "ロゴのスタイル（モバイル端末での表示には影響しない部分もあります。）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:338
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2537
+msgid "Background"
+msgstr "背景"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:392
+msgid "Font Family of Title"
+msgstr "タイトルのフォントファミリー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:405
+msgid "Site Name Color"
+msgstr "サイト名の色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:421
+msgid "Font Family of Description"
+msgstr "詳細のフォントファミリー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:434
+msgid "Site Description Color"
+msgstr "サイトの詳細の色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:452
+msgid "Top Nav Menu"
+msgstr "トップナビメニュー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:467
+msgid "Font Family of Nav Menus"
+msgstr "ナビメニューのフォントファミリー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:480
+msgid "Top Nav Menu Text Color"
+msgstr "トップナビメニューのテキストの色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:502
+msgid "Sub Nav Menu"
+msgstr "サブナビメニュー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:531
+msgid "Styles of Nav Menu"
+msgstr "ナビメニューのスタイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:546
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1613
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2037
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2232
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2658
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:561
+msgid "Fix to top when scrolling"
+msgstr "スクロール時に上部に固定"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:562
+msgid ""
+"* Recommend turning this OFF if you set widgets rendered by JavaScript in "
+"Widget Area hooked in \"After Header\" by plugin \"WP Theme ShapeShifter "
+"Extensions\". It's because this functionality measures fixing position when "
+"document loaded."
+msgstr ""
+"※ プラグイン「WP Theme ShapeShifter Extensions」による「ヘッダー後」に出力さ"
+"れるウィジェットエリアにJavaScriptで表示される場合、オフ設定が推奨されます。"
+"これはHTMLがロードされた時に固定位置が読まれるためです。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:576
+msgid "Append Search Box at last"
+msgstr "最後に検索ボックスを追加"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:593
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:933
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1445
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1928
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2524
+msgid "Colors"
+msgstr "色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:606
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2550
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3116
+msgid "Text"
+msgstr "テキスト"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:621
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1677
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2101
+msgid "Background Color Gradation"
+msgstr "背景色のグラデーション"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:633
+msgid "Background Color of Nav Menu"
+msgstr "ナビメニューの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:648
+msgid "Background Color Gradation for Each Item"
+msgstr "各アイテムの背景色のグラデーション"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:660
+msgid "Background Color of Each Item"
+msgstr "各アイテムの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:673
+msgid "Border Top and Bottom"
+msgstr "上下の境界線"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:686
+msgid "Underline Color of Each Items"
+msgstr "各アイテムの下線の色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:704
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:719
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1747
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2167
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2409
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2425
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3040
+msgid "Background Image"
+msgstr "背景のイメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:720
+msgid "Assume to print as Texture ( This image will be repeated )"
+msgstr "テクスチャーを想定しています。（イメージを繰り返します。）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:736
+msgid "Background Image for Each Item"
+msgstr "各アイテムの背景イメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:755
+msgid "Mobile Nav Menu"
+msgstr "モバイルナビメニュー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:791
+msgid "Content Area"
+msgstr "コンテンツエリア"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:817
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1278
+msgid "Design"
+msgstr "デザイン"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:832
+msgid "Is One Column of Max Width"
+msgstr "最大横幅レイアウトの１カラムページ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:833
+msgid ""
+"For One-Column-Content Page, Width size of content area will be the size "
+"covering content area."
+msgstr ""
+"１カラムページで、コンテンツエリアの横幅サイズがコンテンツエリアを覆うように"
+"最大値となります。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:840
+msgid "Sidebar Left Container"
+msgstr "左サイドバーのコンテナー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:843
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1773
+msgid "Main Content"
+msgstr "メインコンテンツ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:846
+msgid "Sidebar Right Container"
+msgstr "右サイドバーのコンテナー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:867
+#, php-format
+msgid "Width of %s"
+msgstr "%sの横幅"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:892
+msgid "Border of Main Content"
+msgstr "メインコンテンツの境界線"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:907
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2901
+msgid "Border Radius"
+msgstr "境界線の角の丸み"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:946
+msgid "Background Color of Content Area"
+msgstr "コンテンツエリアの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:959
+msgid "Background Color of Content Outer"
+msgstr "コンテンツのアウターの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:972
+msgid "Background Color of Main Content"
+msgstr "メインコンテンツの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:985
+msgid "Background Color of Sidebar Left Container"
+msgstr "左サイドバーコンテナーの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:998
+msgid "Background Color of Sidebar Right Container"
+msgstr "右サイドバーコンテナーの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1016
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1031
+msgid "Background Image of Content Area"
+msgstr "コンテンツエリアの背景イメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1048
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1162
+msgid "Background Size ( 'Horizontal Vertical' )"
+msgstr "背景のサイズ（「横 縦」）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1064
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1178
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2458
+msgid "Background Position Row"
+msgstr "背景画像の位置（行）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1080
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1194
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2474
+msgid "Background Position Column"
+msgstr "背景画像の位置（列）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1096
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1210
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2490
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2854
+msgid "Background Repeat"
+msgstr "背景の繰り返し"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1112
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1226
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2506
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2870
+msgid "Background Attachment"
+msgstr "Background Attachment"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1130
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1145
+msgid "Background Image of Main Content"
+msgstr "メインコンテンツの背景イメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1250
+msgid "Archive Page"
+msgstr "アーカイブページ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1293
+msgid "border-top of List Item Box"
+msgstr "リストアイテムのボックスのborder-top"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1307
+msgid "border-left of List Item Box"
+msgstr "リストアイテムのボックスのborder-left"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1321
+msgid "border-right of List Item Box"
+msgstr "リストアイテムのボックスのborder-left"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1335
+msgid "border-bottom of List Item Box"
+msgstr "リストアイテムのボックスのborder-bottom"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1350
+msgid "border-radius of List Item Box"
+msgstr "リストアイテムのボックスのborder-radius"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1376
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1859
+msgid "Animations"
+msgstr "アニメーション"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1377
+msgid "You can set CSS Animation( when Hover and ScrollEnter ) for Post List"
+msgstr "投稿リスト用のCSSアニメーションを設定できます。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1393
+msgid "List Item Box Hover"
+msgstr "リストアイテムのボックス（フーバー）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1409
+msgid "List Item Box Enter"
+msgstr "リストアイテムのボックス（エンター）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1426
+msgid "List Item Title Box"
+msgstr "リストアイテムのタイトルボックス"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1458
+msgid "General Text"
+msgstr "一般的なテキスト"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1471
+msgid "Link Text"
+msgstr "リンクテキスト"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1484
+msgid "Cats and Tags"
+msgstr "カテゴリーとタグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1502
+msgid "Post Thumbnails"
+msgstr "投稿サムネイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1518
+msgid "Width for Post Thumbnails"
+msgstr "投稿サムネイルの横幅"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1542
+msgid "Height for Post Thumbnails"
+msgstr "投稿サムネイルの縦幅"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1566
+msgid "Radius for Post Thumbnails"
+msgstr "投稿サムネイルの丸み"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1592
+msgid "Post List Item Title"
+msgstr "投稿リストアイテムのタイトル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1599
+#, php-format
+msgid "Settings for %s"
+msgstr "%sの設定"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1629
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2053
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1649
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2073
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2973
+msgid "Text Color"
+msgstr "テキストの色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1662
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2086
+msgid "Text Shadow Color"
+msgstr "テキストシャドウの色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1678
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2102
+msgid ""
+"Colors used for Gradation Content Background Color and Color Selected below"
+msgstr "色はコンテンツの背景色と選択された色とのグラデーションになります。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1707
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2127
+msgid "Border Bottom"
+msgstr "境界線下部"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1720
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2140
+msgid "Border Left"
+msgstr "境界線左部"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1733
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2153
+msgid "Border Right"
+msgstr "境界線右部"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1748
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2168
+msgid "\"background-size\" value is set \"cover\" without repeat"
+msgstr "「background-size」の値は「cover」となり、繰り返しません。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1799
+msgctxt "theme customizer section name"
+msgid "Display"
+msgstr "表示設定"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1814
+msgid "Not display infos ( Author, Date, Cats, Tags ) about the Post"
+msgstr "投稿ページの情報（著者・日付・カテゴリー・タグ）を表示しません。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1828
+msgid "Not display infos ( Author, Date, Cats, Tags ) about the Page"
+msgstr "固定ページの情報（著者・日付・カテゴリー・タグ）を表示しません。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1842
+msgid "Not display Page links ( links of next post and prev post )"
+msgstr "投稿ページのページリンク（前の投稿・次の投稿）を表示しない。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1860
+msgid ""
+"You can set CSS Animation( when Hover and ScrollEnter ) for Each Elements in "
+"Content"
+msgstr "コンテンツ内の要素用のCSSアニメーションを設定できます。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1867
+msgid "Post Infos"
+msgstr "投稿情報"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1868
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2010
+msgid "H2 Tags"
+msgstr "H2タグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1869
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2011
+msgid "H3 Tags"
+msgstr "H3タグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1870
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2012
+msgid "H4 Tags"
+msgstr "H4タグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1871
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2013
+msgid "H5 Tags"
+msgstr "H5タグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1872
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2014
+msgid "H6 Tags"
+msgstr "H6タグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1873
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2015
+msgid "P Tags"
+msgstr "Pタグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1874
+msgid "DIV Tags"
+msgstr "DIVタグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1875
+msgid "IMG Tags"
+msgstr "IMGタグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1876
+msgid "TABLE Tags"
+msgstr "TABLEタグ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1891
+#, php-format
+msgid "%s Hover"
+msgstr "%s ホバー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1907
+#, php-format
+msgid "%s Enter"
+msgstr "%s エンター"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1941
+msgid "Background of Infos about the Content"
+msgstr "コンテンツ情報の背景"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1954
+msgid "Text of Infos about the Content"
+msgstr "コンテンツ情報のテキスト"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1967
+msgid "Text Link of Infos about the Content"
+msgstr "コンテンツ情報のテキストリンク"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1980
+msgid "Text of the Content"
+msgstr "コンテンツのテキスト"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:1993
+msgid "Text Link of the Content"
+msgstr "コンテンツのテキストリンク"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2022
+#, php-format
+msgid "Styles of %s"
+msgstr "%sのスタイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2193
+msgid "Footer"
+msgstr "フッター"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2217
+msgid "Styles of Text"
+msgstr "テキストのスタイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2248
+msgid "Font Size for Title and Description"
+msgstr "タイトルと詳細のフォントサイズ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2272
+msgid "Text Align"
+msgstr "テキストの寄せる向き"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2287
+msgid "Display Theme Name"
+msgstr "テーマ名を表示"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2301
+msgid "Display Description"
+msgstr "詳細の表示"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2316
+msgid "Year for Copyright"
+msgstr "コピーライトの年"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2317
+msgid ""
+"Please enter the year of beginning of the website. This number is used for "
+"copyright section displayed at the bottom."
+msgstr ""
+"ウェブサイトの開始した年を入力してください。この数字はフッターのコピーライト"
+"セクションの表示い使用されます。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2331
+msgid "Display License"
+msgstr "ライセンスを表示"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2442
+msgid "Background Size ( \"Horizontal Vertical\" )"
+msgstr "背景のサイズ（「横 縦」）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2570
+msgid "Standard Widget Areas"
+msgstr "標準ウィジェットエリア"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2630
+msgid ""
+"Mobile Sidebar ( For PC, slidebar on right for responsive design when window "
+"width is smaller than content area width )"
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2674
+msgid "Area Animation Enter"
+msgstr "エンターアニメーションエリア"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2690
+msgid "Background Image ( Outside )"
+msgstr "背景のイメージ（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2707
+msgid "Background Size ( Outside )"
+msgstr "背景のサイズ（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2708
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2806
+msgid "Enter the value like \"Horizontal Vertical\" with units"
+msgstr "単位付きで「横 縦」のように値を入力してください。"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2724
+msgid "Background Position Row ( Outside )"
+msgstr "背景の行の位置（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2740
+msgid "Background Position Column ( Outside )"
+msgstr "背景の列の位置（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2756
+msgid "Background Repeat ( Outside )"
+msgstr "背景の繰り返し（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2772
+msgid "Background Attachment ( Outside )"
+msgstr "背景の固定（外側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2788
+msgid "Background Image ( Inside )"
+msgstr "背景のイメージ（内側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2805
+msgid "Background Size ( Inside )"
+msgstr "背景のサイズ（内側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2822
+msgid "Background Position Row ( Inside )"
+msgstr "背景の行の位置（内側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2838
+msgid "Background Position Column ( Inside )"
+msgstr "背景の列の位置（内側）"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2886
+msgid "Border for Each Item"
+msgstr "各アイテムの境界線"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2925
+msgid "Margin for Each Item"
+msgstr "各アイテムの余白"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2947
+msgid "Background Color of Widget Item"
+msgstr "ウィジェットアイテムの背景色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2960
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:2986
+msgid "Text Link Color"
+msgstr "テキストリンクの色"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3062
+msgid "Others"
+msgstr "その他"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3082
+msgid "Images"
+msgstr "イメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3097
+msgid "Default Thumbnail"
+msgstr "デフォルトサムネイル"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3115
+msgid "Sliding Item Type"
+msgstr "スライドアイテムタイプ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3117
+msgid "Download"
+msgstr "ダウンロード"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3118
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3119
+msgid "Sliding Images"
+msgstr "スライドイメージ"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3120
+#, php-format
+msgid "Item %d"
+msgstr "アイテム %d"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3121
+msgid "Select"
+msgstr "選択"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3123
+msgid "Top Left"
+msgstr "左上"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3124
+msgid "Top Center"
+msgstr "真ん中の上"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3125
+msgid "Top Right"
+msgstr "右上"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3126
+msgid "Bottom Left"
+msgstr "左下"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3127
+msgid "Bottom Center"
+msgstr "真ん中の下"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3128
+msgid "Bottom Right"
+msgstr "右下"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3129
+msgid "Center Left"
+msgstr "左の真ん中"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3131
+msgid "CenterRight"
+msgstr "右の真ん中"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3133
+#, php-format
+msgid "Item Content Text %d"
+msgstr "アイテムコンテンツテキスト %d"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3134
+#, php-format
+msgid "Position %d"
+msgstr "出力位置 %d"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3135
+#, php-format
+msgid "Text Color %d"
+msgstr "テキストの色 %d"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3136
+#, php-format
+msgid "Background Color %d"
+msgstr "背景色 %d"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3138
+msgid "Mobile Sidebar"
+msgstr "モバイル用サイドバー"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3139
+msgid "After the Header"
+msgstr "ヘッダー後"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3140
+msgid "Before Content Area"
+msgstr "コンテンツエリア前"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3141
+msgid "Before the Content"
+msgstr "コンテンツ前"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3142
+msgid "At the Beginning of the Content"
+msgstr "コンテンツ開始"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3143
+msgid "Before the First H2 tag of the Content"
+msgstr "最初のH2タグの前"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3144
+msgid "At the End of the Content"
+msgstr "コンテンツ最後"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3145
+msgid "After the Content"
+msgstr "コンテンツ後"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3146
+msgid "Before the Footer"
+msgstr "フッター前"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3147
+msgid "In the Footer"
+msgstr "フッター内"
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3149
+#, php-format
+msgid ""
+"Copyright © <span id=\"copyright-year\">%1$d</span> <span class="
+"\"shapeshifter-footer-site-name\">%2$s</span> All Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3150
+#, php-format
+msgid ""
+"CC-BY <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some Rights "
+"Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3151
+#, php-format
+msgid ""
+"CC-BY-SA <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3152
+#, php-format
+msgid ""
+"CC-BY-ND <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3153
+#, php-format
+msgid ""
+"CC-BY-NC <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3154
+#, php-format
+msgid ""
+"CC-BY-NC-SA <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3155
+#, php-format
+msgid ""
+"CC-BY-NC-ND <span class=\"shapeshifter-footer-site-name\">%1$s</span> Some "
+"Rights Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3156
+#, php-format
+msgid ""
+"CC0 <span class=\"shapeshifter-footer-site-name\">%1$s</span> No Rights "
+"Reserved."
+msgstr ""
+
+#: includes/theme-customizer/class-shapeshifter-theme-customizer.php:3157
+#, php-format
+msgid ""
+"Public Domain <span class=\"shapeshifter-footer-site-name\">%1$s</span> No "
+"Rights Reserved."
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:18
+msgctxt "Date Format for Archive Title"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:20
+#, php-format
+msgid "Daily Archive: \"%s\""
+msgstr "日別アーカイブ：「%s」"
+
+#: templates/archive/main-content-archive-page-title.php:25
+msgctxt "Date Format for Archive Title"
+msgid "Y/m"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:27
+#, php-format
+msgid "Monthly Archive: \"%s\""
+msgstr "月別アーカイブ：「%s」"
+
+#: templates/archive/main-content-archive-page-title.php:32
+msgctxt "Date Format for Archive Title"
+msgid "Y"
+msgstr ""
+
+#: templates/archive/main-content-archive-page-title.php:34
+#, php-format
+msgid "Yearly Archive: \"%s\""
+msgstr "年別アーカイブ：「%s」"
+
+#: templates/archive/main-content-archive-page-title.php:46
+#, php-format
+msgid "Other Filters: \"%s\""
+msgstr "その他フィルター：「%s」"
+
+#: templates/archive/post-list-item.php:58
+#: templates/archive/post-list-item.php:63
+#, php-format
+msgid "No Titles - %s"
+msgstr "タイトル無し - %s"
+
+#: templates/archive/post-list-item.php:97
+msgid "Edit This Page"
+msgstr "このページを編集"
+
+#: templates/archive/post-list-item.php:109
+msgctxt "Date Format"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/archive/post-list-item.php:152
+msgid "Read More"
+msgstr "続きを読む"
+
+#: templates/footer/footer-last.php:64
+msgid "Theme"
+msgstr "テーマ"
+
+#: templates/header/header-top.php:64 templates/nav-menus/nav-menu.php:142
+#: templates/nav-menus/nav-menu.php:146
+msgid "Primary Navigation"
+msgstr "メインナビゲーション"
+
+#: templates/mobile/mobile-footer-menu-buttons.php:8
+msgctxt "Mobile Button"
+msgid "Menu"
+msgstr "メニュ"
+
+#: templates/mobile/mobile-footer-menu-buttons.php:12
+msgctxt "Mobile Button"
+msgid "Home"
+msgstr "ホーム"
+
+#: templates/mobile/mobile-footer-menu-buttons.php:16
+msgctxt "Mobile Button"
+msgid "Top"
+msgstr "トップへ"
+
+#: templates/mobile/mobile-footer-menu-buttons.php:21
+msgctxt "Mobile Button"
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: templates/nav-menus/nav-menu.php:34 templates/nav-menus/nav-menu.php:40
+#: templates/nav-menus/nav-menu.php:72 templates/nav-menus/nav-menu.php:78
+#: templates/nav-menus/nav-menu.php:114 templates/nav-menus/nav-menu.php:120
+msgid "Search"
+msgstr "検索"
+
+#: templates/nav-menus/nav-menu.php:145
+msgid "Secondary Navigation"
+msgstr "サブナビゲーション"
+
+#: templates/nav-menus/nav-menu.php:172
+msgid "Nav Menu"
+msgstr "ナビメニュー"
+
+#: templates/singular/breadcrumb.php:12
+msgid "Home"
+msgstr "ホーム"
+
+#: templates/singular/header.php:41
+msgctxt "Date Format for Published Date and Updated Date"
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/singular/link-pages.php:4 templates/singular/page-content.php:23
+msgid "Pages:"
+msgstr "ページ："
+
+#: templates/singular/link-pages.php:10 templates/singular/page-content.php:29
+#: templates/singular/prev-next.php:30
+msgid "Next Page"
+msgstr "次のページ"
+
+#: templates/singular/link-pages.php:11 templates/singular/page-content.php:30
+#: templates/singular/prev-next.php:16
+msgid "Prev Page"
+msgstr "前のページ"
+
+#: templates/woocommerce/wc-account-page.php:20
+#: templates/woocommerce/wc-cart.php:20
+#: templates/woocommerce/wc-checkout.php:20
+#: templates/woocommerce/wc-endpoint-url.php:20
+msgid "No Posts."
+msgstr "投稿無し"
+
+#~ msgid "Blog Archive"
+#~ msgstr "ブログアーカイブ"
+
+#~ msgid "Slidebar located on the left of the window"
+#~ msgstr "ウィンドウの左に位置するスライドバー"
+
+#~ msgid "Slidebar located on the right of the window"
+#~ msgstr "ウィンドウの右に位置するスライドバー"
+
+#~ msgid "Sidebar on right side displayed only in mobile page."
+#~ msgstr "モバイル端末でのみ表示される右側のサイドバー"
+
+#~ msgid "Back to page"
+#~ msgstr "ページに戻る"
+
+#~ msgid "Top Right Fixed"
+#~ msgstr "右上固定可能エリア"
+
+#~ msgid "You can fix this by settings on theme customizer"
+#~ msgstr "テーマカスタマイザーでの設定で固定できます。"
+
+#~ msgid "Mobile Side Menu Area"
+#~ msgstr "モバイル用サイドメニュー"
+
+#~ msgid "This is \"Mobile Side Menu Area\"."
+#~ msgstr "これは「モバイル用サイドメニュー」です。"
+
+#~ msgid "Fixed Switch"
+#~ msgstr "固定スイッチ"
+
+#~ msgid "Distance from Top"
+#~ msgstr "トップからの距離"
+
+#~ msgid "Distance from Side"
+#~ msgstr "横からの距離"
+
+#~ msgid "Panel Title"
+#~ msgstr "パネルタイトル"
+
+#~ msgid "Panel Description"
+#~ msgstr "パネルの詳細"
+
+#~ msgid "Section Title"
+#~ msgstr "セクションタイトル"
+
+#~ msgid "Section Description"
+#~ msgstr "セクションの詳細"
+
+#~ msgid ""
+#~ "<br>If you have any questions, to \"<a target=\"_blank\" href=\"http://wp-"
+#~ "works.net\">http://wp-works.net</a>\", please."
+#~ msgstr ""
+#~ "<br>ご質問などは「<a target='_blank' href='http://wp-works.net'>ワードプレ"
+#~ "スラボ</a>」まで"
+
+#~ msgid "Property \"%s\" is Not Supported"
+#~ msgstr "プロパティ「%s」はサポートされていません。"
+
+#~ msgid "Please edit by yourself with Setting ID \"%s\""
+#~ msgstr "設定項目のID「%s」を用いてご自身で出力設定をしてください。"
+
+#~ msgid "Pick a Color of %1$s for the element. ( property: \"%2$s\" )"
+#~ msgstr "要素の%1$sの色を選択してください。（プロパティ：「%2$s」）"
+
+#~ msgid "Opacity"
+#~ msgstr "透明度"
+
+#~ msgid ""
+#~ "Set the value of %1$s for the element. ( property: \"%2$s\" ) * step "
+#~ "value for slidebar : \"%3$d\""
+#~ msgstr ""
+#~ "要素の%1$sの値を設定してください。（プロパティ：「%2$s」） ※ スライドバー"
+#~ "の１目盛りの値は「%3$d」です。"
+
+#~ msgid "Enter the value of CSS property \"%s\" for the element"
+#~ msgstr "要素のCSSプロパティ「%s」の値を入力してください。"
+
+#~ msgid "Select the value of %1$s for the element. ( property : \"%2$s\" )"
+#~ msgstr "要素の%1$sの値を選択してください。（プロパティ:「%2$s」）"
+
+#~ msgid "fixed"
+#~ msgstr "固定"
+
+#~ msgid "scrollable"
+#~ msgstr "スクロール可能"
+
+#~ msgid "based on the contents of the element"
+#~ msgstr "要素のコンテンツ基準"
+
+#~ msgid "Default Value"
+#~ msgstr "標準値"
+
+#~ msgid "Inherit from parent"
+#~ msgstr "親要素からの継承"
+
+#~ msgid "Background Blend Mode"
+#~ msgstr "背景のブレンドモード"
+
+#~ msgid "Select an image of %1$s for the element. ( property: \"%2$s\" )"
+#~ msgstr "要素の%1$sのsイメージを選択してください。（プロパティ：「%2$s」）"
+
+#~ msgid "Background Position"
+#~ msgstr "背景の位置"
+
+#~ msgid "Repeat ( X and Y )"
+#~ msgstr "繰り返す（縦横）"
+
+#~ msgid "Repeat X"
+#~ msgstr "繰り返す（横）"
+
+#~ msgid "Repeat Y"
+#~ msgstr "繰り返す（縦）"
+
+#~ msgid "Background Clip"
+#~ msgstr "Background Clip"
+
+#~ msgid "border-box"
+#~ msgstr "border-box"
+
+#~ msgid "padding-box"
+#~ msgstr "padding-box"
+
+#~ msgid "content-box"
+#~ msgstr "content-box"
+
+#~ msgid "Background Origin"
+#~ msgstr "Background Origin"
+
+#~ msgid "Background Size"
+#~ msgstr "背景のサイズ"
+
+#~ msgid " * Unit for the slidebar is \"%s\"."
+#~ msgstr " ※ スライドバーの単位は「%s」です。"
+
+#~ msgid "Border"
+#~ msgstr "境界線"
+
+#~ msgid "Border Color"
+#~ msgstr "境界線の色"
+
+#~ msgid "Border Style"
+#~ msgstr "境界線のスタイル"
+
+#~ msgid "Hidden"
+#~ msgstr "非表示"
+
+#~ msgid "Dotted"
+#~ msgstr "点線"
+
+#~ msgid "Dashed"
+#~ msgstr "破線"
+
+#~ msgid "Solid"
+#~ msgstr "直線"
+
+#~ msgid "Double"
+#~ msgstr "二重線"
+
+#~ msgid "Groove"
+#~ msgstr "グルーブ"
+
+#~ msgid "Ridge"
+#~ msgstr "リッジ"
+
+#~ msgid "Inset"
+#~ msgstr "インセット"
+
+#~ msgid "Outset"
+#~ msgstr "アウトセット"
+
+#~ msgid "Border Width"
+#~ msgstr "境界線のスタイル"
+
+#~ msgid "Thin"
+#~ msgstr "細い"
+
+#~ msgid "Medium"
+#~ msgstr "ミディアム"
+
+#~ msgid "Thick"
+#~ msgstr "太い"
+
+#~ msgid "Border Top"
+#~ msgstr "境界線"
+
+#~ msgid "Border Top Color"
+#~ msgstr "境界線上部の色"
+
+#~ msgid "Border Top Style"
+#~ msgstr "境界線上部のスタイル"
+
+#~ msgid "Border Top Width"
+#~ msgstr "境界線上部の幅"
+
+#~ msgid "Border Bottom Color"
+#~ msgstr "境界線下部の色"
+
+#~ msgid "Border Bottom Style"
+#~ msgstr "境界線下部のスタイル"
+
+#~ msgid "Border Bottom Width"
+#~ msgstr "境界線下部の幅"
+
+#~ msgid "Border Left Color"
+#~ msgstr "境界線左部の色"
+
+#~ msgid "Border Left Style"
+#~ msgstr "境界線左部のスタイル"
+
+#~ msgid "Border Left Width"
+#~ msgstr "境界線左部の幅"
+
+#~ msgid "Border Right Color"
+#~ msgstr "境界線右部の色"
+
+#~ msgid "Border Right Style"
+#~ msgstr "境界線右部のスタイル"
+
+#~ msgid "Border Right Width"
+#~ msgstr "境界線右部の幅"
+
+#~ msgid "Border Top Left Radius"
+#~ msgstr "境界線左上の角の丸み"
+
+#~ msgid "Border Top Right Radius"
+#~ msgstr "境界線右上の角の丸み"
+
+#~ msgid "Border Bottom Left Radius"
+#~ msgstr "境界線左下の角の丸み"
+
+#~ msgid "Border Bottom Right Radius"
+#~ msgstr "境界線右下の角の丸み"
+
+#~ msgid "Border Image"
+#~ msgstr "境界線のイメージ"
+
+#~ msgid "Border Image Slice"
+#~ msgstr "境界線のイメージのスライス"
+
+#~ msgid "Border Image Width"
+#~ msgstr "境界線のイメージの幅"
+
+#~ msgid "Border Image Outset"
+#~ msgstr "境界線のイメージのアウトセット"
+
+#~ msgid "Border Image Repeat"
+#~ msgstr "境界線のイメージのリピート"
+
+#~ msgid "stretch"
+#~ msgstr "stretch"
+
+#~ msgid "repeat"
+#~ msgstr "repeat"
+
+#~ msgid "round"
+#~ msgstr "round"
+
+#~ msgid "space"
+#~ msgstr "space"
+
+#~ msgid "Box Decoration Break"
+#~ msgstr "Box Decoration Break"
+
+#~ msgid "slice"
+#~ msgstr "slice"
+
+#~ msgid "clone"
+#~ msgstr "clone"
+
+#~ msgid "Box Shadow"
+#~ msgstr "Box Shadow"
+
+#~ msgid "Width"
+#~ msgstr "横幅"
+
+#~ msgid "Max Width"
+#~ msgstr "最大横幅"
+
+#~ msgid "Min Width"
+#~ msgstr "最小横幅"
+
+#~ msgid "Height"
+#~ msgstr "高さ"
+
+#~ msgid "Max Height"
+#~ msgstr "高さの最大値"
+
+#~ msgid "Min Height"
+#~ msgstr "高さの最小値"
+
+#~ msgid "Margin"
+#~ msgstr "余白"
+
+#~ msgid "Margin Top"
+#~ msgstr "上の余白"
+
+#~ msgid "Margin Bottom"
+#~ msgstr "下の余白"
+
+#~ msgid "Margin Left"
+#~ msgstr "左の余白"
+
+#~ msgid "Margin Right"
+#~ msgstr "右の余白"
+
+#~ msgid "Padding"
+#~ msgstr "パッド"
+
+#~ msgid "Padding Top"
+#~ msgstr "上のパッド"
+
+#~ msgid "Padding Bottom"
+#~ msgstr "下のパッド"
+
+#~ msgid "Padding Left"
+#~ msgstr "左のパッド"
+
+#~ msgid "Padding Right"
+#~ msgstr "右のパッド"
+
+#~ msgid "Overflow"
+#~ msgstr "Overflow"
+
+#~ msgid "Visible"
+#~ msgstr "Visible"
+
+#~ msgid "Auto"
+#~ msgstr "自動"
+
+#~ msgid "Overflow X"
+#~ msgstr "Overflow X"
+
+#~ msgid "Overflow Y"
+#~ msgstr "Overflow Y"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "Static"
+#~ msgstr "Static"
+
+#~ msgid "Absolute"
+#~ msgstr "Absolute"
+
+#~ msgid "Relative"
+#~ msgstr "Relative"
+
+#~ msgid "Display"
+#~ msgstr "Display"
+
+#~ msgid "Block"
+#~ msgstr "Block"
+
+#~ msgid "Flex"
+#~ msgstr "Flex"
+
+#~ msgid "Inline"
+#~ msgstr "Inline"
+
+#~ msgid "Inline-block"
+#~ msgstr "Inline-block"
+
+#~ msgid "Inline-flex"
+#~ msgstr "Inline-flex"
+
+#~ msgid "Inline-table"
+#~ msgstr "Inline-table"
+
+#~ msgid "List-item"
+#~ msgstr "List-item"
+
+#~ msgid "Run-in"
+#~ msgstr "Run-in"
+
+#~ msgid "Table"
+#~ msgstr "Table"
+
+#~ msgid "Table-caption"
+#~ msgstr "Table-caption"
+
+#~ msgid "Table-column-group"
+#~ msgstr "Table-column-group"
+
+#~ msgid "Table-header-group"
+#~ msgstr "Table-header-group"
+
+#~ msgid "Table-footer-group"
+#~ msgstr "Table-footer-group"
+
+#~ msgid "Table-row-group"
+#~ msgstr "Table-row-group"
+
+#~ msgid "Table-cell"
+#~ msgstr "Table-cell"
+
+#~ msgid "Table-column"
+#~ msgstr "Table-column"
+
+#~ msgid "Table-row"
+#~ msgstr "Table-row"
+
+#~ msgid "Initial"
+#~ msgstr "Initial"
+
+#~ msgid "Inherit"
+#~ msgstr "Inherit"
+
+#~ msgid "Float"
+#~ msgstr "Float"
+
+#~ msgid "Clear"
+#~ msgstr "Clear"
+
+#~ msgid "none"
+#~ msgstr "none"
+
+#~ msgid "left"
+#~ msgstr "左"
+
+#~ msgid "right"
+#~ msgstr "右"
+
+#~ msgid "both"
+#~ msgstr "both"
+
+#~ msgid "initial"
+#~ msgstr "初期値"
+
+#~ msgid "inherit"
+#~ msgstr "継承"
+
+#~ msgid "Z Index"
+#~ msgstr "Z Index"
+
+#~ msgid "Visibility"
+#~ msgstr "Visibility"
+
+#~ msgid "Collapse"
+#~ msgstr "Collapse"
+
+#~ msgid "Vertical Align"
+#~ msgstr "Vertical Align"
+
+#~ msgid "baseline"
+#~ msgstr "baseline"
+
+#~ msgid "sub"
+#~ msgstr "sub"
+
+#~ msgid "super"
+#~ msgstr "super"
+
+#~ msgid "top"
+#~ msgstr "上部"
+
+#~ msgid "text-top"
+#~ msgstr "text-top"
+
+#~ msgid "middle"
+#~ msgstr "middle"
+
+#~ msgid "bottom"
+#~ msgstr "下部"
+
+#~ msgid "text-bottom"
+#~ msgstr "text-bottom"
+
+#~ msgid "Clip"
+#~ msgstr "Clip"
+
+#~ msgid "* You can specify by \"rect( top, right, bottom, left )\"."
+#~ msgstr "※ 「rect(top, right, bottom, left)」などで指定可能です。"
+
+#~ msgid "Align Content"
+#~ msgstr "Align Content"
+
+#~ msgid "Stretch"
+#~ msgstr "Stretch"
+
+#~ msgid "Flex-start"
+#~ msgstr "Flex-start"
+
+#~ msgid "Flex-end"
+#~ msgstr "Flex-end"
+
+#~ msgid "Space-between"
+#~ msgstr "Space-between"
+
+#~ msgid "Space-around"
+#~ msgstr "Space-around"
+
+#~ msgid "Align Items"
+#~ msgstr "Align Items"
+
+#~ msgid "Baseline"
+#~ msgstr "Baseline"
+
+#~ msgid "Align Self"
+#~ msgstr "Align Self"
+
+#~ msgid "Flex-grow"
+#~ msgstr "Flex-grow"
+
+#~ msgid "Flex-shrink"
+#~ msgstr "Flex-shrink"
+
+#~ msgid "Flex-basis"
+#~ msgstr "Flex-basis"
+
+#~ msgid "Flex Basis"
+#~ msgstr "Flex Basis"
+
+#~ msgid "Flex Direction"
+#~ msgstr "Flex Direction"
+
+#~ msgid "Row"
+#~ msgstr "Row"
+
+#~ msgid "Row Reverse"
+#~ msgstr "Row Reverse"
+
+#~ msgid "Column"
+#~ msgstr "Column"
+
+#~ msgid "Column Reverse"
+#~ msgstr "Column Reverse"
+
+#~ msgid "Flex Wrap"
+#~ msgstr "Flex Wrap"
+
+#~ msgid "Nowrap"
+#~ msgstr "Nowrap"
+
+#~ msgid "Wrap"
+#~ msgstr "Wrap"
+
+#~ msgid "Wrap Reverse"
+#~ msgstr "Wrap Reverse"
+
+#~ msgid "Align Flex"
+#~ msgstr "Align Flex"
+
+#~ msgid "Row Nowrap"
+#~ msgstr "Row Nowrap"
+
+#~ msgid "Row-Reverse Nowrap"
+#~ msgstr "Row-Reverse Nowrap"
+
+#~ msgid "Column Nowrap"
+#~ msgstr "Column Nowrap"
+
+#~ msgid "Column-Reverse Nowrap"
+#~ msgstr "Column-Reverse Nowrap"
+
+#~ msgid "Row wrap"
+#~ msgstr "Row wrap"
+
+#~ msgid "Row-Reverse Wrap"
+#~ msgstr "Row-Reverse Wrap"
+
+#~ msgid "Column Wrap"
+#~ msgstr "Column Wrap"
+
+#~ msgid "Column-Reverse Wrap"
+#~ msgstr "Column-Reverse Wrap"
+
+#~ msgid "Row Wrap-Reverse"
+#~ msgstr "Row Wrap-Reverse"
+
+#~ msgid "Row-Reverse Wrap-Reverse"
+#~ msgstr "Row-Reverse Wrap-Reverse"
+
+#~ msgid "Column Wrap-Reverse"
+#~ msgstr "Column Wrap-Reverse"
+
+#~ msgid "Column-Reverse Wrap-Reverse"
+#~ msgstr "Column-Reverse Wrap-Reverse"
+
+#~ msgid "Flex Grow"
+#~ msgstr "Flex Grow"
+
+#~ msgid "Flex Shrink"
+#~ msgstr "Flex Shrink"
+
+#~ msgid "Justfy Content"
+#~ msgstr "Justfy Content"
+
+#~ msgid "Flex-Start"
+#~ msgstr "Flex-Start"
+
+#~ msgid "Flex-End"
+#~ msgstr "Flex-End"
+
+#~ msgid "Space-Between"
+#~ msgstr "Space-Between"
+
+#~ msgid "Space-Around"
+#~ msgstr "Space-Around"
+
+#~ msgid "Order"
+#~ msgstr "順番"
+
+#~ msgid "Hanging Punctuation"
+#~ msgstr "Hanging Punctuation"
+
+#~ msgid "First"
+#~ msgstr "First"
+
+#~ msgid "Last"
+#~ msgstr "Last"
+
+#~ msgid "Allow-end"
+#~ msgstr "Allow-end"
+
+#~ msgid "Force-end"
+#~ msgstr "Force-end"
+
+#~ msgid "Hyphens"
+#~ msgstr "ハイフン"
+
+#~ msgid "Manual"
+#~ msgstr "Manual"
+
+#~ msgid "Letter Spacing"
+#~ msgstr "文字間"
+
+#~ msgid "Line Break"
+#~ msgstr "Line Break"
+
+#~ msgid "Loose"
+#~ msgstr "Loose"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Strict"
+#~ msgstr "Strict"
+
+#~ msgid "Line Height"
+#~ msgstr "Line Height"
+
+#~ msgid "Overflow Wrap"
+#~ msgstr "Overflow Wrap"
+
+#~ msgid "Break-word"
+#~ msgstr "Break-word"
+
+#~ msgid "Tab Size"
+#~ msgstr "Tab Size"
+
+#~ msgid "Justify"
+#~ msgstr "Justify"
+
+#~ msgid "Text Align Last"
+#~ msgstr "Text Align Last"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "End"
+#~ msgstr "End"
+
+#~ msgid "Text Combine Upright"
+#~ msgstr "Text Combine Upright"
+
+#~ msgid "You can specify with \"digits num\" in text field"
+#~ msgstr "テキストボックスに「digits 数値」で指定してください。"
+
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgid "Text Indent"
+#~ msgstr "Text Indent"
+
+#~ msgid "Text Justify"
+#~ msgstr "Text Justify"
+
+#~ msgid "Inter-Word"
+#~ msgstr "Inter-Word"
+
+#~ msgid "Inter-Ideograph"
+#~ msgstr "Inter-Ideograph"
+
+#~ msgid "Inter-Cluster"
+#~ msgstr "Inter-Cluster"
+
+#~ msgid "Distribute"
+#~ msgstr "Distribute"
+
+#~ msgid "Kashida"
+#~ msgstr "Kashida"
+
+#~ msgid "Trim"
+#~ msgstr "トリム"
+
+#~ msgid "Text Transform"
+#~ msgstr "テキスト変化"
+
+#~ msgid "Capitalize"
+#~ msgstr "大文字化"
+
+#~ msgid "Uppercase"
+#~ msgstr "大文字"
+
+#~ msgid "Lowercase"
+#~ msgstr "小文字"
+
+#~ msgid "White Space"
+#~ msgstr "空白"
+
+#~ msgid "Pre"
+#~ msgstr "Pre"
+
+#~ msgid "Pre-Line"
+#~ msgstr "Pre-Line"
+
+#~ msgid "Pre-Wrap"
+#~ msgstr "Pre-Wrap"
+
+#~ msgid "Word Break"
+#~ msgstr "Word Break"
+
+#~ msgid "Break-all"
+#~ msgstr "Break-all"
+
+#~ msgid "Keep-all"
+#~ msgstr "Keep-all"
+
+#~ msgid "Word Spacing"
+#~ msgstr "Word Spacing"
+
+#~ msgid "Word Wrap"
+#~ msgstr "Word Wrap"
+
+#~ msgid "Break-Word"
+#~ msgstr "Break-Word"
+
+#~ msgid "Text Decoration"
+#~ msgstr "テキストの装飾"
+
+#~ msgid "Underline"
+#~ msgstr "Underline"
+
+#~ msgid "Overline"
+#~ msgstr "Overline"
+
+#~ msgid "Line-through"
+#~ msgstr "Line-through"
+
+#~ msgid "Text Decoration Color"
+#~ msgstr "テキストの装飾色"
+
+#~ msgid "Text Decoration Line"
+#~ msgstr "Text Decoration Line"
+
+#~ msgid "Text Decoration Style"
+#~ msgstr "Text Decoration Style"
+
+#~ msgid "Wavy"
+#~ msgstr "Wavy"
+
+#~ msgid "Text Shadow"
+#~ msgstr "Text Shadow"
+
+#~ msgid ""
+#~ "For text field, you can specify each value with the form of \"horizontal "
+#~ "vertical blur\""
+#~ msgstr "テキストボックスは、「横 縦 ぼかし」の形で値を入力してください。"
+
+#~ msgid "Text Underline Position"
+#~ msgstr "Text Underline Position"
+
+#~ msgid "Under"
+#~ msgstr "Under"
+
+#~ msgid "Font"
+#~ msgstr "フォント"
+
+#~ msgid "Arial"
+#~ msgstr "Arial"
+
+#~ msgid "Helvetica"
+#~ msgstr "Helvetica"
+
+#~ msgid "Arial Black"
+#~ msgstr "Arial Black"
+
+#~ msgid "Lucida Sans Unicode"
+#~ msgstr "Lucida Sans Unicode"
+
+#~ msgid "Font Feature Settings"
+#~ msgstr "Font Feature Settings"
+
+#~ msgid "Font Kerning"
+#~ msgstr "Font Kerning"
+
+#~ msgid "Font Language Override"
+#~ msgstr "Font Language Override"
+
+#~ msgid "Unset"
+#~ msgstr "Unset"
+
+#~ msgid "XX-Small"
+#~ msgstr "XX-Small"
+
+#~ msgid "X-Small"
+#~ msgstr "X-Small"
+
+#~ msgid "Small"
+#~ msgstr "Small"
+
+#~ msgid "Large"
+#~ msgstr "Large"
+
+#~ msgid "X-Large"
+#~ msgstr "X-Large"
+
+#~ msgid "XX-Large"
+#~ msgstr "XX-Large"
+
+#~ msgid "Smaller"
+#~ msgstr "Smaller"
+
+#~ msgid "Font Size Adjust"
+#~ msgstr "Font Size Adjust"
+
+#~ msgid "Font Stretch"
+#~ msgstr "Font Stretch"
+
+#~ msgid "Ultra-Condensed"
+#~ msgstr "Ultra-Condensed"
+
+#~ msgid "Extra-Condensed"
+#~ msgstr "Extra-Condensed"
+
+#~ msgid "Condensed"
+#~ msgstr "Condensed"
+
+#~ msgid "Semi-Condensed"
+#~ msgstr "Semi-Condensed"
+
+#~ msgid "Semi-Expanded"
+#~ msgstr "Semi-Expanded"
+
+#~ msgid "Expanded"
+#~ msgstr "Expanded"
+
+#~ msgid "Extra-Expanded"
+#~ msgstr "Extra-Expanded"
+
+#~ msgid "Ultra-Expanded"
+#~ msgstr "Ultra-Expanded"
+
+#~ msgid "Font Style"
+#~ msgstr "フォントのスタイル"
+
+#~ msgid "Italic"
+#~ msgstr "イタリック"
+
+#~ msgid "Oblique"
+#~ msgstr "Oblique"
+
+#~ msgid "Font Synthesis"
+#~ msgstr "Font Synthesis"
+
+#~ msgid "Weight"
+#~ msgstr "Weight"
+
+#~ msgid "Style"
+#~ msgstr "スタイル"
+
+#~ msgid "Font Variant"
+#~ msgstr "Font Variant"
+
+#~ msgid "Small-Caps"
+#~ msgstr "Small-Caps"
+
+#~ msgid "Font Variant Alternates"
+#~ msgstr "Font Variant Alternates"
+
+#~ msgid "Font Variant Caps"
+#~ msgstr "Font Variant Caps"
+
+#~ msgid "All-Small-Caps"
+#~ msgstr "All-Small-Caps"
+
+#~ msgid "Petite-Caps"
+#~ msgstr "Petite-Caps"
+
+#~ msgid "All-Petite-Caps"
+#~ msgstr "All-Petite-Caps"
+
+#~ msgid "Unicase"
+#~ msgstr "Unicase"
+
+#~ msgid "Titling-Caps"
+#~ msgstr "Titling-Caps"
+
+#~ msgid "Font Variant East Asian"
+#~ msgstr "Font Variant East Asian"
+
+#~ msgid "Ruby"
+#~ msgstr "ルビ"
+
+#~ msgid "JIS78"
+#~ msgstr "JIS78"
+
+#~ msgid "JIS83"
+#~ msgstr "JIS83"
+
+#~ msgid "JIS90"
+#~ msgstr "JIS90"
+
+#~ msgid "JIS04"
+#~ msgstr "JIS04"
+
+#~ msgid "Simplified"
+#~ msgstr "Simplified"
+
+#~ msgid "Traditional"
+#~ msgstr "Traditional"
+
+#~ msgid "Full-Width"
+#~ msgstr "Full-Width"
+
+#~ msgid "Proportional-Width"
+#~ msgstr "Proportional-Width"
+
+#~ msgid "Font Variant Ligatures"
+#~ msgstr "Font Variant Ligatures"
+
+#~ msgid "Common-Ligatures"
+#~ msgstr "Common-Ligatures"
+
+#~ msgid "No-Common-Ligatures"
+#~ msgstr "No-Common-Ligatures"
+
+#~ msgid "Discretionary-Ligatures"
+#~ msgstr "Discretionary-Ligatures"
+
+#~ msgid "No-Discretionary-Ligatures"
+#~ msgstr "No-Discretionary-Ligatures"
+
+#~ msgid "Historical-Ligatures"
+#~ msgstr "Historical-Ligatures"
+
+#~ msgid "No-Historical-Ligatures"
+#~ msgstr "No-Historical-Ligatures"
+
+#~ msgid "Contextual"
+#~ msgstr "Contextual"
+
+#~ msgid "No-Contextual"
+#~ msgstr "No-Contextual"
+
+#~ msgid "Font Variant Numeric"
+#~ msgstr "Font Variant Numeric"
+
+#~ msgid "Lining-Nums"
+#~ msgstr "Lining-Nums"
+
+#~ msgid "Oldstyle-Nums"
+#~ msgstr "Oldstyle-Nums"
+
+#~ msgid "Proportional-Nums"
+#~ msgstr "Proportional-Nums"
+
+#~ msgid "Tabular-Nums"
+#~ msgstr "Tabular-Nums"
+
+#~ msgid "Diagonal-Fractions"
+#~ msgstr "Diagonal-Fractions"
+
+#~ msgid "Stacked-Fractions"
+#~ msgstr "Stacked-Fractions"
+
+#~ msgid "Ordinal"
+#~ msgstr "Ordinal"
+
+#~ msgid "Slashed-Zero"
+#~ msgstr "Slashed-Zero"
+
+#~ msgid "Font Variant Position"
+#~ msgstr "Font Variant Position"
+
+#~ msgid "Sub"
+#~ msgstr "Sub"
+
+#~ msgid "Super"
+#~ msgstr "Super"
+
+#~ msgid "Font Weight"
+#~ msgstr "Font Weight"
+
+#~ msgid "Bold"
+#~ msgstr "Bold"
+
+#~ msgid "Lighter"
+#~ msgstr "Lighter"
+
+#~ msgid "Bolder"
+#~ msgstr "Bolder"
+
+#~ msgid "Direction"
+#~ msgstr "Direction"
+
+#~ msgid "Left to Right"
+#~ msgstr "左から右"
+
+#~ msgid "Right to Left"
+#~ msgstr "右から左"
+
+#~ msgid "Text Orientation"
+#~ msgstr "Text Orientation"
+
+#~ msgid "Mixed"
+#~ msgstr "Mixed"
+
+#~ msgid "Upright"
+#~ msgstr "Upright"
+
+#~ msgid "Sideways"
+#~ msgstr "Sideways"
+
+#~ msgid "sideways-Right"
+#~ msgstr "sideways-Right"
+
+#~ msgid "Use-Glyph-Orientation"
+#~ msgstr "Use-Glyph-Orientation"
+
+#~ msgid "Unicode Bidi"
+#~ msgstr "Unicode Bidi"
+
+#~ msgid "Embed"
+#~ msgstr "Embed"
+
+#~ msgid "BidiOoverride"
+#~ msgstr "BidiOoverride"
+
+#~ msgid "Isolate"
+#~ msgstr "Isolate"
+
+#~ msgid "Isolate-Override"
+#~ msgstr "Isolate-Override"
+
+#~ msgid "Plaintext"
+#~ msgstr "Plaintext"
+
+#~ msgid "Writing Mode"
+#~ msgstr "Writing Mode"
+
+#~ msgid "Horizontal-TB"
+#~ msgstr "Horizontal-TB"
+
+#~ msgid "Vertical-RL"
+#~ msgstr "Vertical-RL"
+
+#~ msgid "Vertical-LR"
+#~ msgstr "Vertical-LR"
+
+#~ msgid "Sideways-RL"
+#~ msgstr "Sideways-RL"
+
+#~ msgid "Sideways-LR"
+#~ msgstr "Sideways-LR"
+
+#~ msgid "Border Collapse"
+#~ msgstr "Border Collapse"
+
+#~ msgid "Separate"
+#~ msgstr "Separate"
+
+#~ msgid "Border Spacing"
+#~ msgstr "境界線の間隔"
+
+#~ msgid " ( For \"separate\" )"
+#~ msgstr "（separate用）"
+
+#~ msgid "Caption Side"
+#~ msgstr "Caption Side"
+
+#~ msgid "Empty Cells"
+#~ msgstr "空のセル"
+
+#~ msgid "Show"
+#~ msgstr "表示"
+
+#~ msgid "Hide"
+#~ msgstr "非表示"
+
+#~ msgid "Table Layout"
+#~ msgstr "Table Layout"
+
+#~ msgid "Counter Increment"
+#~ msgstr "Counter Increment"
+
+#~ msgid "You can define ID in text field"
+#~ msgstr "テキストボックスでIDを定義できます。"
+
+#~ msgid "Counter Reset"
+#~ msgstr "Counter Reset"
+
+#~ msgid "You can specify Value by Entering \"id Value\" in text field"
+#~ msgstr "テキストボックスで「ID 値」を入力することによって値を指定できます。"
+
+#~ msgid "List Style"
+#~ msgstr "リストスタイル"
+
+#~ msgid "List Style Image"
+#~ msgstr "リストスタイル（イメージ）"
+
+#~ msgid "List Style Position"
+#~ msgstr "リストスタイル（位置）"
+
+#~ msgid "Outside"
+#~ msgstr "外側"
+
+#~ msgid "Inside"
+#~ msgstr "内側"
+
+#~ msgid "List Style Type"
+#~ msgstr "リストスタイル（タイプ）"
+
+#~ msgid "Disc"
+#~ msgstr "Disc"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenian"
+
+#~ msgid "Circle"
+#~ msgstr "Circle"
+
+#~ msgid "CJK-Ideographic"
+#~ msgstr "CJK-Ideographic"
+
+#~ msgid "Decimal"
+#~ msgstr "小数"
+
+#~ msgid "Decimal-Leading-Zero"
+#~ msgstr "Decimal-Leading-Zero"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgian"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebrew"
+
+#~ msgid "Hiragana"
+#~ msgstr "Hiragana"
+
+#~ msgid "Hiragana-iroha"
+#~ msgstr "Hiragana-iroha"
+
+#~ msgid "Katakana"
+#~ msgstr "Katakana"
+
+#~ msgid "Katakana-Iroha"
+#~ msgstr "Katakana-Iroha"
+
+#~ msgid "Lower-Alpha"
+#~ msgstr "Lower-Alpha"
+
+#~ msgid "Lower-Greek"
+#~ msgstr "Lower-Greek"
+
+#~ msgid "Lower-Latin"
+#~ msgstr "Lower-Latin"
+
+#~ msgid "Lower-Roman"
+#~ msgstr "Lower-Roman"
+
+#~ msgid "Square"
+#~ msgstr "四角"
+
+#~ msgid "Upper-Alpha"
+#~ msgstr "Upper-Alpha"
+
+#~ msgid "Upper-Latin"
+#~ msgstr "Upper-Latin"
+
+#~ msgid "Upper-Roman"
+#~ msgstr "Upper-Roman"
+
+#~ msgid "Box Sizing"
+#~ msgstr "Box Sizing"
+
+#~ msgid "Content-Box"
+#~ msgstr "Content-Box"
+
+#~ msgid "Padding-Box"
+#~ msgstr "Padding-Box"
+
+#~ msgid "Border-Box"
+#~ msgstr "Border-Box"
+
+#~ msgid "Content"
+#~ msgstr "コンテンツ"
+
+#~ msgid " ( for Pseudo-elements \"::before\" \"::after\" )"
+#~ msgstr "（「::before」「::after」といった擬似要素）"
+
+#~ msgid "Text should be surrounded by double-quotes"
+#~ msgstr "テキストはダブルクオートで囲ってください。"
+
+#~ msgid "Counter"
+#~ msgstr "カウンター"
+
+#~ msgid "Open-Quote"
+#~ msgstr "Open-Quote"
+
+#~ msgid "Close-Quote"
+#~ msgstr "Close-Quote"
+
+#~ msgid "No-Open-Quote"
+#~ msgstr "No-Open-Quote"
+
+#~ msgid "No-Close-Quote"
+#~ msgstr "No-Close-Quote"
+
+#~ msgid "Cursor"
+#~ msgstr "カーソル"
+
+#~ msgid "Alias"
+#~ msgstr "エイリアス"
+
+#~ msgid "All-scroll"
+#~ msgstr "All-scroll"
+
+#~ msgid "Cell"
+#~ msgstr "セル"
+
+#~ msgid "Context-Menu"
+#~ msgstr "Context-Menu"
+
+#~ msgid "Col-Resize"
+#~ msgstr "Col-Resize"
+
+#~ msgid "Copy"
+#~ msgstr "コピー"
+
+#~ msgid "Crosshair"
+#~ msgstr "Crosshair"
+
+#~ msgid "E-Resize"
+#~ msgstr "E-Resize"
+
+#~ msgid "EW-Resize"
+#~ msgstr "EW-Resize"
+
+#~ msgid "Grab"
+#~ msgstr "Grab"
+
+#~ msgid "Grabbing"
+#~ msgstr "Grabbing"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid "Move"
+#~ msgstr "Move"
+
+#~ msgid "N-Resize"
+#~ msgstr "N-Resize"
+
+#~ msgid "NE-Resize"
+#~ msgstr "NE-Resize"
+
+#~ msgid "NESW-Resize"
+#~ msgstr "NESW-Resize"
+
+#~ msgid "NS-Resize"
+#~ msgstr "NS-Resize"
+
+#~ msgid "NW-Resize"
+#~ msgstr "NW-Resize"
+
+#~ msgid "NWSE-Resize"
+#~ msgstr "NWSE-Resize"
+
+#~ msgid "No-Drop"
+#~ msgstr "No-Drop"
+
+#~ msgid "Not-Allowed"
+#~ msgstr "Not-Allowed"
+
+#~ msgid "Pointer"
+#~ msgstr "Pointer"
+
+#~ msgid "Progress"
+#~ msgstr "Progress"
+
+#~ msgid "Row-Resize"
+#~ msgstr "Row-Resize"
+
+#~ msgid "S-Resize"
+#~ msgstr "S-Resize"
+
+#~ msgid "SE-Resize"
+#~ msgstr "SE-Resize"
+
+#~ msgid "SW-Resize"
+#~ msgstr "SW-Resize"
+
+#~ msgid "Vertical-Text"
+#~ msgstr "Vertical-Text"
+
+#~ msgid "W-Resize"
+#~ msgstr "W-Resize"
+
+#~ msgid "Wait"
+#~ msgstr "Wait"
+
+#~ msgid "Zoom-In"
+#~ msgstr "ズームイン"
+
+#~ msgid "Zoom-Out"
+#~ msgstr "ズームアウト"
+
+#~ msgid "IME Mode"
+#~ msgstr "IME Mode"
+
+#~ msgid "Inactive"
+#~ msgstr "非アクティブ"
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid "Outline"
+#~ msgstr "アウトライン"
+
+#~ msgid "Outline Color"
+#~ msgstr "アウトライン色"
+
+#~ msgid "Outline Offset"
+#~ msgstr "アウトラインオフセット"
+
+#~ msgid "Outline Style"
+#~ msgstr "アウトラインスタイル"
+
+#~ msgid "hidden"
+#~ msgstr "非表示"
+
+#~ msgid "dotted"
+#~ msgstr "点線"
+
+#~ msgid "dashed"
+#~ msgstr "破線"
+
+#~ msgid "solid"
+#~ msgstr "直線"
+
+#~ msgid "double"
+#~ msgstr "二重線"
+
+#~ msgid "groove"
+#~ msgstr "グルーブ"
+
+#~ msgid "ridge"
+#~ msgstr "リッジ"
+
+#~ msgid "inset"
+#~ msgstr "インセット"
+
+#~ msgid "outset"
+#~ msgstr "アウトセット"
+
+#~ msgid "Outline Width"
+#~ msgstr "アウトライン幅"
+
+#~ msgid "Resize"
+#~ msgstr "リサイズ"
+
+#~ msgid "Both"
+#~ msgstr "Both"
+
+#~ msgid "Horizontal"
+#~ msgstr "横"
+
+#~ msgid "Vertical"
+#~ msgstr "縦"
+
+#~ msgid "Text Overflow"
+#~ msgstr "Text Overflow"
+
+#~ msgid "Ellipsis"
+#~ msgstr "Ellipsis"
+
+#~ msgid "Break After"
+#~ msgstr "Break After"
+
+#~ msgid "Always"
+#~ msgstr "Always"
+
+#~ msgid "Avoid"
+#~ msgstr "Avoid"
+
+#~ msgid "Page"
+#~ msgstr "Page"
+
+#~ msgid "Region"
+#~ msgstr "Region"
+
+#~ msgid "Recto"
+#~ msgstr "Recto"
+
+#~ msgid "Verso"
+#~ msgstr "Verso"
+
+#~ msgid "Avoid-Page"
+#~ msgstr "Avoid-Page"
+
+#~ msgid "Avoid-Column"
+#~ msgstr "Avoid-Column"
+
+#~ msgid "Avoid-Region"
+#~ msgstr "Avoid-Region"
+
+#~ msgid "Break Before"
+#~ msgstr "Break Before"
+
+#~ msgid "Break Inside"
+#~ msgstr "Break Inside"
+
+#~ msgid "Column Count"
+#~ msgstr "Column Count"
+
+#~ msgid "Column Fill"
+#~ msgstr "Column Fill"
+
+#~ msgid "Balance"
+#~ msgstr "Balance"
+
+#~ msgid "Column Gap"
+#~ msgstr "Column Gap"
+
+#~ msgid "Column Rule"
+#~ msgstr "Column Rule"
+
+#~ msgid "Column Rule Color"
+#~ msgstr "Column Rule Color"
+
+#~ msgid "Column Rule Style"
+#~ msgstr "Column Rule Style"
+
+#~ msgid "Column Rule Width"
+#~ msgstr "Column Rule Width"
+
+#~ msgid "Column Span"
+#~ msgstr "Column Span"
+
+#~ msgid "Column Width"
+#~ msgstr "Column Width"
+
+#~ msgid "Column Column Width"
+#~ msgstr "Column Column Width"
+
+#~ msgid "Columns"
+#~ msgstr "Columns"
+
+#~ msgid "Widows"
+#~ msgstr "Widows"
+
+#~ msgid "Orphans"
+#~ msgstr "Orphans"
+
+#~ msgid "Page Break After"
+#~ msgstr "Page Break After"
+
+#~ msgid "Page Break Before"
+#~ msgstr "Page Break Before"
+
+#~ msgid "Page Break Inside"
+#~ msgstr "Page Break Inside"
+
+#~ msgid "auto"
+#~ msgstr "自動"
+
+#~ msgid "avoid"
+#~ msgstr "avoid"
+
+#~ msgid "Marks"
+#~ msgstr "Marks"
+
+#~ msgid "Crop"
+#~ msgstr "Crop"
+
+#~ msgid "Cross"
+#~ msgstr "Cross"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "Like \"func( val )\", \"url( file )\""
+#~ msgstr "「func( val )」・「url( file )」のように"
+
+#~ msgid "Image Orientation"
+#~ msgstr "Image Orientation"
+
+#~ msgid "Refer to EXIF of the Image"
+#~ msgstr "イメージのEXIFを参照する"
+
+#~ msgid "Flip"
+#~ msgstr "反転"
+
+#~ msgid "Image Rendering"
+#~ msgstr "Image Rendering"
+
+#~ msgid "Rely on User-Agent"
+#~ msgstr "ユーザーエージェントに依存する"
+
+#~ msgid "Optimize Quality"
+#~ msgstr "画質を重視する"
+
+#~ msgid "Optimize Speed"
+#~ msgstr "速度を重視する"
+
+#~ msgid "Object Fit"
+#~ msgstr "Object Fit"
+
+#~ msgid "Fill"
+#~ msgstr "Fill"
+
+#~ msgid "Contain"
+#~ msgstr "Contain"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid "Scale-Down"
+#~ msgstr "Scale-Down"
+
+#~ msgid "Object Position"
+#~ msgstr "Object Position"
+
+#~ msgid "Mask"
+#~ msgstr "Mask"
+
+#~ msgid "Mask Type"
+#~ msgstr "Mask Type"
+
+#~ msgid "Luminance"
+#~ msgstr "Luminance"
+
+#~ msgid "Alpha"
+#~ msgstr "Alpha"
+
+#~ msgid "This Section is for Default \"Home\""
+#~ msgstr "このセクションはデフォルトの「ホーム」用です。"
+
+#~ msgid "Blog"
+#~ msgstr "ブログ"
+
+#~ msgid "This Section is for \"Blog\""
+#~ msgstr "このセクションは「ブログ」用です。"
+
+#~ msgid "Front Page"
+#~ msgstr "フロントページ"
+
+#~ msgid "This Section is for \"Front Page\""
+#~ msgstr "このセクションは「フロントページ」用です。"
+
+#~ msgid "This Section is for \"Archive Page\""
+#~ msgstr "このセクションは「アーカイブページ」用です。"
+
+#~ msgid "Posts"
+#~ msgstr "投稿ページ"
+
+#~ msgid "This Section is for \"Single-Type Page\""
+#~ msgstr "このセクションは「シングルタイプのページ」用です。"
+
+#~ msgid "This Section is for \"Page-Type Page\""
+#~ msgstr "このセクションは「ページタイプのページ」用です。"
+
+#~ msgid "Widget Area"
+#~ msgstr "ウィジェットエリア"
+
+#~ msgid "This is \"Widget Area %d\"."
+#~ msgstr "これは「ウィジェットエリア%d」です。"
+
+#~ msgid "No Icons"
+#~ msgstr "アイコン無し"
+
+#~ msgid "Specify Width of Menu Items by Setting Below"
+#~ msgstr "下の設定でメニューアイテムの横幅を指定"
+
+#~ msgid "Width of Each Menu Item"
+#~ msgstr "各メニューアイテムの横幅"
+
+#~ msgid "Font Awesome Icon"
+#~ msgstr "Font Awesome アイコン"
+
+#~ msgid ""
+#~ "FYR, check the reference page \"<a rel=\"nofollow\" target=\"_blank\" "
+#~ "href=\"http://fortawesome.github.io/Font-Awesome/icons/\"\">Fontawesome "
+#~ "Icons</a>\". * This settings choices don't include alias."
+#~ msgstr ""
+#~ "<a rel=\"nofollow\" target=\"_blank\" href=\"http://fortawesome.github.io/"
+#~ "Font-Awesome/icons/\">FontAwesomeのアイコン一覧参照ページ</a>で括弧内の"
+#~ "コードを確認して下さい。 ※エイリアスは選択肢にありませんので、リンク先で確"
+#~ "認したクラス名表示がエイリアス（alias)の場合、クリックして再度クラス名をご"
+#~ "確認ください。"
+
+#~ msgid "Icon Color"
+#~ msgstr "アイコン色"
+
+#~ msgid "Not display Comments"
+#~ msgstr "コメントを非表示"
+
+#~ msgid ""
+#~ "FYR, check the reference page \"<a rel=\"nofollow\" target=\"_blank\" "
+#~ "href=\"http://fortawesome.github.io/Font-Awesome/icons/\">Fontawesome "
+#~ "Icons</a>\". * This settings choices don't include alias."
+#~ msgstr ""
+#~ "<a rel=\"nofollow\" target=\"_blank\" href=\"http://fortawesome.github.io/"
+#~ "Font-Awesome/icons/\">FontAwesomeのアイコン一覧参照ページ</a>で括弧内の"
+#~ "コードを確認して下さい。 ※エイリアスは選択肢にありませんので、リンク先で確"
+#~ "認したクラス名表示がエイリアス（alias)の場合、クリックして再度クラス名をご"
+#~ "確認ください。"
+
+#~ msgid "Font Awesome Icon for Widget Title"
+#~ msgstr "ウィジェットタイトルのFont Awesomeアイコン"
+
+#~ msgid "Font Awesome Icon for List of Widget Item ( Like \"Category\" )"
+#~ msgstr ""
+#~ "ウィジェットアイテム（カテゴリーなど）のリスト用のFont Awesomeアイコン"
+
+#~ msgid "Icon Color for List of Widget Item ( Like \"Category\" )"
+#~ msgstr "ウィジェットアイテム（カテゴリーなど）のリスト用のアイコン色"
+
+#~ msgid "Optional Widget Areas"
+#~ msgstr "オプショナルウィジェットエリア"
+
+#~ msgid "Mobile Sidebar ( Wrapper )"
+#~ msgstr "モバイル用サイドバー（ラッパー）"
+
+#~ msgid "After the Header ( Wrapper )"
+#~ msgstr "ヘッダー後（ラッパー）"
+
+#~ msgid "Before Content Area ( Wrapper )"
+#~ msgstr "コンテンツエリア前（ラッパー）"
+
+#~ msgid "Before the Content ( Wrapper )"
+#~ msgstr "コンテンツ前（ラッパー）"
+
+#~ msgid "At the Beginning of the Content ( Wrapper )"
+#~ msgstr "コンテンツ開始（ラッパー）"
+
+#~ msgid "Before the First H2 tag of the Content ( Wrapper )"
+#~ msgstr "最初のH2タグの前（ラッパー）"
+
+#~ msgid "At the End of the Content ( Wrapper )"
+#~ msgstr "コンテンツ最後（ラッパー）"
+
+#~ msgid "After the Content ( Wrapper )"
+#~ msgstr "コンテンツ後（ラッパー）"
+
+#~ msgid "Before the Footer ( Wrapper )"
+#~ msgstr "フッター前（ラッパー）"
+
+#~ msgid "In the Footer ( Wrapper )"
+#~ msgstr "フッター内（ラッパー）"
+
+#~ msgid "Background Color ( Area Wrapper )"
+#~ msgstr "背景色（エリアラッパー）"
+
+#~ msgid "Background Image ( Area Wrapper )"
+#~ msgstr "背景のイメージ（エリアラッパー）"
+
+#~ msgid "Background Size ( Area Wrapper )"
+#~ msgstr "背景のサイズ（エリアラッパー）"
+
+#~ msgid "Background Position Row ( Area Wrapper )"
+#~ msgstr "背景の行の位置（エリアラッパー）"
+
+#~ msgid "Background Position Column ( Area Wrapper )"
+#~ msgstr "背景の列の位置（エリアラッパー）"
+
+#~ msgid "Background Repeat ( Area Wrapper )"
+#~ msgstr "背景の繰り返し（エリアラッパー）"
+
+#~ msgid "Background Attachment ( Area Wrapper )"
+#~ msgstr "背景の固定（エリアラッパー）"
+
+#~ msgid "Background Color ( Each Area )"
+#~ msgstr "背景色（各ウィジェットエリア）"
+
+#~ msgid "Background Image ( Each Area )"
+#~ msgstr "背景のイメージ（各ウィジェットエリア）"
+
+#~ msgid "Background Size ( Each Area )"
+#~ msgstr "背景のサイズ（各ウィジェットエリア）"
+
+#~ msgid "Background Position Row ( Each Area )"
+#~ msgstr "背景の行の位置（各ウィジェットエリア）"
+
+#~ msgid "Background Position Column ( Each Area )"
+#~ msgstr "背景の列の位置（各ウィジェットエリア）"
+
+#~ msgid "Background Repeat ( Each Area )"
+#~ msgstr "背景の繰り返し（各ウィジェットエリア）"
+
+#~ msgid "Background Attachment ( Each Area )"
+#~ msgstr "背景の固定（各ウィジェットエリア）"
+
+#~ msgid "Padding for Widget Area"
+#~ msgstr "ウィジェットエリアのパッド"
+
+#~ msgid "Background Color ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景色（外側）"
+
+#~ msgid "Background Image ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景のイメージ（外側）"
+
+#~ msgid "Background Size ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景のサイズ（外側）"
+
+#~ msgid "Background Position Row ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の行の位置（外側）"
+
+#~ msgid "Background Position Column ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の列の位置（外側）"
+
+#~ msgid "Background Repeat ( Outside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の繰り返し（外側）"
+
+#~ msgid "Background Attachment ( Outside of Widget )"
+#~ msgstr "背景の固定（ウィジェットの外側）"
+
+#~ msgid "Background Color ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景色（内側）"
+
+#~ msgid "Background Image ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景のイメージ（内側）"
+
+#~ msgid "Background Size ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景のサイズ（内側）"
+
+#~ msgid "Background Position Row ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の行の位置（内側）"
+
+#~ msgid "Background Position Column ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の列の位置（内側）"
+
+#~ msgid "Background Repeat ( Inside of Widget )"
+#~ msgstr "ウィジェットアイテムの背景の繰り返し（外側）"
+
+#~ msgid "Background Attachment ( Inside of Widget )"
+#~ msgstr "背景の固定（ウィジェットの内側）"
+
+#~ msgid "Border Radius of Each Item"
+#~ msgstr "各アイテムの丸み"
+
+#~ msgid "Padding for Each Item"
+#~ msgstr "各アイテムのパッド"
+
+#~ msgid "Return to the dashboard"
+#~ msgstr "ダッシュボードへ戻る"
+
+#~ msgid "%s Styles"
+#~ msgstr "%s スタイル"
+
+#~ msgid "Background Image Size"
+#~ msgstr "背景イメージのサイズ"
+
+#~ msgid "Header Image"
+#~ msgstr "ヘッダー画像"
+
+#~ msgid ""
+#~ "Styles of Header Image ( Some of settings are meaningless for Mobile "
+#~ "Devices )"
+#~ msgstr ""
+#~ "ヘッダー画像のスタイル（モバイル端末での表示には影響しない部分もありま"
+#~ "す。）"
+
+#~ msgid "Settings for Header Image"
+#~ msgstr "ヘッダー画像の設定"
+
+#~ msgid "Select an Image"
+#~ msgstr "イメージを選択"
+
+#~ msgid ""
+#~ "Select an Header Image. If you just want to print Text without Image, "
+#~ "just ignore here."
+#~ msgstr ""
+#~ "ヘッダー画像を選択してください。画像無しでテキストを出力したい場合は無視し"
+#~ "てください。"
+
+#~ msgid "Image Max Widths"
+#~ msgstr "イメージの最大横幅"
+
+#~ msgid "Image Height"
+#~ msgstr "イメージの高さ"
+
+#~ msgid "Header Image Position"
+#~ msgstr "Header Image Position"
+
+#~ msgid "Margin Side"
+#~ msgstr "横の余白"
+
+#~ msgid "Margin bottom"
+#~ msgstr "下の余白"
+
+#~ msgid ""
+#~ "Enter the value of 'background-size'. examples '100% 200px', 'auto', "
+#~ "'contain', 'cover'."
+#~ msgstr ""
+#~ "「background-size」の値を入力してください。例：「100% 200px」「auto」"
+#~ "「contain」「cover」"
+
+#~ msgid "Title and Description"
+#~ msgstr "タイトルと詳細"
+
+#~ msgid ""
+#~ "Styles for Title and Description of Website. If Logo Image displays Title "
+#~ "or/and Descriptioin, Recommended NOT to display them"
+#~ msgstr ""
+#~ "ウェブサイトのタイトルと詳細のスタイルです。ロゴイメージがタイトルや詳細を"
+#~ "表示している場合は、テキスト出力は不要かもしれません。"
+
+#~ msgid "Title Display"
+#~ msgstr "タイトル表示"
+
+#~ msgid "Description Display"
+#~ msgstr "詳細の表示"
+
+#~ msgid "Position to Display"
+#~ msgstr "表示位置"
+
+#~ msgid "Left Top"
+#~ msgstr "左上"
+
+#~ msgid "Left Bottom"
+#~ msgstr "左下"
+
+#~ msgid "Right Top"
+#~ msgstr "右上"
+
+#~ msgid "Right Bottom"
+#~ msgstr "右下"
+
+#~ msgid "Font Size of Title"
+#~ msgstr "タイトルのフォントサイズ"
+
+#~ msgid "Font Size of Description"
+#~ msgstr "詳細のフォントサイズ"
+
+#~ msgid ""
+#~ "This is the section you can set the value for color settings related to "
+#~ "Header Image"
+#~ msgstr "このセクションではヘッダー画像関連の配色設定ができます。"
+
+#~ msgid "Header Image Background"
+#~ msgstr "ヘッダー画像の背景"
+
+#~ msgid "Description"
+#~ msgstr "詳細"
+
+#~ msgid "Custom CSS"
+#~ msgstr "カスタムCSS"
+
+#~ msgid ""
+#~ "If doesn't effect properly, please check the pre-set CSS value. Sometimes "
+#~ "Appending \"id\" or \"class\" of the parent element solve the problem."
+#~ msgstr ""
+#~ "プロパティにうまく影響しない場合、テーマなどで既に設定されている値を確認し"
+#~ "てください。そういった場合、親要素の「id」「class」をセレクタに追加するこ"
+#~ "とで解決できることがあります。"
+
+#~ msgid "Not Allowed."
+#~ msgstr "認められません。"
+
+#~ msgid "Logo"
+#~ msgstr "ロゴ"
+
+#~ msgid "Logo Position"
+#~ msgstr "ロゴの位置"
+
+#~ msgid "Logo Background"
+#~ msgstr "ロゴ背景"
+
+#~ msgid "Width Size of One Column Page"
+#~ msgstr "１カラムページの横幅"
+
+#~ msgid "Textarea"
+#~ msgstr "テキストエリア"
+
+#~ msgid "Page Link"
+#~ msgstr "ページリンク"
+
+#~ msgid "Slider"
+#~ msgstr "スライダー"
+
+#~ msgid "Widget from Widget Areas"
+#~ msgstr "配置済みウィジェット"
+
+#~ msgid "New Registered Widget"
+#~ msgstr "新規登録ウィジェット"
+
+#~ msgid "Standard"
+#~ msgstr "標準設定"
+
+#~ msgid "Aisde"
+#~ msgstr "アサイド"
+
+#~ msgid "Gallary"
+#~ msgstr "ギャラリー"
+
+#~ msgid "Image"
+#~ msgstr "イメージ"
+
+#~ msgid "Link"
+#~ msgstr "リンク"
+
+#~ msgid "Quote"
+#~ msgstr "引用"
+
+#~ msgid "Video"
+#~ msgstr "動画"
+
+#~ msgid "Audio"
+#~ msgstr "音声"
+
+#~ msgid "Chat"
+#~ msgstr "チャット"
+
+#~ msgid "&nbsp;Settings for Optional Outputs in Widget Areas"
+#~ msgstr "&nbsp;ウィジェットエリアへのオプショナルアウトプットの設定"
+
+#~ msgid ""
+#~ "Outputs Settings here are Applied as higher priorities to Deactivation "
+#~ "Settings Above."
+#~ msgstr ""
+#~ "ここでのアウトプット設定は上の非アクティブ設定に優先されて適用されます。"
+
+#~ msgid "Append Items as much as you want to print in widget areas"
+#~ msgstr "ウィジェットエリアにプリントするだけアイテムを追加してください。"
+
+#~ msgid "Select \"Type\" and \"Hook\""
+#~ msgstr "「タイプ」と「フック」を選択してください。"
+
+#~ msgid ""
+#~ "To Remove Items, Select items by checkbox and click \"Remove\" button, "
+#~ "then, Save."
+#~ msgstr ""
+#~ "アイテムを削除するには、チェックボックスで選択し、「削除」ボタンをクリック"
+#~ "した後、一度保存してください。"
+
+#~ msgid "Item Title"
+#~ msgstr "アイテムタイトル"
+
+#~ msgid "Hook"
+#~ msgstr "フック"
+
+#~ msgid "Append An Item"
+#~ msgstr "アイテムを追加"
+
+#~ msgid "Remove Selected Items"
+#~ msgstr "選択されたアイテムを削除"
+
+#~ msgid "Please Select One."
+#~ msgstr "選択してください。"
+
+#~ msgid "Edit the Item"
+#~ msgstr "アイテムを編集"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Display on PC"
+#~ msgstr "パソコンで表示"
+
+#~ msgid "Display on Mobile"
+#~ msgstr "モバイルで表示"
+
+#~ msgid "Background Image Set"
+#~ msgstr "背景イメージのセット"
+
+#~ msgid ""
+#~ "Images will be background of this output by Vegas. <strong>* This "
+#~ "settings Will Not be applied for Slider</strong>."
+#~ msgstr ""
+#~ "イメージはVegasによりこれの背景となります。<strong>※ この設定はスライダー"
+#~ "には適用されません。</strong>"
+
+#~ msgid "Select Images"
+#~ msgstr "イメージを選択"
+
+#~ msgid "Remove Images"
+#~ msgstr "イメージを削除"
+
+#~ msgid "Page Title"
+#~ msgstr "ページのタイトル"
+
+#~ msgid "Page Description"
+#~ msgstr "ページの詳細"
+
+#~ msgid "Page URL"
+#~ msgstr "ページのURL"
+
+#~ msgid "Download Title"
+#~ msgstr "ダウンロードコンテンツのタイトル"
+
+#~ msgid "Download Description"
+#~ msgstr "ダウンロードの詳細"
+
+#~ msgid "Download URL"
+#~ msgstr "ダウンロードURL"
+
+#~ msgid "Demo URL"
+#~ msgstr "デモページのURL"
+
+#~ msgid "Slider Item Num"
+#~ msgstr "スライドアイテムの数"
+
+#~ msgid "Slider Type"
+#~ msgstr "スライダーのタイプ"
+
+#~ msgid "Popular Posts"
+#~ msgstr "人気投稿一覧"
+
+#~ msgid "Slider Side Controls"
+#~ msgstr "スライダーのサイドコントロール"
+
+#~ msgid "Slider Buttons"
+#~ msgstr "スライダーのボタン"
+
+#~ msgid "Select Post Formats to Display"
+#~ msgstr "表示する投稿フォーマット"
+
+#~ msgid "Select One"
+#~ msgstr "選択してください。"
+
+#~ msgid "Inactive Widgets"
+#~ msgstr "使用停止中のウィジェット"
+
+#~ msgid "Widgets in \"%s\""
+#~ msgstr "「%s」のウィジェット"
+
+#~ msgid "Selecting Widget"
+#~ msgstr "ウィジェット選択"
+
+#~ msgid ""
+#~ "<p>Please Select one that WILL NOT be printed by Widget Settings because "
+#~ "it may duplicate element ID.</p>"
+#~ msgstr ""
+#~ "<p>ウィジェット設定によって出力されないウィジェットを選択してください。同"
+#~ "じものを出力するとウィジェットの要素のIDが重複する可能性があります。</p>"
+
+#~ msgid "Settings to Detect Conditions"
+#~ msgstr "出力条件の設定"
+
+#~ msgid "Priority Settings for Display"
+#~ msgstr "表示の優先設定"
+
+#~ msgid "Blog Page"
+#~ msgstr "ブログページ"
+
+#~ msgid "Display Settings for each pages"
+#~ msgstr "各ページの表示設定"
+
+#~ msgid "Archive Pages"
+#~ msgstr "アーカイブページ"
+
+#~ msgid "Content Pages"
+#~ msgstr "コンテンツページ"
+
+#~ msgid "Check Not to be Displayed in Pages Below"
+#~ msgstr "以下のページで非表示にする場合にチェックしてください。"
+
+#~ msgid "Check Not to be Displayed in Pages Below ( for WooCommerce Pages )"
+#~ msgstr ""
+#~ "以下のページで非表示にする場合にチェックしてください。（WooCommerce用）"
+
+#~ msgid "Shop or Product Pages"
+#~ msgstr "ショップページ or 商品ページ"
+
+#~ msgid "Cart Page"
+#~ msgstr "カートページ"
+
+#~ msgid "Checkout Page"
+#~ msgstr "チェックアウトページ"
+
+#~ msgid "Account Page"
+#~ msgstr "アカウントページ"
+
+#~ msgid "Select displayed Devices"
+#~ msgstr "表示されるデバイスを選択"
+
+#~ msgid "All Devices"
+#~ msgstr "全ての端末"
+
+#~ msgid "PC"
+#~ msgstr "パソコン"
+
+#~ msgid "Only Mobile Devices"
+#~ msgstr "モバイル端末のみ"
+
+#~ msgid "Only Tablet Devices ( not Phones )"
+#~ msgstr "タブレット端末のみ（スマホを含まない）"
+
+#~ msgid "Only Phones ( not Tablet Devices )"
+#~ msgstr "スマホのみ（タブレットを含まない）"
+
+#~ msgid "&nbsp;Load Next Page"
+#~ msgstr "&nbsp;次のページ"
+
+#~ msgid "Read"
+#~ msgstr "読む"
+
+#~ msgid ""
+#~ "FYR, check the reference page '<a rel='nofollow' target='_blank' "
+#~ "href='http://fortawesome.github.io/Font-Awesome/icons/'>Fontawesome "
+#~ "Icons</a>'. * This settings choices don't include alias."
+#~ msgstr ""
+#~ "<a rel=\"nofollow\" target=\"_blank\" href=\"http://fortawesome.github.io/"
+#~ "Font-Awesome/icons/\">FontAwesomeのアイコン一覧参照ページ</a>で括弧内の"
+#~ "コードを確認して下さい。 ※エイリアスは選択肢にありませんので、リンク先で確"
+#~ "認したクラス名表示がエイリアス（alias)の場合、クリックして再度クラス名をご"
+#~ "確認ください。"
+
+#~ msgid "Disable <b>Publish</b> Button"
+#~ msgstr "<b>公開</b>ボタンを無効にする"
+
+#~ msgctxt "Closing Brace"
+#~ msgid "\""
+#~ msgstr "」"
+
+#~ msgid "Tag :"
+#~ msgstr "タグ："
+
+#~ msgid "... Read more"
+#~ msgstr "... 続きを読む"
+
+#~ msgid "Color"
+#~ msgstr "色"
+
+#~ msgid "300"
+#~ msgstr "300"
+
+#~ msgid "400"
+#~ msgstr "400"
+
+#~ msgid "600"
+#~ msgstr "600"
+
+#~ msgid "Message Dismissed"
+#~ msgstr "メッセージ非表示"
+
+#~ msgid "Updated"
+#~ msgstr "更新しました"
+
+#~ msgid "Body Background"
+#~ msgstr "Body 背景"
+
+#~ msgid "Sidebar Background"
+#~ msgstr "サイドバー背景"
+
+#~ msgid "Article Background"
+#~ msgstr "記事背景"
+
+#~ msgid "Footer Background"
+#~ msgstr "フッター背景"
+
+#~ msgid "Background Colors"
+#~ msgstr "背景色"
+
+#~ msgid "This is the optional control description."
+#~ msgstr "これはオプショナルコントロールです。"
+
+#~ msgid "Body Text"
+#~ msgstr "Body テキスト"
+
+#~ msgid "Headings"
+#~ msgstr "見出し"
+
+#~ msgid "Footer Text"
+#~ msgstr "フッターテキスト"
+
+#~ msgid "Paragraph Text"
+#~ msgstr "パラグラフテキスト"
+
+#~ msgid "Text Colors"
+#~ msgstr "テキストの色"
+
+#~ msgid ""
+#~ "Now Using the same 'Display Name' with 'User Name for Login'. Please "
+#~ "change your 'Display Name' at 'Your Profile'."
+#~ msgstr ""
+#~ "現在「表示名」と「ログイン用のユーザー名」が同一です。「プロフィール編集"
+#~ "ページ」で「表示名」を変更してください。"
+
+#~ msgid ""
+#~ "Now Using the same 'Slug for Author Archive Page' with 'User Name for "
+#~ "Login'. Please change your 'Slug' at 'Your Profile'."
+#~ msgstr ""
+#~ "現在「スラッグ」と「ログイン用のユーザー名」が同一です。「プロフィール編集"
+#~ "ページ」で「スラッグ」を変更してください。"
+
+#~ msgid "Print meta tags<br>with settings below"
+#~ msgstr "以下の設定でmetaタグを出力"
+
+#~ msgid "Robots Meta"
+#~ msgstr "Robotsメタ"
+
+#~ msgid "Meta Description"
+#~ msgstr "メタ詳細"
+
+#~ msgid "Meta Keywords"
+#~ msgstr "メタキーワード"
+
+#~ msgid "Custom Settings"
+#~ msgstr "カスタム設定"
+
+#~ msgid "Thumbnail"
+#~ msgstr "サムネイル"
+
+#~ msgid "Reset"
+#~ msgstr "リセット"
+
+#~ msgid "Priority of Thumbnail"
+#~ msgstr "適用されるサムネイルの優先度"
+
+#~ msgid "Thumbnail for Each Page ( at edit page )"
+#~ msgstr "各ページのサムネイル（編集ページで設定）"
+
+#~ msgid "Thumbnail for Category ( at this page )"
+#~ msgstr "カテゴリーのサムネイル（このページで設定）"
+
+#~ msgid "Thumbnail for User ( at Profile setting page )"
+#~ msgstr "ユーザーのサムネイル（プロフィール設定ページで設定）"
+
+#~ msgid "Default Thumbnail ( at theme customizer )"
+#~ msgstr "標準のサムネイル（テーマカスタマイザーで設定）"
+
+#~ msgid "Set the Image"
+#~ msgstr "イメージをセット"
+
+#~ msgid "Saved."
+#~ msgstr "保存しました。"
+
+#~ msgid "Settings by Theme ShapeShifter"
+#~ msgstr "テーマの設定"
+
+#~ msgid "Initial Tab"
+#~ msgstr "初期表示タブ"
+
+#~ msgid "Select the tab you want to display first when this page is loaded"
+#~ msgstr ""
+#~ "このページがロードされた時、最初に表示したいタブを選択してください。"
+
+#~ msgid "Post Format Not to Display"
+#~ msgstr "表示しない投稿フォーマット"
+
+#~ msgid "Not Display Aisde"
+#~ msgstr "アサイドを非表示"
+
+#~ msgid "Not Display Gallary"
+#~ msgstr "ギャラリーを非表示"
+
+#~ msgid "Not Display Image"
+#~ msgstr "イメージを非表示"
+
+#~ msgid "Not Display Quote"
+#~ msgstr "引用を非表示"
+
+#~ msgid "Not Display Status"
+#~ msgstr "ステータスを非表示"
+
+#~ msgid "Not Display Video"
+#~ msgstr "動画を非表示"
+
+#~ msgid "Not Display Audio"
+#~ msgstr "音声を非表示"
+
+#~ msgid "Not Display Chat"
+#~ msgstr "チャットを非表示"
+
+#~ msgid ""
+#~ "Select Post Formats Not to display in post list of archive pages that "
+#~ "include home page."
+#~ msgstr ""
+#~ "ホームページを含むアーカイブページの投稿リストにおいて、表示しない投稿"
+#~ "フォーマットを選択してください。"
+
+#~ msgid "Remove Actions"
+#~ msgstr "Remove Actions"
+
+#~ msgid "RSD"
+#~ msgstr "RSD"
+
+#~ msgid "WLW Manifest"
+#~ msgstr "WLW Manifest"
+
+#~ msgid "WP Generator"
+#~ msgstr "WP Generator"
+
+#~ msgid "Feed Links Extra"
+#~ msgstr "Feed Links Extra"
+
+#~ msgid "Feed Links"
+#~ msgstr "Feed Links"
+
+#~ msgid "Index Rel Link"
+#~ msgstr "Index Rel Link"
+
+#~ msgid "Parent Post Rel Link"
+#~ msgstr "Parent Post Rel Link"
+
+#~ msgid "Start Post Rel Link"
+#~ msgstr "Start Post Rel Link"
+
+#~ msgid "Adjacent Posts Rel Link WP Head"
+#~ msgstr "Adjacent Posts Rel Link WP Head"
+
+#~ msgid "You can remove default actions by wordpress"
+#~ msgstr "ワードプレスによる標準設定を解除できます。"
+
+#~ msgid "Saved"
+#~ msgstr "保存しました。"
+
+#~ msgid "It's the same 'User Name for login'. Please change"
+#~ msgstr "「ログイン用のユーザー名」と同じですので変更してください。"
+
+#~ msgid ""
+#~ "If the slug is the same value with 'User Name for Login', Please change."
+#~ "<br>\n"
+#~ "\t\t\t\t\t\t\tThe slug is used after Website URL like '%s/author/SLUG/'"
+#~ msgstr ""
+#~ "「スラッグ」が「ログイン用のユーザー名」と同じなら変更してください。<br>ス"
+#~ "ラッグは「%s/author/SLUG/」のようにウェブサイトURLの後に使用されます。"
+
+#~ msgid "Image Settings to use for 'Twitter Card' and 'Open Graph'."
+#~ msgstr "「Twitter Card」や「Open Graph」に使用するイメージの設定"
+
+#~ msgid "Excerpt length"
+#~ msgstr "抜粋の長さ"
+
+#~ msgid ""
+#~ "This is settings to change \"Excerpt Length\" for Post List in Archive "
+#~ "Page. Please set Positive Integer."
+#~ msgstr ""
+#~ "アーカイブページの投稿リストの抜粋の長さを変更する設定項目です。正の整数を"
+#~ "半角で入力してください。"
+
+#~ msgid "Default Value of Content"
+#~ msgstr "コンテンツの標準値"
+
+#~ msgid ""
+#~ "When you add New Page, this settings value will be printed as default "
+#~ "value."
+#~ msgstr "新規追加の際、初期値として設定されます。"
+
+#~ msgid "Print in HEAD tag"
+#~ msgstr "HEADタグ内に出力"
+
+#~ msgid "Text will be printed in head tag hooked by 'wp_head'."
+#~ msgstr "「wp_head」にフックされ、HEADタグ内に出力されます。"
+
+#~ msgid "Print in header"
+#~ msgstr "ヘッダーに出力"
+
+#~ msgid ""
+#~ "Texts will be printed in header after the starting BODY tag '&lt;"
+#~ "body&gt;'."
+#~ msgstr "「&lt;BODY&gt;」後に出力されます。"
+
+#~ msgid "Print in footer"
+#~ msgstr "フッターに出力"
+
+#~ msgid ""
+#~ "Texts will be printed in footer before the ending BODY tag '&lt;/"
+#~ "body&gt;'."
+#~ msgstr "「&lt;/BODY&gt;」前に出力されます。"
+
+#~ msgid "How to handle CSS Files"
+#~ msgstr "CSSファイルの扱い方"
+
+#~ msgid "You can upload and enqueue your own CSS Files if you want"
+#~ msgstr ""
+#~ "必要に応じてCSSファイルをアップロードし、公開ページ側で出力させることがで"
+#~ "きます。"
+
+#~ msgid "Not Possible to apply, to upload and to delete at once."
+#~ msgstr "「適用」「アップロード」「削除」は同時に行えません。"
+
+#~ msgid "Apply CSS"
+#~ msgstr "CSSを適用"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "File Name"
+#~ msgstr "ファイル名"
+
+#~ msgid "Upload CSS File"
+#~ msgstr "CSSファイルをアップロード"
+
+#~ msgid ""
+#~ "Please check if file name includes multibyte letters ( like Japanese "
+#~ "letters ) before upload it to avoid HTML warning.<br>\n"
+#~ "\t\t\tThose letters ( specially combined one  ) sometimes causes 'Text "
+#~ "run is not in Unicode Normalization Form C' in test tools like HTML "
+#~ "Validator"
+#~ msgstr ""
+#~ "アップロード前にファイル名にマルチバイト文字が含まれていないか、HTMLエラー"
+#~ "を回避するためにチェックしてください。<br>濁点などが付いた平仮名や片仮名、"
+#~ "漢字などが主な原因で、<br>HTMLチェッカーで「Text run is not in Unicode "
+#~ "Normalization Form C」が現れる原因です。"
+
+#~ msgid "Upload"
+#~ msgstr "アップロード"
+
+#~ msgid "Delete CSS"
+#~ msgstr "CSSを削除"
+
+#~ msgid "How to handle Font Files"
+#~ msgstr "フォントファイルの扱い方"
+
+#~ msgid "Not Possible to upload and to delete at once."
+#~ msgstr "「アップロード」と「削除」は同時に行えません。"
+
+#~ msgid ""
+#~ "For uploads, only allows files with tails 'oet' 'otf' 'ttf' 'woff' "
+#~ "'woff2'."
+#~ msgstr ""
+#~ "「oet」「otf」「ttf」「woff」「woff2」ファイルのみアップロード可能です。"
+
+#~ msgid ""
+#~ "Delete tool deletes all files related to the selected 'Font-Family's."
+#~ msgstr ""
+#~ "削除ツールは「フォントファミリー」に関連する全てのファイルを削除します。"
+
+#~ msgid "You can set the uploaded fonts on theme customizer."
+#~ msgstr "アップロードしたフォントはテーマカスタマイザーで使用可能です。"
+
+#~ msgid ""
+#~ "Font files are uploaded to '/wp-content/uploads/custom-fonts/'.<br>\n"
+#~ "\t\t\tIf fonts are not displayed correctly, please define 'font-face' by "
+#~ "yourself.<br>\n"
+#~ "\t\t\t'font-face's uploaded and defined in your own way won't be "
+#~ "displayed as choices of font settings of theme customizer."
+#~ msgstr ""
+#~ "フォントファイルは「/wp-content/uploads/custom-fonts/」にアップロードされ"
+#~ "ます。<br>フォントが正しく表示されない場合は、自分で「font-face」を定義し"
+#~ "てください。<br>ご自身で任意の場所にフォントファイルをアップロードし、<br>"
+#~ "テーマカスタマイザーのカスタムCSSなどで定義された「font-face」は、<br>テー"
+#~ "マカスタマイザーのフォントの選択肢には追加されませんのでご了承ください。"
+
+#~ msgid "Upload Font File"
+#~ msgstr "アップロードされるフォントファイル"
+
+#~ msgid "Delete Fonts"
+#~ msgstr "フォントを削除"
+
+#~ msgid "Font-Family"
+#~ msgstr "フォントファミリー"
+
+#~ msgid "Settings for Debug Mode"
+#~ msgstr "デバッグモードの設定"
+
+#~ msgid "Enable Debug Mode"
+#~ msgstr "デバッグモードを使える"
+
+#~ msgid "Debug Mode Key"
+#~ msgstr "デバッグモードKey"
+
+#~ msgid "Debug Mode Val"
+#~ msgstr "デバッグモードVal"
+
+#~ msgid "Other Settings"
+#~ msgstr "その他の設定"
+
+#~ msgid "Reset Page View Count"
+#~ msgstr "ページビューカウントをリセット"
+
+#~ msgid "Auto Reset Page View Count"
+#~ msgstr "ページビューカウントを自動でリセット"
+
+#~ msgid "Every Day"
+#~ msgstr "毎日"
+
+#~ msgid "Every Sunday"
+#~ msgstr "毎週日曜"
+
+#~ msgid "At the Beginning of a Month"
+#~ msgstr "月の始め"
+
+#~ msgid "At the Beginning of Year"
+#~ msgstr "年の始め"
+
+#~ msgid "SEO Settings"
+#~ msgstr "SEO設定"
+
+#~ msgid "JSON-LD Structure Data"
+#~ msgstr "JSON-LDによる構造化データ"
+
+#~ msgid "Generate JSON-LD Structure Data and print it inside the HEAD tag."
+#~ msgstr "HEADタグ内に出力されるJSON-LD構造化データを生成"
+
+#~ msgid "Logo of Website for JSON-LD Structure Data"
+#~ msgstr "JSON-LDによる構造化データ用にウェブサイトのロゴ"
+
+#~ msgid "Link tags of 'next' 'prev'"
+#~ msgstr "「次のページ」「前のページ」のLINKタグ"
+
+#~ msgid ""
+#~ "When the displayed page has a prev or/and next page like archive pages "
+#~ "and post pages devided into several pages, <br>print link tags with these "
+#~ "related page's links."
+#~ msgstr ""
+#~ "表示されるページが、アーカイブページやページ分割されたコンテンツページのよ"
+#~ "うに「前のページ」「次のページ」を有する場合、<br>それらの関連するページの"
+#~ "リンクを持つLINKタグを出力します。"
+
+#~ msgid "Canonical Link"
+#~ msgstr "カノニカルリンク"
+
+#~ msgid ""
+#~ "To avoid being registered duplicated contents to Search Engine.<br>\n"
+#~ "\t\t\t\t\t\tPrint Tag at the pages following :<br>\n"
+#~ "\t\t\t\t\t\tHome, Front Page : Home URL<br>\n"
+#~ "\t\t\t\t\t\tContents Page : Permalink<br>\n"
+#~ "\t\t\t\t\t\tArchive Page : Category, Tag, Year, Month, Day, Author"
+#~ msgstr ""
+#~ "検索エンジンに重複コンテンツが登録されるのを回避するために、<br>以下のペー"
+#~ "ジでカノニカルリンクを出力します。<br>ホーム・フロントページ：ホーム"
+#~ "URL<br>コンテンツページ：パーマリンク"
+
+#~ msgid "Auto Robots Meta"
+#~ msgstr "自動Robotsメタ"
+
+#~ msgid ""
+#~ "Print Robots Meta tag of 'noindex,following' except the pages following :"
+#~ "<br>\n"
+#~ "\t\t\t\t\t\tHome, Front Page, Content Pages ( like Posts and Pages ), "
+#~ "Category"
+#~ msgstr ""
+#~ "以下のページ以外で「noindex,following」のRobotsMETAタグを出力します。<br>"
+#~ "ホーム、フロントページ、コンテンツページ（投稿・固定ページ）、カテゴリー"
+
+#~ msgid "Auto Description Meta"
+#~ msgstr "自動の詳細メタ"
+
+#~ msgid ""
+#~ "Print content page's excerpt ( 200 letters from the Beginning of the "
+#~ "content, which doesn't include html tags  ) as the content of description "
+#~ "meta tag.<br>\n"
+#~ "\t\t\t\t\t\tFor Home and Front Page, This print Website Description.<br>\n"
+#~ "\t\t\t\t\t\tFor each Content Page, You can override the value in metabox "
+#~ "of edit page."
+#~ msgstr ""
+#~ "詳細METAタグとして、コンテンツページの抜粋（HTMLタグを取り除いたテキストの"
+#~ "最初から200文字）を出力します。<br>ホーム・フロントページには、ウェブサイ"
+#~ "トの詳細が表示され、<br>コンテンツページの詳細METAタグは、各コンテンツの編"
+#~ "集ページに設けたメタボックスで設定し上書きできます。"
+
+#~ msgid "Auto Keywords Meta"
+#~ msgstr "自動キーワードMeta"
+
+#~ msgid ""
+#~ "Print terms' name of Cat and Tag only for Post pages.<br>\n"
+#~ "\t\t\t\t\t\tYou can override the value in metabox of edit page."
+#~ msgstr ""
+#~ "投稿ページのみ、カテゴリー・タグの名前をキーワードとして自動で出力します。"
+#~ "<br>各編集ページで出力するキーワードは再定義できます。"
+
+#~ msgid "Twitter Card"
+#~ msgstr "Twitter Card"
+
+#~ msgid ""
+#~ "Print Twitter Card with 'Title', 'Thumbnail', 'Description'... refering "
+#~ "to the page data.<br>Printed Data refered to be tweeted by visiters"
+#~ msgstr ""
+#~ "「タイトル」「サムネイル」「詳細」など、ページの情報を参照したTwitter Card"
+#~ "を出力します。<br>出力されたデータは訪問者によるツイート時に参照されます。"
+
+#~ msgid "Twitter Account"
+#~ msgstr "Twitter アカウント"
+
+#~ msgid "Account for Twitter Card. Enter the value after '@'."
+#~ msgstr "ツイッターのアカウントです。「@」マーク意向を入力してください。"
+
+#~ msgid "Open Graph"
+#~ msgstr "Open Graph"
+
+#~ msgid ""
+#~ "Print 'Open Graph' Data refering the page data.<br>Like Twitter Card, "
+#~ "This data refered to share by SNS buttons."
+#~ msgstr ""
+#~ "ページの情報を参照した「Open Graph」を出力します。<br>「Twitter Card」のよ"
+#~ "うに、このデータもSNSボタンでのシェアするのに参照されます。"
+
+#~ msgid "Default Image settings for 'Twitter Card' and 'Open Graph'."
+#~ msgstr "「Twitter Card」と「Open Graph」用の標準イメージです。"
+
+#~ msgid "Link tag URL of Google+"
+#~ msgstr "「Google+」URLのLinkタグ"
+
+#~ msgid "Print Link Tag as Google+ Link when This Box filled with URL."
+#~ msgstr ""
+#~ "URLが入力されている場合、Google+のページとしてLINKタグを出力します。"
+
+#~ msgid "Page Speed"
+#~ msgstr "ページ速度"
+
+#~ msgid "Use 'style.min.css'"
+#~ msgstr "「style.min.css」を使用"
+
+#~ msgid ""
+#~ "Asynchronize JS script tags enqueued by WP function 'wp_enqueue_script'"
+#~ msgstr "「wp_enqueue_script」で出力されるJSファイルを非同期で読む。"
+
+#~ msgid "Exceptional Handles not to be asynchronized"
+#~ msgstr "上の設定で非同期対象から外すハンドル"
+
+#~ msgid "Lazyload to read image files"
+#~ msgstr "イメージファイルの読み込みの遅延化"
+
+#~ msgid "AJAX load for Archive pages"
+#~ msgstr "アーカイブページのAJAXロード"
+
+#~ msgid ""
+#~ "Enables AJAX-Load for Archive pages.<br>\n"
+#~ "\t\t\t\t\t\tAppend a load button at the end of the last element of post "
+#~ "list.<br>\n"
+#~ "\t\t\t\t\t\tBy Clicking, you can append the posts from next page."
+#~ msgstr ""
+#~ "アーカイブページ用のAJAXロードを有効にします。<br>投稿リストの最後にロード"
+#~ "ボタンが追加され、<br>クリックすることで次のページの投稿リストが追加されま"
+#~ "す。"
+
+#~ msgid "Num of Optional Widget Areas"
+#~ msgstr "ウィジェットエリアの数"
+
+#~ msgid "Enter Num"
+#~ msgstr "数値を入力してください。"
+
+#~ msgid ""
+#~ "* Choice 'Custom' for 'Hook to display' is for Child Themes or for "
+#~ "Printing in Mobile Sidemenu, because this needs a function "
+#~ "'dynamic_sidebar'."
+#~ msgstr ""
+#~ "※ 「ウィジェットエリアの出力位置」の選択肢「カスタム」は、関数"
+#~ "「dynamic_sidebar」が必要ですので、子テーマ用もしくはモバイル用サイドバー"
+#~ "に使用されます。"
+
+#~ msgid "Widget Area %d"
+#~ msgstr "ウィジェットエリア%d"
+
+#~ msgid "Hook to display"
+#~ msgstr "出力位置"
+
+#~ msgid "Custom"
+#~ msgstr "カスタム"
+
+#~ msgid "Maximum ( 100% )"
+#~ msgstr "最大幅（100%）"
+
+#~ msgid "Adapted to Content Area Width"
+#~ msgstr "コンテンツエリアに適応"
+
+#~ msgid "1280px ( width for 3 columns )"
+#~ msgstr "1280px（3カラムのコンテンツエリアの横幅に合わせる）"
+
+#~ msgid "960px ( width for 2 columns )"
+#~ msgstr "960px（2カラムのコンテンツエリアの横幅に合わせる）"
+
+#~ msgid "870px ( width for 1 column )"
+#~ msgstr "870px（1カラムのコンテンツエリアの横幅に合わせる）"
+
+#~ msgid "Print in Side Menu ( only for Mobile )"
+#~ msgstr "モバイル用サイドメニューに出力"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Class"
+#~ msgstr "クラス"
+
+#~ msgid "Before Widget"
+#~ msgstr "ウィジェット前"
+
+#~ msgid "Before Widget Title"
+#~ msgstr "ウィジェットタイトル前"
+
+#~ msgid "After Widget Title"
+#~ msgstr "ウィジェットタイトル後"
+
+#~ msgid "This is \\\"%s %d\\\"."
+#~ msgstr "これは「%s %d」です。"
+
+#~ msgid "Select a file to upload."
+#~ msgstr "アップロードするファイルを選択してください。"
+
+#~ msgid "None of following file types : 'ttf' 'otf' 'eot' 'woff' 'woff2'"
+#~ msgstr "「ttf」「otf」「eot」「woff」「woff2」ファイルではありません。"
+
+#~ msgid "File Uploaded."
+#~ msgstr "アップロードしました。"
+
+#~ msgid "Please select fonts to delete."
+#~ msgstr "削除するフォントを選択してください。"
+
+#~ msgid "Deleted the selected File(s)"
+#~ msgstr "選択されたファイルを削除しました。"
+
+#~ msgid "Custom Fonts"
+#~ msgstr "カスタムフォント"
+
+#~ msgid "How to use Theme 'ShapeShifter'"
+#~ msgstr "テーマ「ShapeShifter」の使い方"
+
+#~ msgid "Recommended Settings"
+#~ msgstr "初期設定"
+
+#~ msgid "Recommended Settings by %s"
+#~ msgstr "%sによる推奨設定"
+
+#~ msgid "Name of the Website"
+#~ msgstr "ウェブサイトの名前"
+
+#~ msgid "Edit the Name of the Website"
+#~ msgstr "ウェブサイトの名前を編集"
+
+#~ msgid "Description of the Website"
+#~ msgstr "ウェブサイトの詳細"
+
+#~ msgid "Edit Description of the Website"
+#~ msgstr "ウェブサイトの詳細を編集"
+
+#~ msgid "Setting for Permalink"
+#~ msgstr "パーマリンクの設定"
+
+#~ msgid ""
+#~ "After Saved, Please go to \"<a target=\"_blank\" href=\"%s\">Permalink "
+#~ "Settings</a>\""
+#~ msgstr ""
+#~ "設定の保存後、「<a target=\"_blank\" href=\"%s\">パーマリンク設定</a>」"
+#~ "へ。"
+
+#~ msgid "Save the Content."
+#~ msgstr "コンテンツを保存"
+
+#~ msgid "Edit the File"
+#~ msgstr "ファイルを編集"
+
+#~ msgid "Settings for Files"
+#~ msgstr "ファイルの設定"
+
+#~ msgid "Failed to save."
+#~ msgstr "保存できませんでした。"
+
+#~ msgid "Edit '.htaccess'"
+#~ msgstr "「.htaccess」を編集"
+
+#~ msgid "Failed to save '.htaccess'."
+#~ msgstr "「.htaccess」を保存できませんでした。"
+
+#~ msgid "\".htaccess\""
+#~ msgstr "「.htaccess」"
+
+#~ msgid ""
+#~ "You can set DELATE and Browser Cache for better page speed here by "
+#~ "appending the codes you want. <br>If you don't know how, for instance, "
+#~ "just try( Copy and Paste ) codes below."
+#~ msgstr ""
+#~ "ページ速度改善の為に、ここにコードを追記することで圧縮やブラウザキャッシュ"
+#~ "を設定できます。もし、何も試していないのであれば、試しに以下のコードを貼り"
+#~ "付けてみてください。少しはマシになるかもしれません。"
+
+#~ msgid "Deflate"
+#~ msgstr "圧縮"
+
+#~ msgid "Browser Cache"
+#~ msgstr "ブラウザキャッシュ"
+
+#~ msgid "File doesn't exist."
+#~ msgstr "ファイルが存在しません。"
+
+#~ msgid "Infos about 'ShapeShifter'"
+#~ msgstr "「ShapeShifter」の案内"
+
+#~ msgid ""
+#~ "About Theme 'ShapeShifter', check '<a target='_blank' href='http://wp-"
+#~ "works.net/about-theme-shapeshifter/'>Info Page</a>'."
+#~ msgstr ""
+#~ "テーマ「ShapeShifter」に関しては、「<a target='_blank' href='http://wp-"
+#~ "works.net/about-theme-shapeshifter/'>解説ページ</a>」をご覧ください。"
+
+#~ msgid "Introduction of Plugin 'Magic Inliner'"
+#~ msgstr "プラグイン「Magic Inliner」の紹介"
+
+#~ msgid ""
+#~ "By Installing and Activating Plugin '<a href='%s'>Magic Inliner</a>',"
+#~ "<br>CSS and JS File tags will be replaced into inline codes.<br>This "
+#~ "Plugin doesn't require any settings to use."
+#~ msgstr ""
+#~ "「<a href='%s'>Magic Inliner</a>」をインストールして有効化することで、"
+#~ "<br>CSS・JSファイルをインラインコードで出力します。<br>このプラグインは一"
+#~ "切設定が不要です。"
+
+#~ msgid "Introduction of Plugin 'Magic Template Holder'"
+#~ msgstr "プラグイン「Magic Template Holder」の紹介"
+
+#~ msgid ""
+#~ "This Plugin '<a href='%s'>Magic Template Holder</a>' facilitates editing "
+#~ "contents."
+#~ msgstr ""
+#~ "プラグイン「<a href='%s'>Magic Template Holder</a>」はコンテンツ編集を簡単"
+#~ "にします。"
+
+#~ msgid "No items"
+#~ msgstr "該当無し"
+
+#~ msgid "Feed Reader Settings"
+#~ msgstr "フィードリーダーの設定"
+
+#~ msgid "Feed URL"
+#~ msgstr "フィードURL"
+
+#~ msgid "Posts num to display"
+#~ msgstr "表示件数"
+
+#~ msgid "Display the date"
+#~ msgstr "日付を表示"
+
+#~ msgid "&nbsp;SEO Settings"
+#~ msgstr "&nbsp;SEO設定"
+
+#~ msgid "Auto Insert"
+#~ msgstr "自動挿入"
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Other"
+#~ msgstr "その他"
+
+#~ msgid "Debug Mode"
+#~ msgstr "デバッグモード"
+
+#~ msgid "Settings of Sliding Background Images"
+#~ msgstr "スライドする背景のイメージ設定"
+
+#~ msgid "Select Background Images"
+#~ msgstr "背景のイメージを選択"
+
+#~ msgid "Search for Images"
+#~ msgstr "イメージを探す"
+
+#~ msgid "Transition Type to change images"
+#~ msgstr "イメージの切り替えタイプ"
+
+#~ msgid "Delay to change images"
+#~ msgstr "イメージの表示時間"
+
+#~ msgid "Transition Duration to change Images"
+#~ msgstr "イメージ表示の切り替え時間"
+
+#~ msgid "ShapeShifter Text"
+#~ msgstr "ShapeShifter テキスト"
+
+#~ msgid "Not Display the Title"
+#~ msgstr "タイトルを非表示"
+
+#~ msgid "Texts to print"
+#~ msgstr "出力するテキスト"
+
+#~ msgid "Display Standard"
+#~ msgstr "標準を表示"
+
+#~ msgid "Display Aisde"
+#~ msgstr "アサイドを表示"
+
+#~ msgid "Display Gallary"
+#~ msgstr "ギャラリーを表示"
+
+#~ msgid "Display Image"
+#~ msgstr "画像を表示"
+
+#~ msgid "Display Link"
+#~ msgstr "リンクを表示"
+
+#~ msgid "Display Quote"
+#~ msgstr "引用を表示"
+
+#~ msgid "Display Status"
+#~ msgstr "ステータスを表示"
+
+#~ msgid "Display Video"
+#~ msgstr "動画を表示"
+
+#~ msgid "Display Audio"
+#~ msgstr "音声を表示"
+
+#~ msgid "Display Chat"
+#~ msgstr "チャットを表示"
+
+#~ msgid "ShapeShifter New Posts List"
+#~ msgstr "ShapeShifter 新着投稿一覧"
+
+#~ msgid "Num to display"
+#~ msgstr "表示件数"
+
+#~ msgid "Display the Excerpt"
+#~ msgstr "抜粋を表示"
+
+#~ msgid "Specify the Format to display"
+#~ msgstr "表示するフォーマットを指定"
+
+#~ msgid "Specify the Categories to display"
+#~ msgstr "表示するカテゴリーを指定"
+
+#~ msgid " ( Links Num: %d )"
+#~ msgstr "（ リンク数：%d ）"
+
+#~ msgid "ShapeShifter Related Posts List"
+#~ msgstr "ShapeShifter 関連投稿一覧"
+
+#~ msgid "ShapeShifter Popular Posts List"
+#~ msgstr "ShapeShifter 人気投稿一覧"
+
+#~ msgid "Specify the Categories"
+#~ msgstr "カテゴリーを指定"
+
+#~ msgid "ShapeShifter Switch ( includes New Related Popular Posts )"
+#~ msgstr "ShapeShifter スイッチ（新着・関連・人気）"
+
+#~ msgid "New Posts List"
+#~ msgstr "新着投稿一覧"
+
+#~ msgid "Related Posts List"
+#~ msgstr "関連投稿一覧"
+
+#~ msgid "Popular Posts List"
+#~ msgstr "人気投稿一覧"
+
+#~ msgid ""
+#~ "This is a widget that can display the posts in 3 ways that can be "
+#~ "switched by clicking tabs. Related Posts List is displayed only in posts "
+#~ "page. FYI, This Widget is relying on JavaScript"
+#~ msgstr ""
+#~ "「新着記事一覧」や「人気記事一覧」などを公開ページ側でクリックして、表示を"
+#~ "切り替えできるウィジェットです。JavaScript使っていますので、JavaScriptを"
+#~ "OFFにしているブラウザでは当然機能せず、単純な新着記事一覧ウィジェットに"
+#~ "なってしまいます。"
+
+#~ msgid "ShapeShifter TOC"
+#~ msgstr "ShapeShifter TOC"
+
+#~ msgid "ShapeShifter SNS Share Icons"
+#~ msgstr "ShapeShifter SNSシェアアイコン"
+
+#~ msgid "Num of Icons on a line"
+#~ msgstr "1行のアイコンの数"
+
+#~ msgid "type to display"
+#~ msgstr "表示タイプ"
+
+#~ msgid "Squares"
+#~ msgstr "四角"
+
+#~ msgid "Small Squares"
+#~ msgstr "小さな四角"
+
+#~ msgid "Circles"
+#~ msgstr "丸"
+
+#~ msgid "Small Circles"
+#~ msgstr "小さな丸"
+
+#~ msgid "Texts Buttons"
+#~ msgstr "テキストボタン"
+
+#~ msgid "Icons"
+#~ msgstr "アイコン"
+
+#~ msgid "Display the Twitter Icon"
+#~ msgstr "Twitterアイコンを表示"
+
+#~ msgid "Display the Facebook Icon"
+#~ msgstr "Facebookアイコンを表示"
+
+#~ msgid "Display the Google+ Icon"
+#~ msgstr "Google+アイコンを表示"
+
+#~ msgid "Display the Hatena Bookmark Icon"
+#~ msgstr "はてなブックマークアイコンを表示"
+
+#~ msgid "Display the Pocket Icon"
+#~ msgstr "Pocketアイコンを表示"
+
+#~ msgid "Display the Line Icon"
+#~ msgstr "LINEアイコンを表示"
+
+#~ msgid "Display the Feedly Icon"
+#~ msgstr "Feedlyアイコンを表示"
+
+#~ msgid "Display the RSS Icon"
+#~ msgstr "RSSアイコンを表示"
+
+#~ msgid "ShapeShifter Feed Reader with thumbnail"
+#~ msgstr "ShapeShifter サムネイル付きフィードリーダー"
+
+#~ msgid ""
+#~ "If the post doesn't include images( this means IMG tags ), default "
+#~ "thumbnail that is set by theme customizer will be applied."
+#~ msgstr ""
+#~ "フィードのコンテンツ（詳細など）にイメージタグを含まない場合（サイトによっ"
+#~ "てフィードのイメージタグを取り除かれている場合があります。）は、テーマカス"
+#~ "タマイザーで設定しているデフォルトサムネイルがイメージとして適用されます。"
+
+#~ msgid ""
+#~ "This Widget use offcial JS codes. So This Requires JS SDK with Facebook "
+#~ "APP Account. If you don't have any, please go get JS-SDK codes to \"<a "
+#~ "rel=\"nofollow\" target=\"_blank\" href=\"https://developers.facebook.com/"
+#~ "docs/plugins/like-button\">Like Button for the Web</a>\" and paste it in "
+#~ "textarea on \"Print in header\" of Tab \"Auto Insert\" in Admin page \"<a "
+#~ "rel=\"nofollow\" target=\"_blank\" href=\"%s\">Theme Settings</a>\""
+#~ msgstr ""
+#~ "このウィジェットでは公式のJSコードを使用しますので、Facebook APPアカウント"
+#~ "付きのJavaScriptSDKが要求されます。アカウントを所有していない場合「<a rel="
+#~ "\"nofollow\" target=\"_blank\" href=\"https://developers.facebook.com/"
+#~ "docs/plugins/like-button?locale=ja_JP\">Like Button for the Web</a>」でJS-"
+#~ "SDKコードを取得し、「<a rel=\"nofollow\" target=\"_blank\" href=\"%s\">"
+#~ "テーマの設定</a>」ページの「自動挿入」タブの「ヘッダーに出力」のテキストエ"
+#~ "リアに貼り付けてください。"
+
+#~ msgid "Display the Title"
+#~ msgstr "タイトルを表示"
+
+#~ msgid "Type to display"
+#~ msgstr "表示するタイプ"
+
+#~ msgid "No Counts"
+#~ msgstr "カウント無し"
+
+#~ msgid "Display Feed Links ( Feedly and RSS )"
+#~ msgstr "フィードリンクを表示（FeedlyとRSS）"
+
+#~ msgid "Download Name"
+#~ msgstr "ダウンロード名"
+
+#~ msgid "Demo Page URL"
+#~ msgstr "デモページURL"
+
+#~ msgid "Thumbnail for Movie"
+#~ msgstr "動画のサムネイル"
+
+#~ msgid "How to Set"
+#~ msgstr "設定方法"
+
+#~ msgid ""
+#~ "Select Images as many as you want to slide. ( You can set the Image for "
+#~ "each item later. )"
+#~ msgstr ""
+#~ "スライドさせたい分のイメージを選択してください。（各アイテムのイメージは再"
+#~ "設定可能です。）"
+
+#~ msgid "Click the Image to setup for the Item."
+#~ msgstr "イメージをクリックして各アイテムの設定を行ってください。"
+
+#~ msgid "* Item whose Item Type is Not Set won't be saved."
+#~ msgstr "アイテムタイプが設定されていない場合は保存されません。"
+
+#~ msgid "Set Images ( Replace )"
+#~ msgstr "イメージを設定（入替え）"
+
+#~ msgid "Append Images"
+#~ msgstr "イメージを追加"
+
+#~ msgid "Thumbnail Title"
+#~ msgstr "サムネイルタイトル"
+
+#~ msgid "Thumbnail Description"
+#~ msgstr "サムネイル詳細"
+
+#~ msgid "Search for Image"
+#~ msgstr "イメージを探す"
+
+#~ msgid "Movie"
+#~ msgstr "動画"
+
+#~ msgid "Post"
+#~ msgstr "投稿ページ"
+
+#~ msgid "Item Link"
+#~ msgstr "アイテムリンク"
+
+#~ msgctxt "for Widget Slide Gallary"
+#~ msgid "Top Right"
+#~ msgstr "右上"
+
+#~ msgid "Append an Textarea"
+#~ msgstr "テキストエリアを追加"
+
+#~ msgid "Name of the Download Content"
+#~ msgstr "ダウンロードコンテンツの名前"
+
+#~ msgid "Description for the Download Content"
+#~ msgstr "ダウンロードコンテンツの詳細"
+
+#~ msgid "URL of Youtube Movie"
+#~ msgstr "Youtube動画のURL"
+
+#~ msgid "SNS Share Buttons"
+#~ msgstr "SNSシェアボタン"
+
+#~ msgid "Text before Share Buttons/Icons"
+#~ msgstr "シェアボタン・アイコン前のテキスト"
+
+#~ msgid "SNS Share type for Post List Item"
+#~ msgstr "リストアイテムのボックス用のSNSシェアタイプ"
+
+#~ msgid "'Official Buttons' aren't recommended for AJAX Load for Archive Page"
+#~ msgstr ""
+#~ "アーカイブページ用のAJAXロードが設定される場合は「公式ボタン」は非推奨で"
+#~ "す。"
+
+#~ msgid "General Icons"
+#~ msgstr "一般のアイコン"
+
+#~ msgid "Official Buttons"
+#~ msgstr "公式ボタン"
+
+#~ msgid "Twitter Share Button"
+#~ msgstr "Twiiterシェアボタン"
+
+#~ msgid ""
+#~ "Facebook Share Button ( Require Javascript SDK in header to display "
+#~ "'Official Buttons' )"
+#~ msgstr ""
+#~ "Facebookシェアボタン（「公式ボタン」の表示にはヘッダーにJavaScriptSDKが必"
+#~ "要です。）"
+
+#~ msgid "Google+ Share Button"
+#~ msgstr "Google+シェアボタン"
+
+#~ msgid "Hatena Bookmark Share Button"
+#~ msgstr "はてなブックマークシェアボタン"
+
+#~ msgid "Pocket Share Button"
+#~ msgstr "Pocketシェアボタン"
+
+#~ msgid "LINE Share Button"
+#~ msgstr "LINEシェアボタン"
+
+#~ msgid "Top Navi Menu"
+#~ msgstr "トップナビメニュー"
+
+#~ msgid "Main Navi Menu"
+#~ msgstr "メインナビメニュー"
+
+#~ msgid "Image Set"
+#~ msgstr "イメージセット"
+
+#~ msgid "List Item Title Text"
+#~ msgstr "リストアイテムのタイトルテキスト"
+
+#~ msgid ""
+#~ "If the slug is the same value with 'User Name for Login', Please change."
+#~ "<br>The slug is used after Website URL like '%s/author/SLUG/'"
+#~ msgstr ""
+#~ "「スラッグ」が「ログイン用のユーザー名」と同じ場合は変更してください。<br>"
+#~ "スラッグは「%s/author/SLUG/」のようにウェブサイトURLの後に使用されます。"
+
+#~ msgid "Enter the value in HTML."
+#~ msgstr "HTMLで値を入力してください。"
+
+#~ msgid "Demo"
+#~ msgstr "デモ"
+
+#~ msgid "Plain"
+#~ msgstr "デフォルト"
+
+#~ msgid "Day and name"
+#~ msgstr "日付と投稿名"
+
+#~ msgid "Month and name"
+#~ msgstr "月と投稿名"
+
+#~ msgid "Numeric"
+#~ msgstr "数字ベース"
+
+#~ msgid "Custom Structure"
+#~ msgstr "カスタム構造"
+
+#~ msgid "Texts will be printed in header"
+#~ msgstr "ヘッダーに出力されるテキスト"
+
+#~ msgid "Texts will be printed in footer"
+#~ msgstr "フッターに出力されるテキスト"
+
+#~ msgid "Widget Area 1"
+#~ msgstr "ウィジェットエリア１"
+
+#~ msgid "Main Navi Menu 2"
+#~ msgstr "メインナビメニュー２"
+
+#~ msgid " SEO Settings"
+#~ msgstr "SEO設定"
+
+#~ msgid "TOC Switch"
+#~ msgstr "TOC機能"
+
+#~ msgid ""
+#~ "TOC will be Inserted before first h2 tag.<br>* If you set other outputs "
+#~ "before first h2 tag, TOC will be before them"
+#~ msgstr ""
+#~ "TOCが最初のH2タグの前に挿入されます。<br>※ その他の設定で同じ位置に出力さ"
+#~ "れるものよりも前に出力されます。"
+
+#~ msgid "Switch to insert text into contents"
+#~ msgstr "コンテンツにテキストを挿入"
+
+#~ msgid ""
+#~ "Auto Insert Texts before first h2 Tag. You can set the text by settings "
+#~ "below"
+#~ msgstr ""
+#~ "自動で最初のH2タグの直前にテキストを挿入します。出力されるテキストは下の項"
+#~ "目で設定可能です。"
+
+#~ msgid "Texts that will be displayed only for PC"
+#~ msgstr "パソコン用に出力されるテキスト"
+
+#~ msgid ""
+#~ "Please set the texts that will be inserted before first h2 tag in content."
+#~ msgstr "最初のH2タグの直前にテキストを設定してください。"
+
+#~ msgid "Same as the settings above but for mobile"
+#~ msgstr "上の設定と同じですが、こちらはモバイル表示用です。"
+
+#~ msgid "Background Images"
+#~ msgstr "背景のイメージ"
+
+#~ msgid "Auto Width of Each Menu Item"
+#~ msgstr "各メニューアイテムの横幅を自動"
+
+#~ msgid "Sidebar Left Type"
+#~ msgstr "左サイドバーのタイプ"
+
+#~ msgid ""
+#~ "In order to effect the changed setting to theme, reload page after the "
+#~ "value saved. This setting changes also content area width and other "
+#~ "properties which are initialized when the page is loaded."
+#~ msgstr ""
+#~ "テーマに反映させるには、一度ページをリロードしてください。この設定では、こ"
+#~ "の設定の値の他、ページがロードされる際にセットアップされるコンテンツの横幅"
+#~ "を変更する設定だからです。"
+
+#~ msgid "This is 'Widget Area 1'."
+#~ msgstr "これは「ウィジェットエリア１」です。"
+
+#~ msgid "Property '%s' is Not Supported"
+#~ msgstr "プロパティ「%s」はサポートされていません。"
+
+#~ msgid "Backgroiund Repeat"
+#~ msgstr "背景の繰り返し"
+
+#~ msgid ""
+#~ "If the slug is the same value with \"User Name for Login\", Please change."
+#~ "<br>\n"
+#~ "\t\t\t\t\t\t\tThe slug is used after Website URL like \"%s/author/SLUG/\""
+#~ msgstr ""
+#~ "「スラッグ」が「ログイン用のユーザー名」と同じなら変更してください。<br>ス"
+#~ "ラッグは「%s/author/SLUG/」のようにウェブサイトURLの後に使用されます。"
+
+#~ msgid "<div class=\"pagination\"><span>Page: %1$d of %2$d</span>%s</div>"
+#~ msgstr "<div class=\"pagination\"><span>ページ：%1$d of %2$d</span>%s</div>"

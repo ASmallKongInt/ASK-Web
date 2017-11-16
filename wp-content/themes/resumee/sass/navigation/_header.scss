@@ -1,0 +1,38 @@
+.single-post #masthead {
+	padding-bottom: 10px;
+}
+
+.site-description {
+    display: none;
+}
+
+.site-logo {
+	padding: 10px 15px 0;
+	float: left;
+	width: 60%;
+}
+.site-logo img {
+	width: 40px;
+	height: 40px;
+}
+
+.site-title {
+	margin-top: -27px;
+    margin-left: 47px;
+    font-size: 13px;
+
+    a {
+    	color: #333;
+    	text-decoration: none;
+    }
+
+    a:visited {
+    	color: #333;
+    }
+
+    a:hover {
+    	color: $color__button-hover;
+    	text-decoration: none;
+    	transition: .5s ease all;
+    }
+}
